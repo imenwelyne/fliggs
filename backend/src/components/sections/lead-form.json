@@ -12,7 +12,8 @@
       "type": "string"
     },
     "emailPlaceholder": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "submitButton": {
       "type": "component",
@@ -24,6 +25,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "lastNamePlaceholder": {
+      "type": "string"
     }
   }
 }
