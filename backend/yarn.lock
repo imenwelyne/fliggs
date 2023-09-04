@@ -1274,6 +1274,23 @@
     react-query "3.39.3"
     react-select "5.7.0"
 
+"@strapi/helper-plugin@4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.13.1.tgz#1cf16db74f70f802a1a5f3c58301b92b066fb13d"
+  integrity sha512-qUxUuVfeeXSmTEKykqEq36Y56iwg0WfZRK1xREuiLiLWguah7LpN1WEieZbItsMK8C/S6g4QNn9j78bx5vOvrg==
+  dependencies:
+    axios "1.5.0"
+    date-fns "2.30.0"
+    formik "2.4.0"
+    immer "9.0.19"
+    lodash "4.17.21"
+    prop-types "^15.8.1"
+    qs "6.11.1"
+    react-helmet "^6.1.0"
+    react-intl "6.4.1"
+    react-query "3.39.3"
+    react-select "5.7.0"
+
 "@strapi/icons@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-1.9.0.tgz#a3d12f965e8a42082cc83149af8fb0a5e610dfe8"
@@ -1296,6 +1313,18 @@
     "@strapi/utils" "4.12.5"
     lodash "4.17.21"
     sift "16.0.1"
+
+"@strapi/plugin-color-picker@^4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-color-picker/-/plugin-color-picker-4.13.1.tgz#acd5535249ec38bb56b58eb06d8757b3a7cc6ed8"
+  integrity sha512-VcySw0p+rqunIX1/5nPwu3ZFsRET9b4Yci22HSvaycd6MiIBc7Cxv3zeoWrAzKe8GvTTv6KpXe3gTqrAwoxzHw==
+  dependencies:
+    "@strapi/design-system" "1.9.0"
+    "@strapi/helper-plugin" "4.13.1"
+    "@strapi/icons" "1.9.0"
+    prop-types "^15.8.1"
+    react-colorful "5.6.1"
+    react-intl "6.4.1"
 
 "@strapi/plugin-content-manager@4.12.5":
   version "4.12.5"
@@ -2323,6 +2352,15 @@ axios@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.4.0.tgz#38a7bf1224cd308de271146038b551d725f0be1f"
   integrity sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==
+  dependencies:
+    follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
+axios@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.5.0.tgz#f02e4af823e2e46a9768cfc74691fdd0517ea267"
+  integrity sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -6906,6 +6944,11 @@ rc@1.2.8, rc@^1.2.7, rc@^1.2.8:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-colorful@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.6.1.tgz#7dc2aed2d7c72fac89694e834d179e32f3da563b"
+  integrity sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==
 
 react-dnd-html5-backend@15.1.3:
   version "15.1.3"

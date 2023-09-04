@@ -1,17 +1,21 @@
 import FormSubmit from "./FormSubmit";
 
-interface EmailProps {
+interface FormProps {
   id: string;
   __component: string;
   title: string;
   description: string;
   emailPlaceholder: string;
+  firstNamePlaceholder: string;
+  lastNamePlaceholder: string;
+
+
   submitButton: {
     text: string;
   };
 }
 
-export default function Email({ data }: { data: EmailProps }) {
+export default function Form({ data }: { data: FormProps }) {
 
   return (
     <section className="py-6 dark:bg-black dark:text-gray-50">
@@ -20,7 +24,7 @@ export default function Email({ data }: { data: EmailProps }) {
           <h1 className="text-5xl font-bold leading-none">{data.title}</h1>
           <p className="text-lg">{data.description}</p>
         </div>
-        <FormSubmit placeholder={data.emailPlaceholder} text={data.submitButton.text} />
+        <FormSubmit placeholderEmail={data.emailPlaceholder} placeholderFirstName={data.firstNamePlaceholder} placeholderLastName={data.lastNamePlaceholder} text={data.submitButton.text} />
       </div>
     </section>
   );
