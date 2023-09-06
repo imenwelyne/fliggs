@@ -1,4 +1,6 @@
 import Hero from "../components/Hero";
+import Large from "../components/Large";
+
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
@@ -8,6 +10,8 @@ export function sectionRenderer(section: any, index: number) {
   switch (section.__component) {
     case "sections.hero":
       return <Hero key={index} data={section} />;
+      case "sections.large":
+        return <Large key={index} data={section} />;
     case "sections.features":
       return <Features key={index} data={section} />;
     case "sections.testimonials-group":
