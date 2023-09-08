@@ -27,7 +27,7 @@ export default function Large({ data }: LargeProps) {
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
 
   return (
-<section className="dark:bg-black dark:text-gray-100" style={{ background: "yellow" }}>
+<section className="bg-black text-gray-100" style={{ background: "yellow" }}>
   <div className="container flex flex-col lg:flex-row justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between">
     <div className="lg:flex-col lg:w-1/2 lg:max-w-md xl:max-w-lg ">
       <div className="pl-6 lg:max-w-md xl:max-w-lg">
@@ -46,7 +46,7 @@ export default function Large({ data }: LargeProps) {
           text={data.title}
           tag="h1"
           className="text-5xl font-bold leading-none text-black"
-          color="dark:text-violet-400"
+          color="text-violet-400"
         />
       </div>
     </div>

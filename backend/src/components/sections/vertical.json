@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_slices_verticals",
+  "info": {
+    "name": "Vertical",
+    "displayName": "Vertical Element",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "string",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "description2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

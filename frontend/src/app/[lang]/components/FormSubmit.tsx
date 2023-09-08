@@ -88,7 +88,7 @@ export default function FormSubmit({
           </div>
           <button
             type="button"
-            className="w-full p-3 font-semibold dark:bg-violet-400 dark:text-gray-900 rounded-md"
+            className="w-full p-3 font-semibold bg-violet-400 text-gray-900 rounded-md"
             onClick={handleSubmit}
           >
             {text}

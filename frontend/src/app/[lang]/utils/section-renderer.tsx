@@ -5,11 +5,15 @@ import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import Form from "../components/Form";
+import DoubleVertical from "../components/DoubleVertical";
+
 
 export function sectionRenderer(section: any, index: number) {
   switch (section.__component) {
     case "sections.hero":
       return <Hero key={index} data={section} />;
+      case "sections.vertical":
+        return <DoubleVertical key={index} data={section} />;
       case "sections.large":
         return <Large key={index} data={section} />;
     case "sections.features":

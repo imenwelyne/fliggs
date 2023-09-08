@@ -29,6 +29,8 @@
       "type": "dynamiczone",
       "components": [
         "sections.hero",
+        "sections.vertical",
+
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",

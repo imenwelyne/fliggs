@@ -24,8 +24,8 @@ function NavLink({ url, text }: NavLink) {
     <li className="flex">
       <Link
         href={url}
-        className={`flex items-center mx-4 -mb-1 border-b-2 dark:border-transparent ${
-          path === url && "dark:text-violet-400 dark:border-violet-400"
+        className={`flex items-center mx-4 -mb-1 border-b-2 border-transparent ${
+          path === url && "text-violet-400 border-violet-400"
         }}`}
       >
         {text}
@@ -45,7 +45,7 @@ function MobileNavLink({ url, text, closeMenu }: MobileNavLink ) {
         href={url}
         onClick={handleClick}
         className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-900 ${
-          path === url && "dark:text-violet-400 dark:border-violet-400"
+          path === url && "text-violet-400 border-violet-400"
         }}`}
       >
         {text}
@@ -68,7 +68,7 @@ export default function Navbar({
     setMobileMenuOpen(false)
   }
   return (
-    <div className="p-4 dark:bg-black dark:text-gray-100">
+    <div className="p-4 bg-black text-gray-100">
       <div className="container flex justify-between h-16 mx-auto px-0 sm:px-6">
         <Logo src={logoUrl}>
           {logoText && <h2 className="text-2xl font-bold">{logoText}</h2>}
@@ -84,7 +84,7 @@ export default function Navbar({
 
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 rtl:left-0 ltr:right-0 z-50 w-full overflow-y-auto dark:bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+          <Dialog.Panel className="fixed inset-y-0 rtl:left-0 ltr:right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Strapi</span>
