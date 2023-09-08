@@ -12,6 +12,23 @@ body {
   Rich Text Styles
 *******************************************/ 
 
+
+/* Your CSS stylesheet */
+
+/* Custom */
+.button-bg-yellow {
+  background-color: #ffee00; 
+ 
+}
+.bg-blackish-gray {
+  background-color: #333; 
+  color: white ;
+}
+
+.bg-blackish-gray::placeholder {
+  color: rgb(204, 204, 204); 
+}
+
 /* Headers */
 .rich-text h1 {
   @apply text-4xl font-bold mb-4 text-violet-400;

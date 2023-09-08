@@ -79,8 +79,11 @@ export default function Navbar({
             {links.map((item: NavLink) => (
               <NavLink key={item.id} {...item} />
             ))}
+
           </ul>
         </div>
+
+     
 
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />

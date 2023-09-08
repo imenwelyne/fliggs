@@ -92,28 +92,28 @@ export default function Footer({
             </Logo>
           </div>
 
-          <div className="col-span-6 text-center md:text-left md:col-span-3">
+          {/* <div className="col-span-6 text-center md:text-left md:col-span-3">
             <p className="pb-1 text-lg font-medium">Categories</p>
             <ul>
               {categoryLinks.map((link: CategoryLink) => (
                 <CategoryLink key={link.id} {...link} />
               ))}
             </ul>
-          </div>
+          </div> */}
 
-          <div className="col-span-6 text-center md:text-left md:col-span-3">
+          {/* <div className="col-span-6 text-center md:text-left md:col-span-3">
             <p className="pb-1 text-lg font-medium">Menu</p>
             <ul>
               {menuLinks.map((link: FooterLink) => (
                 <FooterLink key={link.id} {...link} />
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="grid justify-center pt-6 lg:justify-between">
           <div className="flex">
             <span className="mr-2">
-              ©{new Date().getFullYear()} All rights reserved
+              ©{new Date().getFullYear()} fliggs
             </span>
             <ul className="flex">
               {legalLinks.map((link: FooterLink) => (

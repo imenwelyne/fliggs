@@ -41,7 +41,7 @@ export default function Large({ data }: LargeProps) {
           height={400}
         />
       </div>
-      <div className="pl-4 flex flex-col justify-start">
+      <div className="pl-4 mb-6 flex flex-col justify-start">
         <HighlightedText
           text={data.title}
           tag="h1"
