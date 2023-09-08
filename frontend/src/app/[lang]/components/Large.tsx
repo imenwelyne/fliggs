@@ -28,9 +28,9 @@ export default function Large({ data }: LargeProps) {
 
   return (
 <section className="bg-black text-gray-100" style={{ background: "yellow" }}>
-  <div className="container flex flex-col lg:flex-row justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between">
-    <div className="lg:flex-col lg:w-1/2 lg:max-w-md xl:max-w-lg ">
-      <div className="pl-6 lg:max-w-md xl:max-w-lg">
+  <div className="container flex items-center p-12 mx-auto lg:py-24"> {/* Increased padding */}
+    <div className="lg:flex-col xl:max-w-lg">
+      <div className="lg:max-w-md xl:max-w-lg">
         <Image
           src={imgUrl || ""}
           alt={
@@ -41,17 +41,19 @@ export default function Large({ data }: LargeProps) {
           height={400}
         />
       </div>
-      <div className=" pl-9 flex flex-col justify-start"> {/* Added pl-8 for left padding */}
+      <div className="pl-4 flex flex-col justify-start">
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-5xl font-bold leading-none text-black"
+          className="text-4xl font-bold leading-none text-black"
           color="text-violet-400"
         />
       </div>
     </div>
   </div>
 </section>
+
+
 
 
   

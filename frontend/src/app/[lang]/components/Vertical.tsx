@@ -5,9 +5,12 @@ import HighlightedText from "./HighlightedText";
 export default function Vertical({
   title,
   description,
+  align
 }: {
   title: string;
   description: string;
+  align: string;
+
  
 }) {
  
@@ -15,27 +18,27 @@ export default function Vertical({
 
 
   return (
-    <section className="bg-black text-gray-100" >
-      <div className="container flex flex-col lg:flex-row justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between">
-        <div className="lg:flex-col lg:w-1/2 lg:max-w-md xl:max-w-lg ">
-        
-          <div className=" pl-9 flex flex-col justify-start"> 
-            <HighlightedText
-              text={title}
-              tag="h1"
-              className="text-5xl font-bold leading-none"
-              color="text-violet-400"
-            />
-               <HighlightedText
-            text={description}
-            tag="p"
-            className="tmt-6 mb-8 text-lg sm:mb-12"
+    <section className="bg-black text-gray-100">
+    <div className="container flex flex-col lg:flex-row justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between">
+      <div className="lg:flex-col lg:max-w-md xl:max-w-lg">
+        <div className="pl-9 flex flex-col justify-start">
+          <HighlightedText
+            text={title}
+            tag="h1"
+            className="text-5xl font-bold leading-none"
             color="text-violet-400"
           />
-          </div>
+          <HighlightedText
+            text={description}
+            tag="p"
+            className="mt-6 mb-8 text-lg sm:mb-12" // Added "mt-6" for top margin
+            color="text-violet-400"
+          />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  
     
     
       
