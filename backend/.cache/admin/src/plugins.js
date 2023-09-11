@@ -6,6 +6,7 @@ import seo from '../../../node_modules/@strapi/plugin-seo/strapi-admin.js';
 import colorPicker from '../../../node_modules/@strapi/plugin-color-picker/strapi-admin.js';
 import i18N from '../../../node_modules/@strapi/plugin-i18n/strapi-admin.js';
 import usersPermissions from '../../../node_modules/@strapi/plugin-users-permissions/strapi-admin.js';
+import cookieManager from '../../../node_modules/strapi-plugin-cookie-manager/strapi-admin.js';
 
 
 const plugins = {
@@ -16,6 +17,7 @@ const plugins = {
   'color-picker': colorPicker,
   'i18n': i18N,
   'users-permissions': usersPermissions,
+  'cookie-manager': cookieManager,
 };
 
 export default plugins;

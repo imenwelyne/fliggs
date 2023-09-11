@@ -15,7 +15,8 @@
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/strapi": "4.12.5",
-    "better-sqlite3": "8.4.0"
+    "better-sqlite3": "8.4.0",
+    "strapi-plugin-cookie-manager": "^1.2.2"
   },
   "author": {
     "name": "A Strapi developer"
