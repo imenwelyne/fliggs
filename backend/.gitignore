@@ -2,7 +2,7 @@
 # OS X
 ############################
 
-# .DS_Store
+ .DS_Store
 # .AppleDouble
 # .LSOverride
 # Icon
@@ -89,7 +89,7 @@
 # lib-cov
 # lcov.info
 # pids
-# logs
+ logs
 # results
 node_modules
 .node_history
@@ -106,9 +106,9 @@ node_modules
 # ############################
 
 
-# license.txt
+ license.txt
 # exports
-# *.cache
-# dist
-# build
-# .strapi-updater.json
+ *.cache
+ dist
+ build
+ .strapi-updater.json
