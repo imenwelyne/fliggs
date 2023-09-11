@@ -8,7 +8,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import {FALLBACK_SEO} from "@/app/[lang]/utils/constants";
-
+import CookieBox from "./components/CookieBox";
 
 async function getGlobal(lang: string): Promise<any> {
   const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
@@ -88,7 +88,7 @@ export default async function RootLayout({
         </main>
 
         <Banner data={notificationBanner} />
-
+<CookieBox />
         <Footer
           logoUrl={footerLogoUrl}
           logoText={footer.footerLogo.logoText}

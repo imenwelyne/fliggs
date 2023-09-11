@@ -992,6 +992,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/[lang]/components/Footer.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
@@ -3219,6 +3245,30 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/[lang]/layout.css"
       ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",

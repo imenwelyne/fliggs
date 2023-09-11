@@ -21,6 +21,7 @@ export default function FormSubmit({
 
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+
   const token = process.env.NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN;
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -33,6 +34,16 @@ export default function FormSubmit({
 
     if (!emailRegex.test(email)) {
       setErrorMessage("Invalid email format.");
+      return;
+    }
+
+    if (firstName === "") {
+      setErrorMessage("First name cannot be blank.");
+      return;
+    }
+
+    if (lastName === "") {
+      setErrorMessage("Last name cannot be blank.");
       return;
     }
 
@@ -73,14 +84,14 @@ export default function FormSubmit({
               />
           <input
   type="text"
-  placeholder={errorMessage || placeholderFirstName}
+  placeholder={placeholderFirstName}
   onChange={(e) => setFirstName(e.target.value)}
   value={firstName}
   className="w-full p-3 bg-blackish-gray text-white rounded-md mb-3"   
 />
             <input
               type="text"
-              placeholder={errorMessage || placeholderLastName}
+              placeholder={placeholderLastName}
               onChange={(e) => setLastName(e.target.value)}
               value={lastName}
               className="w-full p-3 bg-blackish-gray text-white rounded-md mb-3"   
