@@ -966,32 +966,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/[lang]/components/Vertical.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/Vertical.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/Vertical.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/Vertical.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
@@ -3202,30 +3176,6 @@
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#default": {
       "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Vertical.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/Vertical.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Vertical.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/Vertical.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Vertical.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/Vertical.tsx",
       "name": "default",
       "chunks": [
         "app/[lang]/page:static/chunks/app/[lang]/page.js"

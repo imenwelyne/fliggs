@@ -3,62 +3,62 @@
 ############################
 
  .DS_Store
-# .AppleDouble
-# .LSOverride
-# Icon
-# .Spotlight-V100
-# .Trashes
-# ._*
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
 
 
 # ############################
 # # Linux
 # ############################
 
-# *~
+*~
 
 
 # ############################
 # # Windows
 # ############################
 
-# Thumbs.db
-# ehthumbs.db
-# Desktop.ini
-# $RECYCLE.BIN/
-# *.cab
-# *.msi
-# *.msm
-# *.msp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
 
 
 # ############################
 # # Packages
 # ############################
 
-# *.7z
-# *.csv
-# *.dat
-# *.dmg
-# *.gz
-# *.iso
-# *.jar
-# *.rar
-# *.tar
-# *.zip
-# *.com
-# *.class
-# *.dll
-# *.exe
-# *.o
-# *.seed
-# *.so
-# *.swo
-# *.swp
-# *.swn
-# *.swm
-# *.out
-# *.pid
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
 
 
 # ############################
@@ -66,40 +66,40 @@
 # ############################
 
 
-# *.log
-# *.sql
-# *.sqlite
-# *.sqlite3
+*.log
+*.sql
+*.sqlite
+*.sqlite3
 
 
 # ############################
 # # Misc.
 # ############################
 
-# *#
-# ssl
-# .idea
-# nbproject
+*#
+ssl
+.idea
+nbproject
 
 
 # ############################
 # # Node.js
 # ############################
 
-# lib-cov
-# lcov.info
-# pids
+ lib-cov
+ lcov.info
+ pids
  logs
-# results
+ results
 node_modules
 .node_history
 
 ############################
-# Tests
+#  Tests
 ############################
 
-# testApp
-# coverage
+ testApp
+ coverage
 
 # ############################
 # # Strapi
@@ -107,7 +107,7 @@ node_modules
 
 
  license.txt
-# exports
+ exports
  *.cache
  dist
  build

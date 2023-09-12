@@ -20,16 +20,18 @@ interface LargeProps {
     id: string;
     title: string;
     picture: Picture;
+    align: string;
   };
 }
 
 export default function Large({ data }: LargeProps) {
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
+  const alignment = data.align === "left" ? "" : "justify-end";
 
   return (
 <section className="bg-black text-gray-100" style={{ background: "yellow" }}>
-  <div className="container flex items-center p-12 mx-auto lg:py-24"> {/* Increased padding */}
-    <div className="lg:flex-col xl:max-w-lg">
+<div className={`container flex items-center p-12 mx-auto lg:py-24 ${alignment}`}>
+      <div className="lg:flex-col xl:max-w-lg">
       <div className="lg:max-w-md xl:max-w-lg">
         <Image
           src={imgUrl || ""}

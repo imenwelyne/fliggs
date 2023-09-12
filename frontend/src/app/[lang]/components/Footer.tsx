@@ -70,14 +70,12 @@ export default function Footer({
   logoUrl,
   logoText,
   menuLinks,
-  categoryLinks,
   legalLinks,
   socialLinks,
 }: {
   logoUrl: string | null;
   logoText: string | null;
   menuLinks: Array<FooterLink>;
-  categoryLinks: Array<CategoryLink>;
   legalLinks: Array<FooterLink>;
   socialLinks: Array<FooterLink>;
 }) {

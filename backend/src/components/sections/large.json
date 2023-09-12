@@ -19,6 +19,10 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "align": {
+      "type": "string",
+      "required": true
     }
 
  
