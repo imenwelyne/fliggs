@@ -145,7 +145,7 @@ body {
   /* Custom */
   
   .button-bg-yellow {
-    background-color: #ffee00; 
+    background-color: #fbff00; 
    
   }
   .bg-blackish-gray {
@@ -173,4 +173,8 @@ body {
       {
         margin-top: 15px; 
       }
+    }
+
+    .vertical-bg-image{
+    background-image: url("../../../public/vertical-bg.png");
     }

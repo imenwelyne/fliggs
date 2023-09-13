@@ -614,10 +614,6 @@ video {
   margin-left: 3rem;
   margin-right: 3rem;
 }
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -645,9 +641,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.-mb-1 {
-  margin-bottom: -0.25rem;
 }
 .mb-16 {
   margin-bottom: 4rem;
@@ -678,6 +671,9 @@ video {
 }
 .ml-4 {
   margin-left: 1rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
 }
 .mr-2 {
   margin-right: 0.5rem;
@@ -966,9 +962,6 @@ video {
 .border {
   border-width: 1px;
 }
-.border-b-2 {
-  border-bottom-width: 2px;
-}
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
@@ -980,9 +973,6 @@ video {
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
-}
-.border-transparent {
-  border-color: transparent;
 }
 .border-violet-400 {
   --tw-border-opacity: 1;
@@ -1606,7 +1596,7 @@ body {
   /* Custom */
   
   .button-bg-yellow {
-    background-color: #ffee00; 
+    background-color: #fbff00; 
    
   }
   .bg-blackish-gray {
@@ -1638,6 +1628,10 @@ body {
       {
         margin-top: 15px; 
       }
+    }
+
+    .vertical-bg-image{
+    background-image: url(/_next/static/media/vertical-bg.55be4a01.png);
     }
 
     .hover\:bg-gray-900:hover {
@@ -1906,6 +1900,10 @@ body {
 
   .lg\:h-96 {
     height: 24rem;
+  }
+
+  .lg\:h-\[150\%\] {
+    height: 150%;
   }
 
   .lg\:h-\[450px\] {

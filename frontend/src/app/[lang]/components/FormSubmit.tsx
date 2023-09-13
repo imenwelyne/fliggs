@@ -80,26 +80,26 @@ export default function FormSubmit({
               placeholder={errorMessage || placeholderEmail}
               onChange={(e) => setEmail(e.target.value)}
               value={email}
-              className="w-full p-3 bg-blackish-gray text-white rounded-md mb-3"   
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
               />
           <input
   type="text"
   placeholder={placeholderFirstName}
   onChange={(e) => setFirstName(e.target.value)}
   value={firstName}
-  className="w-full p-3 bg-blackish-gray text-white rounded-md mb-3"   
+  className="w-full p-3 bg-blackish-gray text-white  mb-3"   
 />
             <input
               type="text"
               placeholder={placeholderLastName}
               onChange={(e) => setLastName(e.target.value)}
               value={lastName}
-              className="w-full p-3 bg-blackish-gray text-white rounded-md mb-3"   
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
               />
           </div>
           <button
             type="button"
-            className="w-full p-3 font-semibold button-bg-yellow text-gray-900 rounded-md"
+            className="w-full p-3 font-semibold button-bg-yellow text-gray-900 uppercase"
             onClick={handleSubmit}
           >
             {text}

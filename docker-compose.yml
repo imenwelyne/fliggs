@@ -1,0 +1,32 @@
+version: "3.8"
+networks:
+  strapi_nextjs:
+    name: strapi_nextjs
+    driver: bridge
+
+
+services:
+  strapi:
+    build: ./backend
+    ports:
+      - 1337:1337
+    volumes:
+      - ./backend:/srv/app
+    env_file:
+      - ./backend/.env
+    networks:
+      strapi_nextjs: 
+
+  next:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./frontend/.env
+    networks:
+      strapi_nextjs:
+
+    
+

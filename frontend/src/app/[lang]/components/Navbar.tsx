@@ -20,7 +20,6 @@ interface NavLink {
 // interface MobileNavLink extends NavLink {
 //   closeMenu: () => void;
 // }
-
 function NavLink({ url, text }: NavLink) {
   const path = usePathname();
 
@@ -28,7 +27,7 @@ function NavLink({ url, text }: NavLink) {
     <li className="flex">
       <Link
         href={url}
-        className={`flex items-center mx-4 -mb-1 border-b-2 border-transparent ${
+        className={`w-full px-5 py-1 uppercase font-semibold button-bg-yellow text-gray-900  ${
           path === url && "text-violet-400 border-violet-400"
         }}`}
       >

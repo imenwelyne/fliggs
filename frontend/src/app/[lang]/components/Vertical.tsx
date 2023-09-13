@@ -13,7 +13,7 @@ export default function Vertical({
   const containerClass = align === "left" ? "lg:flex-row" : "lg:flex-row-reverse text-right lower-text-container";
 
   return (
-    <section className="bg-black text-gray-100">
+    <section className="text-gray-100">
       <div className={`container flex flex-col lg:flex ${containerClass} justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between`}>
         <div className="lg:flex-col lg:max-w-md xl:max-w-lg">
           <div className="pl-9 flex flex-col justify-start">
