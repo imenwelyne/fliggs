@@ -29,7 +29,7 @@ export default function Large({ data }: LargeProps) {
   const alignment = data.align === "left" ? "" : "justify-end";
 
   return (
-<section className="bg-black text-gray-100" style={{ background: "yellow" }}>
+<section className="bg-black text-gray-100" style={{ background: "#faff00" }}>
 <div className={`container flex items-center p-12 mx-auto lg:py-24 ${alignment}`}>
       <div className="lg:flex-col xl:max-w-lg">
       <div className="lg:max-w-md xl:max-w-lg">

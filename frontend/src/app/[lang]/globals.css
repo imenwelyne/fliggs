@@ -145,7 +145,7 @@ body {
   /* Custom */
   
   .button-bg-yellow {
-    background-color: #fbff00; 
+    background-color: #faff00; 
    
   }
   .bg-blackish-gray {
@@ -178,3 +178,8 @@ body {
     .vertical-bg-image{
     background-image: url("../../../public/vertical-bg.png");
     }
+
+    .linkedin-icon{
+      background-image: url("../../../public/icons/linkedin-icon.png");
+  
+      }

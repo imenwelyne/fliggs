@@ -5,7 +5,7 @@ import Logo from "./Logo";
 import { CgWebsite } from "react-icons/cg";
 import { FaDiscord } from "react-icons/fa";
 import { AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai";
-
+import LinkedinIcon from "./LinkedinIcon";
 interface FooterLink {
   id: number;
   url: string;
@@ -57,6 +57,8 @@ function RenderSocialIcon({ social }: { social: string | undefined }) {
       return <CgWebsite />;
     case "TWITTER":
       return <AiFillTwitterCircle />;
+      case "LINKEDIN":
+        return <LinkedinIcon   />;
     case "YOUTUBE":
       return <AiFillYoutube />;
     case "DISCORD":
@@ -111,7 +113,7 @@ export default function Footer({
         <div className="grid justify-center pt-6 lg:justify-between">
           <div className="flex">
             <span className="mr-2">
-              ©{new Date().getFullYear()} fliggs
+              ©{new Date().getFullYear()} fliggs.com
             </span>
             <ul className="flex">
               {legalLinks.map((link: FooterLink) => (

@@ -1596,7 +1596,7 @@ body {
   /* Custom */
   
   .button-bg-yellow {
-    background-color: #fbff00; 
+    background-color: #faff00; 
    
   }
   .bg-blackish-gray {
@@ -1633,6 +1633,11 @@ body {
     .vertical-bg-image{
     background-image: url(/_next/static/media/vertical-bg.55be4a01.png);
     }
+
+    .linkedin-icon{
+      background-image: url(/_next/static/media/linkedin-icon.433f8d40.png);
+  
+      }
 
     .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
