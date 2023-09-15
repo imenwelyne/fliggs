@@ -3,9 +3,8 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
 import { CgWebsite } from "react-icons/cg";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord,FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai";
-import LinkedinIcon from "./LinkedinIcon";
 interface FooterLink {
   id: number;
   url: string;
@@ -58,7 +57,7 @@ function RenderSocialIcon({ social }: { social: string | undefined }) {
     case "TWITTER":
       return <AiFillTwitterCircle />;
       case "LINKEDIN":
-        return <LinkedinIcon   />;
+        return <FaLinkedin className="linkedin-icon" /> ;
     case "YOUTUBE":
       return <AiFillYoutube />;
     case "DISCORD":
@@ -136,7 +135,7 @@ export default function Footer({
                   href={link.url}
                   title={link.text}
                   target={link.newTab ? "_blank" : "_self"}
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-violet-400 text-gray-900"
+                  className="flex items-center justify-center w-200 h-200 "
                 >
                   <RenderSocialIcon social={link.social} />
                 </a>

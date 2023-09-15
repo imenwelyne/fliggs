@@ -714,9 +714,6 @@ video {
 .h-1 {
   height: 0.25rem;
 }
-.h-10 {
-  height: 2.5rem;
-}
 .h-14 {
   height: 3.5rem;
 }
@@ -758,9 +755,6 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.w-10 {
-  width: 2.5rem;
 }
 .w-12 {
   width: 3rem;
@@ -1634,10 +1628,10 @@ body {
     background-image: url(/_next/static/media/vertical-bg.55be4a01.png);
     }
 
-    .linkedin-icon{
-      background-image: url(/_next/static/media/linkedin-icon.433f8d40.png);
-  
-      }
+    .linkedin-icon {
+      width: 40px; /* Adjust the width as needed */
+      height: 40px; /* Adjust the height as needed */
+    }
 
     .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
