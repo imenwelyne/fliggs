@@ -33,7 +33,7 @@ export function middleware(request: NextRequest) {
         return;
 
     // Check if there is any supported locale in the pathname
-    const pathnameIsMissingLocale = i18n.locales.every(
+    const pathnameIsMissingLocale = i18n.locales.every( 
         (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
     );
 
@@ -43,7 +43,7 @@ export function middleware(request: NextRequest) {
 
         // e.g. incoming request is /products
         // The new URL is now /en-US/products
-        return NextResponse.redirect(new URL(`/${locale}/${pathname}`, request.url));
+        return NextResponse.redirect(new URL(`/en/${pathname}`, request.url));
     }
 }
 
