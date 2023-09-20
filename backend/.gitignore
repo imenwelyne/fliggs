@@ -2,7 +2,7 @@
 # OS X
 ############################
 
- .DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 Icon
@@ -11,16 +11,16 @@ Icon
 ._*
 
 
-# ############################
-# # Linux
-# ############################
+############################
+# Linux
+############################
 
 *~
 
 
-# ############################
-# # Windows
-# ############################
+############################
+# Windows
+############################
 
 Thumbs.db
 ehthumbs.db
@@ -32,9 +32,9 @@ $RECYCLE.BIN/
 *.msp
 
 
-# ############################
-# # Packages
-# ############################
+############################
+# Packages
+############################
 
 *.7z
 *.csv
@@ -61,54 +61,55 @@ $RECYCLE.BIN/
 *.pid
 
 
-# ############################
-# # Logs and databases
-# ############################
+############################
+# Logs and databases
+############################
 
-
+.tmp
 *.log
 *.sql
 *.sqlite
 *.sqlite3
 
 
-# ############################
-# # Misc.
-# ############################
+############################
+# Misc.
+############################
 
 *#
 ssl
 .idea
 nbproject
+public/uploads/*
+!public/uploads/.gitkeep
 
+############################
+# Node.js
+############################
 
-# ############################
-# # Node.js
-# ############################
-
- lib-cov
- lcov.info
- pids
- logs
- results
+lib-cov
+lcov.info
+pids
+logs
+results
 node_modules
 .node_history
 
 ############################
-#  Tests
+# Tests
 ############################
 
- testApp
- coverage
+testApp
+coverage
 
-# ############################
-# # Strapi
-# ############################
+############################
+# Strapi
+############################
 
-
- license.txt
- exports
- *.cache
- dist
- build
- .strapi-updater.json
+.env
+license.txt
+exports
+*.cache
+dist
+build
+.strapi-updater.json

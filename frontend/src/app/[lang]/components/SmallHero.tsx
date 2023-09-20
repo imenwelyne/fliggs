@@ -15,7 +15,7 @@ interface Picture {
   };
 }
 
-interface LargeProps {
+interface SmallHeroProps {
   data: {
     id: string;
     title: string;
@@ -24,15 +24,15 @@ interface LargeProps {
   };
 }
 
-export default function Large({ data }: LargeProps) {
+export default function SmallHero({ data }: SmallHeroProps) {
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
   const alignment = data.align === "left" ? "" : "justify-end";
 
   return (
-<section className="bg-black text-gray-100" style={{ background: "#faff00" }}>
+<section className="bg-gradient-to-bl from-slate-400 via-neutral-900 to-black">
 <div className={`container flex items-center p-12 mx-auto lg:py-24 ${alignment}`}>
-      <div className="lg:flex-col xl:max-w-lg">
-      <div className="lg:max-w-md xl:max-w-lg">
+      <div className="lg:flex-col">
+      <div className="mb-4 lg:max-w-md ">
         <Image
           src={imgUrl || ""}
           alt={
@@ -47,8 +47,7 @@ export default function Large({ data }: LargeProps) {
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-4xl font-bold leading-none text-black"
-          color="text-violet-400"
+          className="text-4xl font-bold leading-none text-white"
         />
       </div>
     </div>

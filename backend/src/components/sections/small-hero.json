@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_slices_small_heroes",
+  "info": {
+    "name": "SmallHero",
+    "displayName": "Small Hero",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "align": {
+      "type": "string",
+      "required": true
+    }
+
+
+  }
+}

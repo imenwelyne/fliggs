@@ -20,7 +20,7 @@ interface NavLink {
 // interface MobileNavLink extends NavLink {
 //   closeMenu: () => void;
 // }
-function NavLink({ url, text }: NavLink) {
+function NavLinkRegister({ url, text }: NavLink) {
   const path = usePathname();
 
   return (
@@ -29,6 +29,23 @@ function NavLink({ url, text }: NavLink) {
         href={url}
         className={`w-full px-5 py-1 uppercase font-semibold button-bg-yellow text-gray-900  ${
           path === url && "text-violet-400 border-violet-400"
+        }}`}
+      >
+        {text}
+      </Link>
+    </li>
+  );
+}
+
+function NavLink({ url, text }: NavLink) {
+  const path = usePathname();
+
+  return (
+    <li className="flex">
+      <Link
+        href={url}
+        className={`flex items-center mx-4 -mb-1 border-b-2 dark:border-transparent ${
+          path === url && "dark:text-violet-400 dark:border-violet-400"
         }}`}
       >
         {text}
@@ -79,9 +96,13 @@ export default function Navbar({
         {/* add hidden to the 2 divs under this comment */}
         <div className="items-center flex-shrink-0  lg:flex">
           <ul className="items-stretch nav-bar-mobile-padding space-x-3 lg:flex">
-            {links.map((item: NavLink) => (
-              <NavLink key={item.id} {...item} />
-            ))}
+          {links.map((item: NavLink) => (
+  item.text === "Register" ? (
+    <NavLinkRegister key={item.id} {...item} />
+  ) : (
+    <NavLink key={item.id} {...item} />
+  )
+))}
 
           </ul>
         </div>

@@ -642,6 +642,10 @@ video {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -689,6 +693,9 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.-mb-1 {
+  margin-bottom: -0.25rem;
 }
 .block {
   display: block;
@@ -956,6 +963,9 @@ video {
 .border {
   border-width: 1px;
 }
+.border-b-2 {
+  border-bottom-width: 2px;
+}
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
@@ -1045,14 +1055,30 @@ video {
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
+.bg-gradient-to-bl {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
 .from-slate-600 {
   --tw-gradient-from: #475569 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(71 85 105 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-slate-400 {
+  --tw-gradient-from: #94a3b8 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(148 163 184 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 .via-black {
   --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #000 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.via-neutral-800 {
+  --tw-gradient-to: rgb(38 38 38 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #262626 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.via-neutral-900 {
+  --tw-gradient-to: rgb(23 23 23 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #171717 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 .to-black {
   --tw-gradient-to: #000 var(--tw-gradient-to-position);
@@ -1679,6 +1705,23 @@ body {
 
     :is([dir="rtl"] .rtl\:left-0) {
   left: 0px;
+}
+
+    @media (prefers-color-scheme: dark) {
+
+  .dark\:border-transparent {
+    border-color: transparent;
+  }
+
+  .dark\:border-violet-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(167 139 250 / var(--tw-border-opacity));
+  }
+
+  .dark\:text-violet-400 {
+    --tw-text-opacity: 1;
+    color: rgb(167 139 250 / var(--tw-text-opacity));
+  }
 }
 
     @media (min-width: 640px) {

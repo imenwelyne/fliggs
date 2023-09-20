@@ -38,7 +38,7 @@ export default function Hero({ data }: HeroProps) {
   return (
     <section className="bg-gradient-to-tr from-slate-600 via-black to-black">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-        <div className="flex flex-col justify-center p-6 text-center rounded-lg lg:max-w-md xl:max-w-lg lg:text-left">
+        <div className="flex flex-col justify-center p-6 rounded-lg lg:max-w-md xl:max-w-lg lg:text-left">
           <HighlightedText
             text={data.title}
             tag="h1"

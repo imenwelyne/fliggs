@@ -30,7 +30,7 @@
       "components": [
         "sections.hero",
         "sections.vertical",
-
+        "sections.small-hero",
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
