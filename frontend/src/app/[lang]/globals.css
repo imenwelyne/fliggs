@@ -183,3 +183,66 @@ body {
       width: 40px; /* Adjust the width as needed */
       height: 40px; /* Adjust the height as needed */
     }
+
+
+    @font-face {
+      font-family: 'Bold';
+      src: url('../../../public/fonts/fliggsROMExtended-Bold.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Book';
+      src: url('../../../public/fonts/fliggsROMExtended-Book.woff') format('woff');
+    }
+
+    .custom-font-bold {
+      font-family: 'Bold'; 
+    }
+    .custom-font-book {
+      font-family: 'Book'; 
+    }
+
+    .video-background {
+     position:relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+ 
+    .content {
+      top: 23%;
+      left: 5%;
+      position: absolute;
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .btn_submit  {
+    width: 50%;
+  }
+  .form_group_reg{
+    width: 20%;
+  }
+  @media only screen and (max-width: 1024px)  {
+    .video-background video{
+      display: none;
+
+     }
+     .content {
+      position: static;
+      padding-bottom: 300px;
+     }
+    .video-background{
+      background: rgb(0,0,0);
+      background: linear-gradient(167deg, rgba(0,0,0,1) 0%, rgb(24 22 22) 23%, rgb(41 37 37) 42%, rgb(69 67 67) 66%, rgb(93 93 93) 84%, rgb(87 86 86) 100%)
+    }
+    .form_group_reg{
+      width: 100%;
+    }
+
+  }

@@ -47,7 +47,7 @@ export default function SmallHero({ data }: SmallHeroProps) {
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-4xl font-bold leading-none text-white"
+          className="text-4xl custom-font-bold leading-none text-white"
         />
       </div>
     </div>

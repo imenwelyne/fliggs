@@ -1,5 +1,3 @@
-/** @type {import('next').NextConfig} */
-
 const nextConfig = {
   experimental: {
     appDir: true,
@@ -15,9 +13,17 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.pexels.com',
-      }
+      },
     ],
   },
-}
+  async rewrites() {
+    return [
+      {
+        source: '/fonts/:path*',
+        destination: '/_next/static/fonts/:path*',
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
