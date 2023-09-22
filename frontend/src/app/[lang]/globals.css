@@ -222,6 +222,13 @@ body {
       align-items: center;
       justify-content: center;
   }
+
+  .custom-width-hero-text {
+    max-width: 50%;
+  }
+
+  
+
   .btn_submit  {
     width: 50%;
   }
@@ -243,6 +250,10 @@ body {
     }
     .form_group_reg{
       width: 100%;
+    }
+
+    .custom-width-hero-text {
+      max-width: 100%;
     }
 
   }

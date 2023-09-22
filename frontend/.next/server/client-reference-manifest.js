@@ -966,32 +966,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/[lang]/error.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
@@ -1066,6 +1040,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/error.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
         ],
         "async": false
       }
@@ -3182,30 +3182,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
       "id": "null",
       "name": "default",
@@ -3289,6 +3265,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
       ],
       "async": false
     }

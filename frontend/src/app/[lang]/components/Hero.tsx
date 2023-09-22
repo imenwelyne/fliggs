@@ -47,11 +47,11 @@ export default function Hero({ data }: HeroProps) {
         )}
   
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between content">
-          <div className="flex flex-col justify-center p-6 rounded-lg lg:max-w-md xl:max-w-lg lg:text-left text-white">
+          <div className="flex flex-col justify-center p-6 rounded-lg custom-width-hero-text lg:text-left text-white ">
             <HighlightedText
               text={data.title}
               tag="h1"
-              className="text-5xl font-bold leading-none sm:text-6xl mb-8"
+              className="text-5xl custom-font-bold leading-none sm:text-6xl mb-8"
               color="text-violet-400"
             />
             {/* Add any additional text content here */}
