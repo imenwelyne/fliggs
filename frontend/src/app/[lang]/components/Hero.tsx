@@ -28,15 +28,18 @@ interface HeroProps {
     title: string;
     picture: Picture;
     buttons: Button[];
+    videoOnMobile: string;
+
   };
 }
 
 export default function Hero({ data }: HeroProps) {
+  console.log(data.videoOnMobile);
   const vidUrl = getStrapiMedia(data.picture.data.attributes.url);
-
+const test = true;
   return (
     <section>
-      <div className="video-background">
+    <div className={data.videoOnMobile === "true" ? "video-background-mobile-true" : "video-background"}>
         {vidUrl !== null ? (
           <video autoPlay loop muted className="video-element">
             <source src={vidUrl} type="video/mp4" />
@@ -46,13 +49,14 @@ export default function Hero({ data }: HeroProps) {
           <p>Video URL is null</p>
         )}
   
-        <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between content">
-          <div className="flex flex-col justify-center p-6 rounded-lg custom-width-hero-text lg:text-left text-white ">
+
+
+<div className={`container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between ${data.videoOnMobile === "true" ? 'content-mobile-true' : 'content'}`}>
+            <div className="flex flex-col justify-center  rounded-lg custom-width-hero-text lg:text-left text-white ">
             <HighlightedText
               text={data.title}
               tag="h1"
-              className="text-5xl custom-font-bold leading-none sm:text-6xl mb-8"
-              color="text-violet-400"
+              className={`text-${data.videoOnMobile === "true" ? '2xl' : '5xl'} custom-font-bold leading-none sm:text-6xl mb-8`}              color="text-violet-400"
             />
             {/* Add any additional text content here */}
           </div>

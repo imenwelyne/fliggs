@@ -1659,6 +1659,15 @@ body {
       -o-object-fit: cover;
          object-fit: cover;
     }
+
+    .video-background-mobile-true {
+      position:relative;
+       width: 100%;
+       height: 100%;
+       -o-object-fit: cover;
+          object-fit: cover;
+     }
+     
     
  
     .content {
@@ -1673,6 +1682,19 @@ body {
       align-items: center;
       justify-content: center;
   }
+
+  .content-mobile-true {
+    top: 23%;
+    left: 5%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 95%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
   .custom-width-hero-text {
     max-width: 50%;
@@ -1691,6 +1713,7 @@ body {
       display: none;
 
      }
+
      .content {
       position: static;
       padding-bottom: 300px;
