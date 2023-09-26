@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slices_title_heroes",
+  "info": {
+    "name": "TitleHero",
+    "displayName": "Title Hero",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+
+    "align": {
+      "type": "string",
+      "required": true
+    }
+
+
+  }
+}

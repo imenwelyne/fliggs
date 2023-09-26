@@ -16,8 +16,8 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images",
-        "videos"
+      "allowedTypes": ["images"
+
       ]
     },
     "buttons": {
@@ -25,11 +25,11 @@
       "repeatable": true,
       "component": "links.button-link"
     },
-    "videoOnMobile": {
+    "align": {
       "type": "enumeration",
       "enum": [
-        "false",
-        "true"
+        "left",
+        "right"
       ]
     }
 

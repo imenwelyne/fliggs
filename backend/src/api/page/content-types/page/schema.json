@@ -28,18 +28,30 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero",
+        "sections.hero-video",
         "sections.vertical",
         "sections.small-hero",
+        "sections.news-element",
+        "sections.news-description",
+
+
+        "sections.title-hero",
+
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
         "sections.testimonials-group",
         "sections.large",
+        "sections.intro",
+        "sections.hero",
         "sections.large-video",
         "sections.rich-text",
         "sections.pricing",
         "sections.lead-form",
+        "sections.contact",
+
+        "sections.lead-form-yellow",
+
         "sections.features",
         "sections.heading"
       ],

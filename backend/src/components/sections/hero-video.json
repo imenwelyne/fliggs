@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_slices_hero_videos",
+  "info": {
+    "name": "HeroVideo",
+    "displayName": "Hero Video",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images",
+        "videos"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "videoOnMobile": {
+      "type": "enumeration",
+      "enum": [
+        "false",
+        "true"
+      ]
+    }
+
+  }
+}

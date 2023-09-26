@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_slices_news_elements",
+  "info": {
+    "name": "NewsElement",
+    "displayName": "News Element",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+
+
+    "align": {
+      "type": "string",
+      "required": true
+    }
+
+
+  }
+}

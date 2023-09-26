@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "name": "Contact",
+    "displayName": "Contact",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "subjectPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "bodyPlaceholder": {
+      "type": "string"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  
+ 
+  
+  }
+}

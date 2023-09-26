@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_yellow_lead_forms",
+  "info": {
+    "name": "Lead form yellow",
+    "displayName": "Lead form yellow",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "lastNamePlaceholder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slices_news_descriptions",
+  "info": {
+    "name": "NewsDescription",
+    "displayName": "News Description",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+
+    "description": {
+      "type": "string",
+      "required": true
+    },
+
+
+    "align": {
+      "type": "string",
+      "required": true
+    }
+
+
+  }
+}

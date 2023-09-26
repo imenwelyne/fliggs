@@ -747,7 +747,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -755,7 +755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -763,7 +763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       }
@@ -773,7 +773,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -781,7 +781,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -789,7 +789,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       }
@@ -799,7 +799,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -807,7 +807,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -815,7 +815,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -823,7 +823,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -831,7 +831,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "charSet",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -839,7 +839,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "name",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -847,7 +847,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "content",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -855,7 +855,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"title\"",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -863,7 +863,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"base\"",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -871,7 +871,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"meta\"",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -879,7 +879,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "TODO(prateekbh@)",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -887,7 +887,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "\"https",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -895,7 +895,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "here",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -903,7 +903,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "https",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -911,7 +911,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "reduceComponentsToState",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -919,7 +919,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "headManager",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
@@ -927,39 +927,13 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "inAmpMode",
         "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       },
       "value": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/FormSubmit.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
-        "name": "default",
         "chunks": [
           "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
@@ -1040,6 +1014,84 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/FormSubmit.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/YellowFormSubmit.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
         "async": false
       }
@@ -2774,414 +2826,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "charSet",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "charSet",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "name",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "name",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "content",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "content",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"title\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"title\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"base\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"base\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"meta\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"meta\"",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "TODO(prateekbh@)",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "TODO(prateekbh@)",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"https",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "\"https",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "here",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "here",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "https",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "https",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "reduceComponentsToState",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "reduceComponentsToState",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "headManager",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "headManager",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "inAmpMode",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "inAmpMode",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "value",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "value",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
       "id": "null",
       "name": "default",
@@ -3195,6 +2839,390 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/[lang]/layout.css"
       ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#charSet": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#charSet": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#name": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#name": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#content": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#content": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"title\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"title\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"base\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"base\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"meta\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"meta\"": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#\"https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#\"https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#here": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#here": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#https": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#reduceComponentsToState": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#reduceComponentsToState": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#headManager": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#headManager": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#inAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#inAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\shared\\lib\\head.js#value": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#value": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
@@ -3265,6 +3293,78 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\YellowFormSubmit.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\YellowFormSubmit.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\YellowFormSubmit.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/YellowFormSubmit.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
       ],
       "async": false
     },

@@ -148,10 +148,20 @@ body {
     background-color: #faff00; 
    
   }
+
+  .button-bg-black {
+    background-color: #000000; 
+   
+  }
   .bg-blackish-gray {
     background-color: #333; 
     color: white ;
   }
+
+  .bg-yellow-field {
+    background-color: #FAEB00; 
+    color: rgb(0, 0, 0) ;
+  } 
   
   .bg-blackish-gray::placeholder {
     color: rgb(204, 204, 204); 
@@ -160,7 +170,12 @@ body {
   @media screen and (min-width: 1024px){
   .lower-text-container { 
    margin-top: 250px; 
-    }}
+    }
+  
+    .hero-title-width{
+      width: 50%;
+    }
+  }
 
     @media screen and (max-width: 1024px){
       .image-hero img{ 
@@ -256,6 +271,11 @@ body {
   .form_group_reg{
     width: 25%;
   }
+  .form_group_reg_contact{
+    width: 50%;
+  }
+
+ 
   @media only screen and (max-width: 1024px)  {
     .video-background video{
       display: none;
@@ -278,4 +298,8 @@ body {
       max-width: 100%;
     }
 
+  }
+
+  .dark-placeholder::placeholder {
+    color: rgb(63, 63, 63);
   }
