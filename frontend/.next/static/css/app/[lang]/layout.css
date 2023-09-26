@@ -1142,6 +1142,10 @@ video {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1161,14 +1165,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -1655,7 +1651,7 @@ body {
     background-image: url(/_next/static/media/vertical-bg.55be4a01.png);
     }
 
-    .linkedin-icon {
+    .icon-size {
       width: 40px; /* Adjust the width as needed */
       height: 40px; /* Adjust the height as needed */
     }

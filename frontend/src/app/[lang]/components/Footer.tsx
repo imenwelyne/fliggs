@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Logo from "./Logo";
 import { CgWebsite } from "react-icons/cg";
-import { FaDiscord,FaLinkedin } from "react-icons/fa";
+import { FaDiscord,FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiFillTwitterCircle, AiFillYoutube } from "react-icons/ai";
 interface FooterLink {
   id: number;
@@ -53,15 +53,15 @@ function CategoryLink({ attributes }: CategoryLink) {
 function RenderSocialIcon({ social }: { social: string | undefined }) {
   switch (social) {
     case "WEBSITE":
-      return <CgWebsite />;
+      return <CgWebsite  className="icon-size"/>;
     case "TWITTER":
-      return <AiFillTwitterCircle />;
+      return <FaTwitter className="icon-size" />;
       case "LINKEDIN":
-        return <FaLinkedin className="linkedin-icon" /> ;
+        return <FaLinkedin className="icon-size" /> ;
     case "YOUTUBE":
-      return <AiFillYoutube />;
+      return <FaYoutube className="icon-size" />;
     case "DISCORD":
-      return <FaDiscord />;
+      return <FaDiscord className="icon-size" />;
     default:
       return null;
   }
