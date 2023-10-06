@@ -13,9 +13,9 @@ export default function Vertical({
   const containerClass = align === "left" ? "lg:flex-row" : "lg:flex-row-reverse text-right lower-text-container";
 
   return (
-    <section className="text-gray-100">
+    <section className="text-gray-100 vertical-width">
       <div className={`container flex flex-col lg:flex ${containerClass} justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between`}>
-        <div className="lg:flex-col lg:max-w-md xl:max-w-lg">
+        <div className="lg:flex-col">
           <div className="lg:pl-9 flex flex-col justify-start">
             <HighlightedText
               text={title}
@@ -26,7 +26,7 @@ export default function Vertical({
             <HighlightedText
               text={description}
               tag="p"
-              className="mt-6 mb-8 custom-font-book lg:text-lg sm:mb-12" // Added "mt-6" for top margin
+              className="mt-6 mb-8 custom-font-barlow lg:text-lg sm:mb-12" // Added "mt-6" for top margin
               color="text-violet-400"
             />
           </div>

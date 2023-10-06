@@ -26,13 +26,13 @@ export default function NewsElement({ data }: NewsElementProps) {
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-1xl custom-font-bold leading-none text-white"
+          className="text-1xl custom-font-barlow-semibold leading-none text-white"
         />
 
 <HighlightedText
               text={data.description}
               tag="p"
-              className="lg:text-lg " // Added "mt-6" for top margin
+              className="lg:text-lg custom-font-barlow " // Added "mt-6" for top margin
               color="text-violet-400"
             />
       </div>

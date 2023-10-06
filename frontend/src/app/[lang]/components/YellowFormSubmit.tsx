@@ -66,7 +66,7 @@ export default function YellowFormSubmit({
   }
 
   return (
-    <div className="form_group_reg flex flex-row items-center lg:self-center lg:justify-center flex-shrink-0 shadow-md lg:justify-end">
+    <div className="form_group_reg flex flex-row items-center lg:self-center lg:justify-center flex-shrink-0 lg:justify-end">
     <div className="flex flex-col space-y-2 w-full"> 
       {successMessage ? (
         <p className="text-green-700 bg-green-300 px-4 py-2 rounded-lg">
@@ -100,7 +100,7 @@ export default function YellowFormSubmit({
           </div>
           <button
             type="button"
-            className="btn_submit p-3  button-bg-black text-white uppercase"
+            className="btn_submit p-3 custom-font-book font-spacing button-bg-black text-white uppercase"
             onClick={handleSubmit}
             
           >

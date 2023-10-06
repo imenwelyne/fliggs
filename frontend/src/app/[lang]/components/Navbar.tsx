@@ -28,7 +28,7 @@ function NavLinkRegister({ url, text }: NavLink) {
     <li className="flex">
       <Link
         href={url}
-        className={`w-full px-5 py-1 uppercase font-semibold button-bg-yellow text-gray-900  ${
+        className={`w-full px-5 custom-font-book font-spacing py-1 uppercase  button-bg-yellow text-gray-900  ${
           path === url && "text-violet-400 border-violet-400"
         }}`}
       >
@@ -45,8 +45,8 @@ function NavLink({ url, text }: NavLink) {
     <li className="flex">
       <Link
         href={url}
-        className={`flex items-center mx-4 -mb-1 border-b-2 dark:border-transparent ${
-          path === url && "dark:text-violet-400 dark:border-violet-400"
+        className={`flex items-center custom-font-book font-spacing mx-4 -mb-1 border-b-2 border-transparent ${
+          path === url && "text-violet-400  border-violet-400"
         }}`}
       >
         {text}
@@ -84,7 +84,7 @@ function MobileNavLink({ url, text, closeMenu }: MobileNavLink ) {
       <Link
         href={url}
         onClick={handleClick}
-        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-900 ${
+        className={`-mx-3 custom-font-book font-spacing block rounded-lg px-3 py-2 text-base  leading-7 text-gray-100 hover:bg-gray-900 ${
           path === url && "text-violet-400 border-violet-400"
         }}`}
       >

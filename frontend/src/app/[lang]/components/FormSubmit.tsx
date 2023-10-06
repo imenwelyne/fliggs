@@ -99,13 +99,13 @@ export default function FormSubmit({
           </div>
           <button
             type="button"
-            className="btn_submit p-3 font-semibold button-bg-yellow text-gray-900 uppercase"
+            className="btn_submit p-3 custom-font-book font-spacing button-bg-yellow text-gray-900 uppercase"
             onClick={handleSubmit}
             
           >
             {text}
           </button>
-        </>
+        </> 
       )}
     </div>
   

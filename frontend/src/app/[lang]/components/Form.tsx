@@ -22,7 +22,7 @@ export default function Form({ data }: { data: FormProps }) {
     <div className="container mx-auto  flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:justify-between lg:flex-col">
       <div className="mb-5 flex flex-col space-y-4 text-left">
         <h1 className="text-4xl custom-font-bold leading-none">{data.title}</h1>
-        <p className="lg:text-lg custom-font-book">{data.description}</p>
+        <p className="lg:text-lg custom-font-barlow">{data.description}</p>
       </div>
       
       {/* The form submit button will be below the other content */}

@@ -975,6 +975,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
+.border-transparent {
+  border-color: transparent;
+}
 .border-violet-400 {
   --tw-border-opacity: 1;
   border-color: rgb(167 139 250 / var(--tw-border-opacity));
@@ -1632,6 +1635,10 @@ body {
     .hero-title-width{
       width: 50%;
     }
+    .vertical-width{
+
+      width: 50%; 
+     }
   }
 
     @media screen and (max-width: 1024px){
@@ -1645,11 +1652,15 @@ body {
       {
         margin-top: 15px; 
       }
+      
     }
 
     .vertical-bg-image{
     background-image: url(/_next/static/media/vertical-bg.55be4a01.png);
+    background-position: center;
+    background-size: cover;
     }
+  
 
     .icon-size {
       width: 40px; /* Adjust the width as needed */
@@ -1666,12 +1677,26 @@ body {
       font-family: 'Book';
       src: url(/_next/static/media/fliggsROMExtended-Book.5eb42cf7.woff) format('woff');
     }
+    @font-face {
+      font-family: 'BarlowRegular';
+      src: url(/_next/static/media/Barlow-Regular.3a262070.ttf) ;
+    }
+    @font-face {
+      font-family: 'BarlowSemiBold';
+      src: url(/_next/static/media/Barlow-SemiBold.6c26833e.ttf)
+    }
 
     .custom-font-bold {
       font-family: 'Bold'; 
     }
     .custom-font-book {
       font-family: 'Book'; 
+    }
+    .custom-font-barlow {
+      font-family: 'BarlowRegular'; 
+    }
+    .custom-font-barlow-semibold {
+      font-family: 'BarlowSemiBold'; 
     }
 
     .video-background {
@@ -1766,56 +1791,71 @@ body {
   .dark-placeholder::placeholder {
     color: rgb(63, 63, 63);
   }
+  @media only screen and (min-width: 1024px)  {
+    .usp-text-width{
+      width: 55%;
+    }
+  }
 
-  .hover\:bg-gray-900:hover {
+  @media (max-width: 1023px) {
+    .background-size-80 {
+      background-size: 80%;
+    }
+  }
+  
+
+  .usp-text {
+
+    padding: 150px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: auto; */
+} 
+.align-usp-right{
+  margin-left: auto;
+
+}
+.font-spacing {
+  letter-spacing: 1.8px;
+}
+.hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-
-  .hover\:bg-violet-600:hover {
+.hover\:bg-violet-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(124 58 237 / var(--tw-bg-opacity));
 }
-
-  .hover\:text-gray-300:hover {
+.hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
-
-  .hover\:text-violet-400:hover {
+.hover\:text-violet-400:hover {
   --tw-text-opacity: 1;
   color: rgb(167 139 250 / var(--tw-text-opacity));
 }
-
-  .hover\:underline:hover {
+.hover\:underline:hover {
   text-decoration-line: underline;
 }
-
-  .hover\:no-underline:hover {
+.hover\:no-underline:hover {
   text-decoration-line: none;
 }
-
-  .focus\:no-underline:focus {
+.focus\:no-underline:focus {
   text-decoration-line: none;
 }
-
-  .group:hover .group-hover\:underline {
+.group:hover .group-hover\:underline {
   text-decoration-line: underline;
 }
-
-  .group:focus .group-focus\:underline {
+.group:focus .group-focus\:underline {
   text-decoration-line: underline;
 }
-
-  :is([dir="ltr"] .ltr\:right-0) {
+:is([dir="ltr"] .ltr\:right-0) {
   right: 0px;
 }
-
-  :is([dir="rtl"] .rtl\:left-0) {
+:is([dir="rtl"] .rtl\:left-0) {
   left: 0px;
 }
-
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
   .dark\:border-transparent {
     border-color: transparent;
@@ -1831,8 +1871,7 @@ body {
     color: rgb(167 139 250 / var(--tw-text-opacity));
   }
 }
-
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
 
   .sm\:mx-40 {
     margin-left: 10rem;
@@ -1948,8 +1987,7 @@ body {
     --tw-ring-color: rgb(243 244 246 / 0.1);
   }
 }
-
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
@@ -2020,8 +2058,7 @@ body {
     text-align: left;
   }
 }
-
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .lg\:col-end-13 {
     grid-column-end: 13;
@@ -2152,6 +2189,11 @@ body {
     padding-bottom: 6rem;
   }
 
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .lg\:pl-9 {
     padding-left: 2.25rem;
   }
@@ -2174,8 +2216,7 @@ body {
     line-height: 1.75rem;
   }
 }
-
-  @media (min-width: 1280px) {
+@media (min-width: 1280px) {
 
   .xl\:min-w-\[375px\] {
     min-width: 375px;
@@ -2185,3 +2226,4 @@ body {
     max-width: 32rem;
   }
 }
+

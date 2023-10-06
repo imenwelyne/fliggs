@@ -15,6 +15,8 @@ import DoubleVertical from "../components/DoubleVertical";
 import SmallHero from "../components/SmallHero";
 import NewsElement from "../components/NewsElement";
 import NewsDescription from "../components/NewsDescription";
+import Usp from "../components/Usp";
+
 
 
 import TitleHero from "../components/TitleHero";
@@ -35,6 +37,8 @@ export function sectionRenderer(section: any, index: number) {
           return <Hero key={index} data={section} />;
         case "sections.intro":
         return <Intro key={index} data={section} />;
+        case "sections.usp":
+          return <Usp key={index} data={section} />;
       case "sections.large":
         return <Large key={index} data={section} />;
     case "sections.features":
