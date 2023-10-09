@@ -29,7 +29,7 @@ export default function SmallHero({ data }: SmallHeroProps) {
   const alignment = data.align === "left" ? "" : "justify-end";
 
   return (
-<section className="bg-gradient-to-bl from-slate-400 via-neutral-900 to-black">
+<section className="bg-gradient-to-bl from-slate-400 via-neutral-900 to-black height-small-hero">
 <div className={`container flex items-center p-12 mx-auto lg:py-24 ${alignment}`}>
       <div className="lg:flex-col">
       <div className="mb-4 lg:max-w-md ">

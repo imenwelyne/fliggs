@@ -37,7 +37,7 @@ export default function Usp({ data }: UspProps) {
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-4xl custom-font-bold leading-none text-white"
+          className="usp-title-size custom-font-bold leading-none text-white"
         />
         <HighlightedText
               text={data.description}

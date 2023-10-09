@@ -42,11 +42,11 @@ export default function Hero({ data }: HeroProps) {
           <HighlightedText
             text={data.title}
             tag="h1"
-            className="text-5xl font-bold leading-none sm:text-6xl mb-8"
+            className=" font-bold leading-none hero-text  mb-8"
             color="text-violet-400"
           />
 
-        
+{/*         
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             {data.buttons.map((button: Button, index: number) => (
               <Link
@@ -58,15 +58,15 @@ export default function Hero({ data }: HeroProps) {
                 {button.text}
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
-        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
+        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0  ">
           <Image
             src={imgUrl || ""}
             alt={
               data.picture.data.attributes.alternativeText || "none provided"
             }
-            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 "
+            className="object-contain  hero-image-height "
             width={600}
             height={600}
           />

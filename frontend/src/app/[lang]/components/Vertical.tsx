@@ -16,7 +16,7 @@ export default function Vertical({
     <section className="text-gray-100 vertical-width">
       <div className={`container flex flex-col lg:flex ${containerClass} justify-start p-6 mx-auto sm:py-12 lg:py-24 lg:justify-between`}>
         <div className="lg:flex-col">
-          <div className="lg:pl-9 flex flex-col justify-start">
+          <div className="flex flex-col justify-start">
             <HighlightedText
               text={title}
               tag="h1"

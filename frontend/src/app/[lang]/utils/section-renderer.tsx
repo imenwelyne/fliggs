@@ -1,6 +1,8 @@
 import HeroVideo from "../components/HeroVideo";
 import Large from "../components/Large";
 import Intro from "../components/Intro";
+import Space from "../components/Space";
+
 import Hero from "../components/Hero";
 import ContactForm from "../components/ContactForm";
 
@@ -55,6 +57,8 @@ export function sectionRenderer(section: any, index: number) {
       return <YellowForm key={index} data={section} />;
       case "sections.news-element":
         return <NewsElement key={index} data={section} />;
+        case "sections.space":
+          return <Space key={index}  />;
         case "sections.news-description":
           return <NewsDescription key={index} data={section} />;
     default:

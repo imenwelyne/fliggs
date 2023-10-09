@@ -36,7 +36,7 @@ export default function Intro({ data }: IntroProps) {
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
 
   return (
-<section className="text-black" style={{ background: "#faff00" }}>
+<section className="text-black intro-position" style={{ background: "#faff00" }}>
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
       <div className="flex items-center justify-center ">
           <Image
@@ -44,7 +44,7 @@ export default function Intro({ data }: IntroProps) {
             alt={
               data.picture.data.attributes.alternativeText || "none provided"
             }
-            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 "
+            className="object-contain   image-intro "
             width={600}
             height={600}
           />

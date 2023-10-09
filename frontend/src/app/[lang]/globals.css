@@ -194,7 +194,30 @@ body {
       }
       
     }
-
+    @media screen and (max-width: 1024px){
+      .image-intro{
+        
+     display: none;
+    }
+      
+    }
+    @media screen and (min-width: 1024px){
+      .height-small-hero{ 
+        height: 400px;
+      }
+      .image-intro{
+        
+          position: absolute;
+          margin-left: 500px;
+          height: 40rem;
+      
+      }
+ 
+      
+    }
+.intro-position{
+  position: relative;
+}
     .vertical-bg-image{
     background-image: url("../../../public/vertical-bg.png");
     background-position: center;
@@ -257,11 +280,12 @@ body {
  
     .content {
       top: 23%;
-      left: 5%;
+      left: 0;
+      right: 0;
       position: absolute;
       -o-object-fit: cover;
       object-fit: cover;
-      width: 100%;
+      width: 90vw;
       height: 50%;
       display: flex;
       align-items: center;
@@ -296,7 +320,12 @@ body {
   .form_group_reg_contact{
     width: 50%;
   }
-
+  .custom-container {
+    width: 90vw;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin:auto;
+  }
  
   @media only screen and (max-width: 1024px)  {
     .video-background video{
@@ -352,3 +381,37 @@ body {
 .font-spacing {
   letter-spacing: 1.8px;
 }
+
+@media (max-width: 1023px) {
+  .space-height{
+    height: 50px;
+  }
+
+  .hero-text{
+
+   font-size: 3.75rem; 
+  }
+
+  .usp-title-size{
+    font-size: 2.6rem;
+  }
+
+}
+@media (min-width: 1023px) {
+  .space-height{
+    height: 180px;
+  }
+  .hero-text{
+    width: 200%;
+    font-size: 5.75rem; 
+    position: relative;
+   }
+.hero-image-height{
+   height: 29rem;}
+
+   
+  .usp-title-size{
+    font-size: 5rem;
+  }
+}
+

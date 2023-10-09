@@ -18,8 +18,8 @@ interface FormProps {
 export default function Form({ data }: { data: FormProps }) {
 
   return (
-    <section id="registration-section" className="py-6 lg:ml-6 bg-black text-gray-50">
-    <div className="container mx-auto  flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:justify-between lg:flex-col">
+    <section id="registration-section" className=" py-6 lg:ml-6 bg-black text-gray-50">
+    <div className="container custom-container mx-auto  flex-col justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:justify-between lg:flex-col">
       <div className="mb-5 flex flex-col space-y-4 text-left">
         <h1 className="text-4xl custom-font-bold leading-none">{data.title}</h1>
         <p className="lg:text-lg custom-font-barlow">{data.description}</p>

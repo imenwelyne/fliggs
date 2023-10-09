@@ -30,7 +30,8 @@ export default function Large({ data }: LargeProps) {
 
   return (
 <section className="bg-black text-gray-100" style={{ background: "#faff00" }}>
-<div className={`container flex items-center p-12 mx-auto lg:py-24 ${alignment}`}>
+    <div className={`container custom-container flex items-center p-12 mx-auto lg:py-24 ${alignment}`} 
+          style={{ paddingLeft: '10px !important' }}>
       <div className="lg:flex-col xl:max-w-lg">
       <div className="lg:max-w-md xl:max-w-lg mb-6">
         <Image
