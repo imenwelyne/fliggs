@@ -6,34 +6,18 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
-    },
+      "type": "string",
+      "required": true
+    }, 
     "description": {
       "type": "text"
     },
-    "media": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "showLink": {
-      "type": "boolean",
-      "default": false
-    },
-    "newTab": {
-      "type": "boolean",
-      "default": false
-    },
-    "url": {
-      "type": "string"
-    },
-    "text": {
-      "type": "string"
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slices_large_bgs",
+  "info": {
+    "name": "LargeBg",
+    "displayName": "Large Background",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "align": {
+      "type": "string",
+      "required": true
+    }
+
+ 
+ 
+  }
+}

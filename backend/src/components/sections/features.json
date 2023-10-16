@@ -6,11 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
+    "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "feature": {
       "displayName": "Feature",

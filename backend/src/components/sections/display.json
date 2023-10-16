@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_displays",
+  "info": {
+    "displayName": "Display",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

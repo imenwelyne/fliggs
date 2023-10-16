@@ -630,10 +630,6 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -712,6 +708,9 @@ video {
 .grid {
   display: grid;
 }
+.contents {
+  display: contents;
+}
 .hidden {
   display: none;
 }
@@ -753,6 +752,9 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.h-screen {
+  height: 100vh;
 }
 .min-h-\[365px\] {
   min-height: 365px;
@@ -1029,10 +1031,6 @@ video {
 .bg-violet-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(167 139 250 / var(--tw-bg-opacity));
-}
-.bg-violet-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
 }
 .bg-violet-600 {
   --tw-bg-opacity: 1;
@@ -1336,13 +1334,6 @@ video {
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1350,9 +1341,6 @@ video {
 }
 .duration-200 {
   transition-duration: 200ms;
-}
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -1656,6 +1644,10 @@ body {
         
      display: none;
     }
+    .image-right-intro{
+        
+      display: none;
+     }
       
     }
     @media screen and (min-width: 1024px){
@@ -1669,6 +1661,14 @@ body {
           height: 40rem;
       
       }
+      .image-right-intro{
+        
+        position: absolute;
+        height: 32rem;
+        margin-left: 1500px;
+        margin-bottom: 220px;
+    
+    }
  
       
     }
@@ -1680,7 +1680,12 @@ body {
     background-position: center;
     background-size: cover;
     }
-  
+    .large-bg-image{
+      background-image: url(/_next/static/media/large-background.e44d4c04.png);
+      background-position: center;
+      background-size: cover;
+      }
+    
 
     .icon-size {
       width: 40px; /* Adjust the width as needed */
@@ -1785,8 +1790,23 @@ body {
     padding-right: 0 !important;
     margin:auto;
   }
+  @media only screen and (min-width: 1024px)  {
+
+  .display-custom-container {
+    width: 1000px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: auto;
+}
+}
  
   @media only screen and (max-width: 1024px)  {
+    .display-custom-container {
+      width: 90vw;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin: auto;
+  }
     .video-background video{
       display: none;
 
@@ -1827,8 +1847,13 @@ body {
     .background-size-80 {
       background-size: 80%;
     }
+    .feature-font-size{
+      font-size: 1.5rem;
+    }
   }
-  
+  .feature-font-size{
+    font-size: 5rem;
+  }
 
   .usp-text {
 
@@ -1837,6 +1862,15 @@ body {
     background-position: center;
     /* background-size: auto; */
 } 
+
+.usp-text-feature {
+
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: auto; */
+} 
+
 .align-usp-right{
   margin-left: auto;
 
@@ -1877,13 +1911,29 @@ body {
     font-size: 5rem;
   }
 }
+
+.display-component{
+  background-image: url(/_next/static/media/main-announcement-bg.8d75d8a1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  
+}
+.display-content-component{
+  background-image: url(/_next/static/media/announcement-image-2.3901887a.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+.bg-blackish {
+  background-color: #333; /* You can adjust the color code to your preference */
+}
+.bg-gray {
+  background-color: #141414; /* You can adjust the color code to your preference */
+}
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-.hover\:bg-violet-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
@@ -2281,5 +2331,3 @@ body {
     max-width: 32rem;
   }
 }
-
-

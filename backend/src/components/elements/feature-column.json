@@ -1,7 +1,6 @@
 {
   "collectionName": "components_slices_feature_columns",
   "info": {
-    "name": "FeatureColumn",
     "displayName": "Feature column",
     "icon": "align-center",
     "description": ""
@@ -9,7 +8,7 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
+      "type": "string", 
       "required": true
     },
     "description": {

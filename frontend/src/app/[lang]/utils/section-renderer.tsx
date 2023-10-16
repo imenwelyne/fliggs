@@ -1,6 +1,14 @@
 import HeroVideo from "../components/HeroVideo";
+import BigHero from "../components/BigHero";
+
 import Large from "../components/Large";
+import LargeBg from "../components/LargeBg";
+
 import Intro from "../components/Intro";
+import RightIntro from "../components/RightIntro";
+
+import Display from "../components/Display";
+
 import Space from "../components/Space";
 
 import Hero from "../components/Hero";
@@ -20,8 +28,9 @@ import NewsDescription from "../components/NewsDescription";
 import Usp from "../components/Usp";
 
 
-
 import TitleHero from "../components/TitleHero";
+import Contents from "../components/Contents";
+
 
 
 
@@ -29,8 +38,18 @@ export function sectionRenderer(section: any, index: number) {
   switch (section.__component) {
     case "sections.hero-video":
       return <HeroVideo key={index} data={section} />;
+      case "sections.big-hero":
+        return <BigHero key={index} data={section} />;
       case "sections.small-hero":
         return <SmallHero key={index} data={section} />;
+        case "sections.right-intro":
+        return <RightIntro key={index} data={section} />;
+        case "sections.large-bg":
+          return <LargeBg key={index} data={section} />;
+        case "sections.contents":
+          return <Contents key={index} data={section} />;
+        case "sections.display":
+          return <Display key={index} data={section} />;
         case "sections.title-hero":
           return <TitleHero key={index} data={section} />;
       case "sections.vertical":

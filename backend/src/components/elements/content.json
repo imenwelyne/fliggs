@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_contents",
+  "info": {
+    "displayName": "Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }, 
+    "description": {
+      "type": "text"
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+
+  }
+}

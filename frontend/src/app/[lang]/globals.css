@@ -199,6 +199,10 @@ body {
         
      display: none;
     }
+    .image-right-intro{
+        
+      display: none;
+     }
       
     }
     @media screen and (min-width: 1024px){
@@ -212,6 +216,14 @@ body {
           height: 40rem;
       
       }
+      .image-right-intro{
+        
+        position: absolute;
+        height: 32rem;
+        margin-left: 1500px;
+        margin-bottom: 220px;
+    
+    }
  
       
     }
@@ -223,7 +235,12 @@ body {
     background-position: center;
     background-size: cover;
     }
-  
+    .large-bg-image{
+      background-image: url("../../../public/large-background.png");
+      background-position: center;
+      background-size: cover;
+      }
+    
 
     .icon-size {
       width: 40px; /* Adjust the width as needed */
@@ -326,8 +343,23 @@ body {
     padding-right: 0 !important;
     margin:auto;
   }
+  @media only screen and (min-width: 1024px)  {
+
+  .display-custom-container {
+    width: 1000px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: auto;
+}
+}
  
   @media only screen and (max-width: 1024px)  {
+    .display-custom-container {
+      width: 90vw;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin: auto;
+  }
     .video-background video{
       display: none;
 
@@ -364,8 +396,13 @@ body {
     .background-size-80 {
       background-size: 80%;
     }
+    .feature-font-size{
+      font-size: 1.5rem;
+    }
   }
-  
+  .feature-font-size{
+    font-size: 5rem;
+  }
 
   .usp-text {
 
@@ -374,6 +411,15 @@ body {
     background-position: center;
     /* background-size: auto; */
 } 
+
+.usp-text-feature {
+
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: auto; */
+} 
+
 .align-usp-right{
   margin-left: auto;
 
@@ -415,3 +461,22 @@ body {
   }
 }
 
+.display-component{
+  background-image: url('../../../public/main-announcement-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  
+}
+.display-content-component{
+  background-image: url('../../../public/announcement-image-2.jpg');
+  background-position: center;
+  background-size: cover;
+  
+}
+.bg-blackish {
+  background-color: #333; /* You can adjust the color code to your preference */
+}
+.bg-gray {
+  background-color: #141414; /* You can adjust the color code to your preference */
+}

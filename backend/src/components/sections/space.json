@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_slices_spaces",
+  "info": {
+    "name": "Space",
+    "displayName": "Space",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+
+  }
+}

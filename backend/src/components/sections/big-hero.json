@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_big_heroes",
+  "info": {
+    "name": "BigHero",
+    "displayName": "Big Hero",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+ 
+   
+
+  }
+}

@@ -29,10 +29,15 @@
       "type": "dynamiczone",
       "components": [
         "sections.hero-video",
+        "sections.big-hero",
+
         "sections.vertical",
         "sections.small-hero",
         "sections.news-element",
         "sections.news-description",
+        "sections.display",
+        "sections.contents",
+
 
 
         "sections.title-hero",
@@ -42,8 +47,15 @@
         "sections.feature-rows-group",
         "sections.testimonials-group",
         "sections.large",
+        "sections.large-bg",
+
         "sections.intro",
+
+        "sections.right-intro",
+
         "sections.usp",
+        "sections.space",
+
 
         "sections.hero",
         "sections.large-video",
