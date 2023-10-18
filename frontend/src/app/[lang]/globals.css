@@ -220,8 +220,8 @@ body {
         
         position: absolute;
         height: 32rem;
-        margin-left: 1500px;
-        margin-bottom: 220px;
+        right: 15px;
+        top: -67px;
     
     }
  
@@ -240,7 +240,11 @@ body {
       background-position: center;
       background-size: cover;
       }
-    
+      .partners-bg-image{
+        background-image: url("../../../public/partners-bg.png");
+        background-position: center;
+        background-size: cover;
+        }
 
     .icon-size {
       width: 40px; /* Adjust the width as needed */
@@ -378,7 +382,7 @@ body {
     }
 
     .custom-width-hero-text {
-      max-width: 100%;
+      max-width: 100%; 
     }
 
   }
@@ -390,16 +394,29 @@ body {
     .usp-text-width{
       width: 55%;
     }
+    .news-title-width{
+      width: 80%;
+    }
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1024px) {
     .background-size-80 {
       background-size: 80%;
     }
     .feature-font-size{
       font-size: 1.5rem;
     }
+    .news-date-size{
+      font-size: 1.7rem;
+    }
   }
+  @media (min-width: 1024px) {
+ 
+    .news-date-size{
+      font-size: 8rem;
+    }
+  }
+
   .feature-font-size{
     font-size: 5rem;
   }
@@ -427,12 +444,20 @@ body {
 .font-spacing {
   letter-spacing: 1.8px;
 }
-
-@media (max-width: 1023px) {
+.big-hero-text{
+  font-size: 3.75rem;
+  width: 70%;
+      
+     }
+@media (max-width: 1024px) {
   .space-height{
     height: 50px;
   }
 
+  .big-hero-text{
+font-size: 2.25rem;
+    width: 100%;
+   }
   .hero-text{
 
    font-size: 3.75rem; 
@@ -441,9 +466,13 @@ body {
   .usp-title-size{
     font-size: 2.6rem;
   }
+  .feature-title-size{
+    font-size: 2.6rem;
+  }
+
 
 }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .space-height{
     height: 180px;
   }
@@ -459,8 +488,15 @@ body {
   .usp-title-size{
     font-size: 5rem;
   }
+  .feature-title-size{
+    font-size: 5rem;
+  }
 }
-
+@media only screen and (max-width: 1279px) and (min-width: 1024px)  {
+  .feature-title-size{
+    font-size: 4rem;
+  }
+}
 .display-component{
   background-image: url('../../../public/main-announcement-bg.jpg');
   background-position: center;
@@ -480,3 +516,83 @@ body {
 .bg-gray {
   background-color: #141414; /* You can adjust the color code to your preference */
 }
+.big-hero-height{
+  height: 700px;
+}
+
+/* Initially hide both boxes */
+.yellow-box, .gray-box {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 200px;
+}
+
+/* Apply hover styles to the container element */
+.container:hover .yellow-box {
+  display: flex;
+  background-color: #FAFF00;
+  color: rgb(0, 0, 0);
+}
+
+.container:hover .gray-box {
+  display: flex;
+  background-color: #D9D9D9;
+  color: white;
+}
+
+.news-box {
+  background-color: #FAFF00; /* Yellow background color */
+  color: rgb(0, 0, 0); /* Text color */
+  display: flex; /* Use flexbox */
+
+  padding: 15px; /* Adjust the padding as needed */
+}
+
+.news-box-background-yellow {
+  background-color: #FAFF00; }
+  .news-box-background-black {
+    background-color: rgb(0, 0, 0);  }
+
+.news-theme-Yellow{
+  background-color: #FAFF00;
+}
+.news-theme-title-Yellow{
+  color: #FAEB00;
+}
+
+
+.news-theme-Dark{
+  background-color: #141414;
+}
+.news-theme-title-Dark{
+  color: rgb(0, 0, 0); 
+}
+
+.news-theme-Light{
+  background-color: #D9D9D9;
+}
+.news-theme-title-Light{
+  color: rgb(255, 255, 255); 
+}
+
+
+@media only screen and (max-width: 1024px)   {
+
+.custom-news-card{
+  padding: 20px;
+  width: 90%;
+}
+
+.news-card-container{
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-image-container{
+  width: 83vw;
+    padding: 0;
+    padding-bottom: 25px;
+}}

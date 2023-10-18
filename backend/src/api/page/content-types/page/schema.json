@@ -36,7 +36,6 @@
         "sections.news-element",
         "sections.news-description",
         "sections.display",
-        "sections.contents",
 
 
 
@@ -45,6 +44,7 @@
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
+
         "sections.testimonials-group",
         "sections.large",
         "sections.large-bg",
@@ -67,6 +67,11 @@
         "sections.lead-form-yellow",
 
         "sections.features",
+        "sections.teams",
+        "sections.news",
+
+        "sections.partners",
+
         "sections.heading"
       ],
       "pluginOptions": {

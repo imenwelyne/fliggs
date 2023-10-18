@@ -26,7 +26,7 @@ function Feature({ title, description,align }: Feature) {
       <HighlightedText
         text={title}
         tag="h1"
-        className="usp-title-size py-4 custom-font-bold leading-none text-white"
+        className="feature-title-size py-4 custom-font-bold leading-none text-white"
       />
       <HighlightedText
             text={description}
@@ -43,11 +43,11 @@ function Feature({ title, description,align }: Feature) {
 export default function Features({ data }: FeaturesProps) {
   return (
 
-    <section className="display-content-component text-gray-100 m:py-12 lg:py-24">
+    <section className="display-content-component text-gray-100 m:py-12 py-24">
       <div className="container mx-auto py-4 space-y-2">
         <h2 className="feature-font-size text-black font-bold">{data.title}</h2>
       </div>
-      <div className="container bg-blackish mx-auto my-6 justify-center ">
+      <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10">
         {data.feature.map((feature: Feature, index: number) => (
           <Feature key={index} {...feature} />
         ))}

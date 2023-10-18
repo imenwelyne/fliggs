@@ -16,6 +16,12 @@ import ContactForm from "../components/ContactForm";
 
 
 import Features from "../components/Features";
+import Teams from "../components/Teams";
+import News from "../components/News";
+
+import Partners from "../components/Partners";
+
+
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import Form from "../components/Form";
@@ -29,7 +35,6 @@ import Usp from "../components/Usp";
 
 
 import TitleHero from "../components/TitleHero";
-import Contents from "../components/Contents";
 
 
 
@@ -46,8 +51,7 @@ export function sectionRenderer(section: any, index: number) {
         return <RightIntro key={index} data={section} />;
         case "sections.large-bg":
           return <LargeBg key={index} data={section} />;
-        case "sections.contents":
-          return <Contents key={index} data={section} />;
+    
         case "sections.display":
           return <Display key={index} data={section} />;
         case "sections.title-hero":
@@ -64,6 +68,12 @@ export function sectionRenderer(section: any, index: number) {
         return <Large key={index} data={section} />;
     case "sections.features":
       return <Features key={index} data={section} />;
+      case "sections.teams":
+        return <Teams key={index} data={section} />;
+        case "sections.news":
+          return <News key={index} data={section} />;
+        case "sections.partners":
+          return <Partners key={index} data={section} />;
     case "sections.testimonials-group":
       return <Testimonials key={index} data={section} />;
     case "sections.pricing":

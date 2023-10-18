@@ -15,7 +15,7 @@ interface BigHeroProps {
 export default function BigHero({ data }: BigHeroProps) {
 const test = true;
   return (
-<section className="bg-gradient-to-bl from-slate-400 via-neutral-900 to-black ">
+<section className="big-hero-height bg-gradient-to-bl from-slate-400 via-neutral-900 to-black ">
 <div className={`container flex items-center p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
@@ -23,7 +23,7 @@ const test = true;
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="text-4xl custom-font-bold leading-none text-white"
+          className="big-hero-text custom-font-bold leading-none text-white"
         />
       </div>
     </div>

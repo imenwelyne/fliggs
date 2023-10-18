@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_news",
+  "info": {
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "new": {
+      "displayName": "News Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.new"
+    }
+  }
+}

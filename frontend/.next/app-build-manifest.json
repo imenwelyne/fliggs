@@ -6,25 +6,25 @@
       "static/css/app/[lang]/layout.css",
       "static/chunks/app/[lang]/layout.js"
     ],
-    "/[lang]/[...slug]/page": [
+    "/[lang]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[lang]/[...slug]/page.js"
-    ],
-    "/[lang]/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[lang]/error.js"
+      "static/chunks/app/[lang]/page.js"
     ],
     "/[lang]/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[lang]/loading.js"
     ],
-    "/[lang]/page": [
+    "/[lang]/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[lang]/page.js"
+      "static/chunks/app/[lang]/error.js"
+    ],
+    "/[lang]/[...slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lang]/[...slug]/page.js"
     ]
   }
 }

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_elements_news",
+  "info": {
+    "displayName": "News Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }, 
+    "description": {
+      "type": "text",
+      "required": true
+
+    },
+    "date": {
+      "type": "text",
+      "required": true
+
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Dark",
+        "Light",
+        "Yellow"
+
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+   
+      ]
+    }
+  }
+}

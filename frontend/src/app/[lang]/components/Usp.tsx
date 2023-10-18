@@ -25,7 +25,7 @@ interface UspProps {
   };
 }
 
-export default function Usp({ data }: UspProps) {
+export default function Usp({ data }: UspProps) { 
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
   const alignment = data.align === "left" ? "" : "align-usp-right";
   return (

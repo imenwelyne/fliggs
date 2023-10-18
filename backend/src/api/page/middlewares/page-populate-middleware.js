@@ -21,6 +21,30 @@ const populate = {
           },
         },
       },
+      new: {
+        populate: {
+          fields: ["title", "description", "date", "color", "image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
+      team: {
+        populate: {
+          fields: ["name", "position", "align","image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
+      partner: {
+        populate: {
+          fields: ["image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
       testimonials: {
         populate: {
           picture: {
