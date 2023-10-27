@@ -5,6 +5,7 @@
 
 body {
   @apply bg-black
+
 }
 
 
@@ -154,7 +155,7 @@ body {
    
   }
   .bg-blackish-gray {
-    background-color: #333; 
+    background-color: #232323; 
     color: white ;
   }
 
@@ -245,6 +246,12 @@ body {
         background-position: center;
         background-size: cover;
         }
+        .engagements-bg-image{
+          background-image: url("../../../public/engagements-bg.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          }
 
     .icon-size {
       width: 40px; /* Adjust the width as needed */
@@ -429,6 +436,14 @@ body {
     /* background-size: auto; */
 } 
 
+.numbers-text {
+
+  padding: 90px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: auto; */
+} 
+
 .usp-text-feature {
 
   padding: 50px 50px;
@@ -463,8 +478,18 @@ font-size: 2.25rem;
    font-size: 3.75rem; 
   }
 
+  .display-title{
+    font-size: 3rem; 
+    text-align: start;
+
+
+  }
+
   .usp-title-size{
     font-size: 2.6rem;
+  }
+  .partner-link-size{
+    font-size: 2rem;
   }
   .feature-title-size{
     font-size: 2.6rem;
@@ -472,6 +497,11 @@ font-size: 2.25rem;
 
 
 }
+
+.padding-engagement{
+padding-top: 120px;  
+}
+
 @media (min-width: 1024px) {
   .space-height{
     height: 180px;
@@ -481,10 +511,20 @@ font-size: 2.25rem;
     font-size: 5.75rem; 
     position: relative;
    }
+   .display-title{
+    font-size: 5.75rem; 
+    width: 200%;
+    position: relative;
+
+
+
+  }
 .hero-image-height{
    height: 29rem;}
 
-   
+   .partner-link-size{
+    font-size: 3.5rem;
+  }
   .usp-title-size{
     font-size: 5rem;
   }
@@ -501,11 +541,14 @@ font-size: 2.25rem;
   background-image: url('../../../public/main-announcement-bg.jpg');
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  background-position: top;
+  height: 120vh;
+  display: flex;
+  align-items: center;  
+  padding-top: 10%;
   
 }
 .display-content-component{
-  background-image: url('../../../public/announcement-image-2.jpg');
   background-position: center;
   background-size: cover;
   
@@ -595,4 +638,106 @@ font-size: 2.25rem;
   width: 83vw;
     padding: 0;
     padding-bottom: 25px;
-}}
+}
+.img-large-bloc{
+  width: auto;
+}
+}
+
+@media only screen and (max-width: 670px)   {
+
+  .feature-title-padding{
+    padding-left: 20px;
+  }}
+
+   .partner-height{
+    max-height: 300px;
+   }
+   .engagements-height{
+    max-height: 150px;
+   }
+
+ .display-box-padding{
+
+ }
+   .read-more-text{
+    color: #FAFF00;
+    text-align: center;
+    padding-top: 100px;
+    display: block;
+    font-size: 18px;
+    position: relative;
+    width: fit-content;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+   }
+   .read-more{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+   }
+   .read-more-mobile{
+
+   }
+   /* a.read-more-text::after {
+    content: ' ';
+    width: 100px;
+    height: 100px;
+     background: red; 
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background-image: url(../../../public/arrow-down.png);
+    background-position: center;
+    background-size: contain;
+} */
+.member-container{
+  width: 40%;
+  display: flex;
+
+}
+.team-container{
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+.team-section{
+  width: 100%;
+}
+   .read-more-arrow{
+    /* height: 70px;
+    width: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+display: flex;
+    background-image: url('../../../public/arrow-down.png');
+    background-position: center;
+    background-size: cover; */
+    
+  }
+  @media screen and (max-width: 1020px) {
+    .display-component{
+      height: 80vh;
+      
+    }
+
+.read-more{
+  display: none;   
+  }
+  .read-more-mobile{
+    margin-bottom: 200px;
+  }
+}
+
+.align-items-left{
+  align-items: end;
+  text-align: end;
+}

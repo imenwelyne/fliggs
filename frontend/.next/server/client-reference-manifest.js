@@ -1018,6 +1018,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/[lang]/components/arrow-down.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
@@ -1044,6 +1070,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/[lang]/components/Display.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Display.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Display.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Display.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/[lang]/components/FormSubmit.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
@@ -1063,6 +1115,58 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./src/app/[lang]/components/FormSubmit.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/InvestorFormSubmit.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/Teams.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Teams.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Teams.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Teams.tsx",
         "name": "default",
         "chunks": [
           "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
@@ -3296,6 +3400,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#default": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
       "name": "*",
@@ -3320,6 +3448,30 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Display.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Display.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Display.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Display.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Display.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Display.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
       "name": "*",
@@ -3338,6 +3490,54 @@ self.__RSC_MANIFEST={
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\FormSubmit.tsx#default": {
       "id": "(app-client)/./src/app/[lang]/components/FormSubmit.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\InvestorFormSubmit.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\InvestorFormSubmit.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\InvestorFormSubmit.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/InvestorFormSubmit.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Teams.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Teams.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Teams.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Teams.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Teams.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Teams.tsx",
       "name": "default",
       "chunks": [
         "app/[lang]/[...slug]/page:static/chunks/app/[lang]/[...slug]/page.js"

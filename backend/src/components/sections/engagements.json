@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_engagements",
+  "info": {
+    "displayName": "Engagements",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }, 
+    "engagement": {
+      "displayName": "Engagement",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.engagement"
+    }
+  }
+}

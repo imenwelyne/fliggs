@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_slices_vertical-no-bgs",
+  "info": {
+    "name": "Vertical No Background",
+    "displayName": "VerticalNoBg Element",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "string",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "description2": {
+      "type": "string",
+      "required": true
+    },
+    "align1": {
+      "type": "string",
+      "required": true
+    },
+    "align2": {
+      "type": "string",
+      "required": true
+    }
+    
+  }
+}

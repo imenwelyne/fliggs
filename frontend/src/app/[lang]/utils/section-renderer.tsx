@@ -1,5 +1,7 @@
 import HeroVideo from "../components/HeroVideo";
 import BigHero from "../components/BigHero";
+import BigHeroButton from "../components/BigHeroButton";
+
 
 import Large from "../components/Large";
 import LargeBg from "../components/LargeBg";
@@ -13,14 +15,19 @@ import Space from "../components/Space";
 
 import Hero from "../components/Hero";
 import ContactForm from "../components/ContactForm";
+import InvestorForm from "../components/InvestorForm";
+
 
 
 import Features from "../components/Features";
 import Teams from "../components/Teams";
 import News from "../components/News";
+import Numbers from "../components/Numbers";
+
 
 import Partners from "../components/Partners";
 
+import Engagements from "../components/Engagements";
 
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
@@ -28,6 +35,8 @@ import Form from "../components/Form";
 import YellowForm from "../components/YellowForm";
 
 import DoubleVertical from "../components/DoubleVertical";
+import DoubleVerticalNoBg from "../components/DoubleVerticalNoBg";
+
 import SmallHero from "../components/SmallHero";
 import NewsElement from "../components/NewsElement";
 import NewsDescription from "../components/NewsDescription";
@@ -45,6 +54,8 @@ export function sectionRenderer(section: any, index: number) {
       return <HeroVideo key={index} data={section} />;
       case "sections.big-hero":
         return <BigHero key={index} data={section} />;
+        case "sections.big-hero-button":
+          return <BigHeroButton key={index} data={section} />;
       case "sections.small-hero":
         return <SmallHero key={index} data={section} />;
         case "sections.right-intro":
@@ -58,6 +69,8 @@ export function sectionRenderer(section: any, index: number) {
           return <TitleHero key={index} data={section} />;
       case "sections.vertical":
         return <DoubleVertical key={index} data={section} />;
+        case "sections.vertical-no-bg":
+          return <DoubleVerticalNoBg key={index} data={section} />;
         case "sections.hero":
           return <Hero key={index} data={section} />;
         case "sections.intro":
@@ -72,8 +85,12 @@ export function sectionRenderer(section: any, index: number) {
         return <Teams key={index} data={section} />;
         case "sections.news":
           return <News key={index} data={section} />;
+          case "sections.numbers":
+            return <Numbers key={index} data={section} />;
         case "sections.partners":
           return <Partners key={index} data={section} />;
+          case "sections.engagements":
+            return <Engagements key={index} data={section} />;
     case "sections.testimonials-group":
       return <Testimonials key={index} data={section} />;
     case "sections.pricing":
@@ -84,6 +101,8 @@ export function sectionRenderer(section: any, index: number) {
       return <ContactForm key={index} data={section} />;
       case "sections.lead-form-yellow":
       return <YellowForm key={index} data={section} />;
+      case "sections.investor-form":
+        return <InvestorForm key={index} data={section} />;
       case "sections.news-element":
         return <NewsElement key={index} data={section} />;
         case "sections.space":

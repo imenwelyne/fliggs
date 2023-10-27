@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_investor_forms",
+  "info": {
+    "name": "Investor form",
+    "displayName": "Investor form",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+ 
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+
+    "description": {
+      "type": "text"
+    },
+    "calendlyUrl": {
+      "type": "string"
+    }
+
+  }
+}

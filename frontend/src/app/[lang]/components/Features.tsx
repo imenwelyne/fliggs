@@ -1,10 +1,12 @@
 import Link from "next/link";
 import HighlightedText from "./HighlightedText";
-
+import { getStrapiMedia } from "../utils/api-helpers";
 interface FeaturesProps {
   data: {
     title: string;
     feature: Feature[];
+    picture: Picture;
+
   };
 }
 
@@ -13,9 +15,20 @@ interface Feature {
   title: string;
   description: string;
   align: string;
-}
 
+}
+interface Picture {
+  data: {
+    id: string;
+    attributes: {
+      url: string;
+      name: string;
+      alternativeText: string;
+    };
+  };
+}
 function Feature({ title, description,align }: Feature) {
+
   const alignment = align === "left" ? "" : "align-usp-right";
 
   return (
@@ -41,11 +54,13 @@ function Feature({ title, description,align }: Feature) {
 }
 
 export default function Features({ data }: FeaturesProps) {
+  const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
+
   return (
 
-    <section className="display-content-component text-gray-100 m:py-12 py-24">
+    <section style={{ backgroundImage: `url(${imgUrl})`}} className={`display-content-component text-gray-100 m:py-12 py-24`} >
       <div className="container mx-auto py-4 space-y-2">
-        <h2 className="feature-font-size text-black font-bold">{data.title}</h2>
+        <h2 className="feature-title-padding feature-font-size text-black font-bold">{data.title}</h2>
       </div>
       <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10">
         {data.feature.map((feature: Feature, index: number) => (

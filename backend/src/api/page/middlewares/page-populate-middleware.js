@@ -21,6 +21,14 @@ const populate = {
           },
         },
       },
+      number: {
+        populate: {
+          fields: ["title", "description","image","align"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
       new: {
         populate: {
           fields: ["title", "description", "date", "color", "image"],
@@ -40,6 +48,14 @@ const populate = {
       partner: {
         populate: {
           fields: ["image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
+      engagement: {
+        populate: {
+          fields: ["label","url","image"],
           image: {
             fields: ["url", "alternativeText", "caption", "width", "height"],
           },

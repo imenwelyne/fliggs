@@ -30,8 +30,13 @@
       "components": [
         "sections.hero-video",
         "sections.big-hero",
+        "sections.big-hero-button",
+
 
         "sections.vertical",
+        "sections.vertical-no-bg",
+
+
         "sections.small-hero",
         "sections.news-element",
         "sections.news-description",
@@ -62,15 +67,20 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.lead-form",
+        "sections.investor-form",
+
         "sections.contact",
 
         "sections.lead-form-yellow",
 
         "sections.features",
+        "sections.numbers",
+
         "sections.teams",
         "sections.news",
 
         "sections.partners",
+        "sections.engagements",
 
         "sections.heading"
       ],

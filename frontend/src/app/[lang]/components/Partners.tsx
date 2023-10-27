@@ -43,7 +43,7 @@ function Partner({ image }: Partner) {
             alt={
              image.data.attributes.alternativeText || "none provided"
             }
-            className="object-contain  hero-image-height "
+            className="object-contain "
             width={300}
             height={300}
           />
@@ -60,7 +60,7 @@ export default function Partners({ data }: PartnersProps) {
       <div className="container mx-auto py-4 space-y-2">
         <h2 className="usp-title-size text-white font-bold">{data.title}</h2>
       </div>
-      <div className="flex flex-row">
+      <div className="partner-height flex flex-row">
 
         {data.partner.map((partner: Partner, index: number) => (
           <Partner key={index} {...partner} />
@@ -68,7 +68,7 @@ export default function Partners({ data }: PartnersProps) {
         </div>
          <div className="container mx-auto py-4 space-y-2">
          <a href="https://www.prnewswire.com/news-releases/fliggs-mobile-and-t-mobile-launch-an-all-digital-web3-mvno-301942865.html?tc=eml_cleartime" target="_blank">
-          <h1 className="text-5xl text-white font-bold">{data.description}</h1>
+          <h1 className="partner-link-size text-white  font-bold">{data.description}</h1>
         </a>      </div>
   </div>
 </section>

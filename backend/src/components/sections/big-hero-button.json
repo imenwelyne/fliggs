@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_big_heroe_button",
+  "info": {
+    "name": "BigHeroButton",
+    "displayName": "Big Hero Button",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+ 
+   
+
+  }
+}

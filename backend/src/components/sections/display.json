@@ -9,6 +9,14 @@
     "title": {
       "type": "string",
       "required": false
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

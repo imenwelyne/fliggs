@@ -39,7 +39,7 @@ export default function Large({ data }: LargeProps) {
           alt={
             data.picture.data.attributes.alternativeText || "none provided"
           }
-          className=""
+          className="img-large-bloc"
           width={400}
           height={400}
         />

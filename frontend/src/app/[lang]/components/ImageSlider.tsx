@@ -2,7 +2,7 @@
 import { Fade } from "react-slideshow-image";
 import { getStrapiMedia } from "../utils/api-helpers";
 import Image from "next/image";
-
+ 
 interface Image {
   id: number;
   attributes: {
@@ -19,6 +19,7 @@ interface SlidShowProps {
 }
 
 export default function Slideshow({ data }: { data: SlidShowProps }) {
+  
   return (
     <div className="slide-container">
       <Fade>

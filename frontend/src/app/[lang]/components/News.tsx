@@ -88,7 +88,6 @@ function New({ title, description,date,color,image }: New) {
 }
 
 export default function News({ data }: NewsProps) {
-  console.log(data);
   return (
 
     <section className="bg-gradient-to-r from-neutral-900 via-stone-700 to-neutral-500 text-gray-100 m:py-12 lg:py-24">
