@@ -53,6 +53,14 @@ const populate = {
           },
         },
       },
+      dispicture: {
+        populate: {
+          fields: ["image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
       engagement: {
         populate: {
           fields: ["label","url","image"],

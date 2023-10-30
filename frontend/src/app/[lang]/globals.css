@@ -538,15 +538,30 @@ padding-top: 120px;
   }
 }
 .display-component{
-  background-image: url('../../../public/main-announcement-bg.jpg');
+  /* background-image: url('../../../public/main-announcement-bg.jpg');
   background-position: center;
   background-size: cover;
-  background-position: top;
+  background-position: top; */
   height: 120vh;
   display: flex;
   align-items: center;  
   padding-top: 10%;
   
+}
+.image-slider{
+  height: 110vh;
+  position: relative;
+}
+.slider-container{
+  display: flex;
+  justify-content: center;
+}
+.control-dots{
+  display: none;
+}
+.flat{
+  position: absolute;
+  top: 20%;
 }
 .display-content-component{
   background-position: center;
@@ -666,8 +681,8 @@ padding-top: 120px;
     padding-top: 100px;
     display: block;
     font-size: 18px;
-    position: relative;
-    width: fit-content;
+    /* position: relative;
+    width: fit-content; */
     padding-left: 0;
     padding-right: 0;
     margin: auto;
@@ -711,16 +726,8 @@ padding-top: 120px;
 .team-section{
   width: 100%;
 }
-   .read-more-arrow{
-    /* height: 70px;
-    width: 70px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: auto;
-display: flex;
-    background-image: url('../../../public/arrow-down.png');
-    background-position: center;
-    background-size: cover; */
+   .arrow{
+   width: 50px;
     
   }
   @media screen and (max-width: 1020px) {

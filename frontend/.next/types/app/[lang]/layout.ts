@@ -1,4 +1,4 @@
-// File: C:\Users\dev\OneDrive\Bureau\Hass\nextjs-corporate-starter\frontend\src\app\[lang]\layout.tsx
+// File: C:\Users\Amal\Desktop\fliggs-web3\frontend\src\app\[lang]\layout.tsx
 import * as entry from '../../../../src/app/[lang]/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
