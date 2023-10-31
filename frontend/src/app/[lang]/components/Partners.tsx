@@ -37,7 +37,7 @@ function Partner({ image }: Partner) {
 
   return (
 <section >
-<div className="flex items-center justify-center p-6 mt-8 lg:mt-0  ">
+<div className="partner flex items-center justify-center p-6 mt-8 lg:mt-0  ">
 <Image
             src={imgUrl || ""}
             alt={

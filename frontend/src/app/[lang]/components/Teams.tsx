@@ -27,6 +27,7 @@ interface TeamsProps {
 interface Team {
   id: string;
   name: string;
+  index: number
   position: string;
   align: string;
   image : Picture;
@@ -34,15 +35,17 @@ interface Team {
 
 function Team({ name, position,align,image }: Team) {
   const imgUrl = getStrapiMedia(image.data.attributes.url);
-  const [crono,setCrono] = useState(0);
-  const [space,setSpace] = useState(false);
+  const [current,setCruent] = useState(0);
   const alignment = align === "right" ? "align-usp-right" : "";
+
 
   return (
 <section className="team-section bg-black">
   <div className={`container  mx-auto lg:py-8 `}>  
-    <div className="lg:flex-col">
-      <div className={`flex-col flex justify-start items-center usp-text usp-text-width background-size-80 `} style={{  backgroundImage: `url(${imgUrl})`}}>
+    <div className="lg:flex-col"
+    //  style={{ float: index % 2 === 0 ? 'right' : 'none' }}
+     >
+      <div className={`flex-col flex justify-start items-center usp-text usp-text-width  `} style={{  backgroundImage: `url(${imgUrl})`}}>
         <div className="yellow-box p-4">
           <HighlightedText
             text={name}
@@ -75,7 +78,7 @@ export default function Teams({ data }: TeamsProps) {
       </div>
       <div className="team-container">
         {data.team.map((team: Team, index: number) => (
-          <div className="member-container" style={{marginLeft: index === 2 || index === 6 || index === 10 ? '200px' : '0'}}>
+          <div className={`member-container ${index === 2 || index === 6 || index === 10 ? 'box' : ''} ${index % 2 === 0  ? 'aside' : ''}`}>
             <Team key={index} {...team} />
           </div>
         ))}
