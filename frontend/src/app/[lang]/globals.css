@@ -57,7 +57,9 @@ body {
 .rich-text p {
   @apply mb-4;
 }
-
+.heroTitle{
+  font-size: 30px
+}
 /* Emphasis */
 .rich-text strong {
   @apply font-bold;
@@ -481,8 +483,6 @@ font-size: 2.25rem;
   .display-title{
     font-size: 3rem; 
     text-align: start;
-
-
   }
 
   .usp-title-size{
@@ -512,8 +512,9 @@ padding-top: 120px;
     position: relative;
    }
    .display-title{
-    font-size: 5.75rem; 
+    font-size: 4rem; 
     width: 200%;
+    line-height: 75px;
     position: relative;
 
 
@@ -568,6 +569,7 @@ padding-top: 120px;
   background-size: cover;
   
 }
+
 .bg-blackish {
   background-color: #333; /* You can adjust the color code to your preference */
 }
@@ -663,7 +665,9 @@ padding-top: 120px;
 
   .feature-title-padding{
     padding-left: 20px;
-  }}
+  }
+  
+  }
 
    .partner-height{
     max-height: 300px;
@@ -736,9 +740,7 @@ padding-top: 120px;
       
     }
 
-.read-more{
-  display: none;   
-  }
+
   .read-more-mobile{
     margin-bottom: 200px;
   }
@@ -747,4 +749,39 @@ padding-top: 120px;
 .align-items-left{
   align-items: end;
   text-align: end;
+}
+@media only screen and (max-width: 1748px)   {
+  .image-slider{
+    height: 85vh;
+  }
+}
+@media only screen and (max-width: 1325px)   {
+  .image-slider{
+    height: 70vh;
+  }
+  .flat{
+    top: 10%;
+  }
+  .read-more-text{
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 984px)   {
+  .image-slider{
+    height: 50vh;
+  }
+  .arrow{
+    width: 35px;
+    margin-bottom: 50px;
+     
+   }
+  
+}
+@media only screen and (max-width: 768px)   {
+  .read-more{
+    display: none;   
+    }
+    .flat{
+      top: 0;
+    }
 }

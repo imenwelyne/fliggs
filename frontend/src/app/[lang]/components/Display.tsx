@@ -94,7 +94,7 @@ export default function Display({ data }: DisplayProps) {
         <HighlightedText
           text={data.title}
           tag="h1" 
-          className="font-bold leading-none display-title text-white mb-8"
+          className="font-bold heroTitle leading-none display-title text-white mb-8"
         />
       </div>
 

@@ -1454,7 +1454,9 @@ body {
 .rich-text p {
   margin-bottom: 1rem;
 }
-
+.heroTitle{
+  font-size: 30px
+}
 /* Emphasis */
 .rich-text strong {
   font-weight: 700;
@@ -1953,8 +1955,6 @@ font-size: 2.25rem;
   .display-title{
     font-size: 3rem; 
     text-align: start;
-
-
   }
 
   .usp-title-size{
@@ -1984,8 +1984,9 @@ padding-top: 120px;
     position: relative;
    }
    .display-title{
-    font-size: 5.75rem; 
+    font-size: 4rem; 
     width: 200%;
+    line-height: 75px;
     position: relative;
 
 
@@ -2040,6 +2041,7 @@ padding-top: 120px;
   background-size: cover;
   
 }
+
 .bg-blackish {
   background-color: #333; /* You can adjust the color code to your preference */
 }
@@ -2135,7 +2137,9 @@ padding-top: 120px;
 
   .feature-title-padding{
     padding-left: 20px;
-  }}
+  }
+  
+  }
 
    .partner-height{
     max-height: 300px;
@@ -2208,9 +2212,7 @@ padding-top: 120px;
       
     }
 
-.read-more{
-  display: none;   
-  }
+
   .read-more-mobile{
     margin-bottom: 200px;
   }
@@ -2220,50 +2222,74 @@ padding-top: 120px;
   align-items: end;
   text-align: end;
 }
-
+@media only screen and (max-width: 1748px)   {
+  .image-slider{
+    height: 85vh;
+  }
+}
+@media only screen and (max-width: 1325px)   {
+  .image-slider{
+    height: 70vh;
+  }
+  .flat{
+    top: 10%;
+  }
+  .read-more-text{
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 984px)   {
+  .image-slider{
+    height: 50vh;
+  }
+  .arrow{
+    width: 35px;
+    margin-bottom: 50px;
+     
+   }
+  
+}
+@media only screen and (max-width: 768px)   {
+  .read-more{
+    display: none;   
+    }
+    .flat{
+      top: 0;
+    }
+}
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
-
 .hover\:text-violet-400:hover {
   --tw-text-opacity: 1;
   color: rgb(167 139 250 / var(--tw-text-opacity));
 }
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
-
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
-
 .focus\:no-underline:focus {
   text-decoration-line: none;
 }
-
 .group:hover .group-hover\:underline {
   text-decoration-line: underline;
 }
-
 .group:focus .group-focus\:underline {
   text-decoration-line: underline;
 }
-
 :is([dir="ltr"] .ltr\:right-0) {
   right: 0px;
 }
-
 :is([dir="rtl"] .rtl\:left-0) {
   left: 0px;
 }
-
 @media (prefers-color-scheme: dark) {
 
   .dark\:border-transparent {
@@ -2280,7 +2306,6 @@ padding-top: 120px;
     color: rgb(167 139 250 / var(--tw-text-opacity));
   }
 }
-
 @media (min-width: 640px) {
 
   .sm\:mx-40 {
@@ -2397,7 +2422,6 @@ padding-top: 120px;
     --tw-ring-color: rgb(243 244 246 / 0.1);
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:col-span-3 {
@@ -2469,7 +2493,6 @@ padding-top: 120px;
     text-align: left;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:col-end-13 {
@@ -2628,7 +2651,6 @@ padding-top: 120px;
     line-height: 1.75rem;
   }
 }
-
 @media (min-width: 1280px) {
 
   .xl\:min-w-\[375px\] {
