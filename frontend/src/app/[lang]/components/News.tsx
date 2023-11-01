@@ -28,12 +28,12 @@ interface New {
   title: string;
   description: string;
   date: string;
-
+  url: string;
   color: string;
   image : Picture;
 }
 
-function New({ title, description,date,color,image }: New) {
+function New({ title, description,date,color,image,url }: New) {
   const imgUrl = getStrapiMedia(image.data.attributes.url);
   const descriptionColor = color === 'Dark' ? 'text-white' : 'text-black';
   const boxBackgroundColor = color === 'Yellow' ? 'news-box-background-black' : 'news-box-background-yellow';
@@ -78,7 +78,16 @@ function New({ title, description,date,color,image }: New) {
       tag="p"
       className={`custom-font-barlow leading-none ${descriptionColor}`}
     />
+     <div className="container mx-auto py-4 space-y-2">
+     {/* //hard text */}
+         {/* Conditionally render the link if url is not null */
+            url ? (
+              <a href={url} target="_blank">
+                <h1 className={`custom-font-barlow leading-none font-bold ${descriptionColor}`}>Read more &gt;</h1>
+              </a>
+            ) : null}   </div>
   </div>
+ 
  
 </div>
 

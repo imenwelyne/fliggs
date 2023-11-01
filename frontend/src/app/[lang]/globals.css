@@ -413,7 +413,8 @@ body {
       background-size: 80%;
     }
     .feature-font-size{
-      font-size: 1.5rem;
+      font-size: 4rem;
+      width: 70%;
     }
     .news-date-size{
       font-size: 1.7rem;
@@ -424,11 +425,15 @@ body {
     .news-date-size{
       font-size: 8rem;
     }
+    .feature-font-size{
+      font-size: 5.5rem;
+    }
+    .large-bg-text-width{
+      width: 45rem;
+    }
   }
 
-  .feature-font-size{
-    font-size: 5rem;
-  }
+
 
   .usp-text {
 
@@ -491,8 +496,11 @@ font-size: 2.25rem;
   .partner-link-size{
     font-size: 2rem;
   }
+  .engagement-title-size{
+    font-size: 1.7rem;
+  }
   .feature-title-size{
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 
 
@@ -501,7 +509,9 @@ font-size: 2.25rem;
 .padding-engagement{
 padding-top: 120px;  
 }
-
+.bg-blackish-margin {
+  margin-top: 10vh;
+}
 @media (min-width: 1024px) {
   .space-height{
     height: 180px;
@@ -526,11 +536,18 @@ padding-top: 120px;
    .partner-link-size{
     font-size: 3.5rem;
   }
+  .engagement-title-size{
+    font-size: 2.0rem;
+  }
   .usp-title-size{
     font-size: 5rem;
   }
   .feature-title-size{
     font-size: 5rem;
+  }
+
+  .bg-blackish-margin{
+    margin-top: 50vh;
   }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px)  {
@@ -550,7 +567,7 @@ padding-top: 120px;
   
 }
 .image-slider{
-  height: 110vh;
+  height: 130vh;
   position: relative;
 }
 .slider-container{
@@ -661,7 +678,7 @@ padding-top: 120px;
 }
 }
 
-@media only screen and (max-width: 670px)   {
+@media only screen and (max-width: 670px)    {
 
   .feature-title-padding{
     padding-left: 20px;
@@ -744,6 +761,14 @@ padding-top: 120px;
   .read-more-mobile{
     margin-bottom: 200px;
   }
+
+  .features-margins{
+    width: 90%;
+    margin-bottom: 20vw;
+    margin-top: 25vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }
 
 .align-items-left{
@@ -751,14 +776,14 @@ padding-top: 120px;
   text-align: end;
 }
 @media only screen and (max-width: 1748px)   {
-  .image-slider{
+  /* .image-slider{
     height: 85vh;
-  }
+  } */
 }
 @media only screen and (max-width: 1325px)   {
-  .image-slider{
+  /* .image-slider{
     height: 70vh;
-  }
+  } */
   .flat{
     top: 10%;
   }
@@ -777,11 +802,22 @@ padding-top: 120px;
    }
   
 }
-@media only screen and (max-width: 768px)   {
+@media only screen and (max-width: 1024px)   {
   .read-more{
     display: none;   
     }
-    .flat{
-      top: 0;
+    .h-screen{
+      height: 70vh;
     }
+}
+
+@media only screen and (max-height: 790px) and (max-width: 450px)  {
+  .bg-blackish-margin{
+    margin-top: 15vh;
+  }
+}
+
+.features-margins{
+  margin-bottom: 20vw;
+  margin-top: 25vw;
 }

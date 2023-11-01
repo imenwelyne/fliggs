@@ -19,7 +19,7 @@ export default function LargeBg({ data }: LargeBgProps) {
 <section className="large-bg-image text-gray-100" style={{ backgroundColor: "#faff00" }}>
     <div className={`container custom-container flex items-center mx-auto py-24 ${alignment}`} 
           style={{ paddingLeft: '10px !important' }}>
-      <div className="lg:flex-col xl:max-w-lg">
+      <div className="lg:flex-col large-bg-text-width">
      
       <div className="  flex flex-col justify-start">
         <HighlightedText

@@ -48,26 +48,7 @@ interface DisplayProps {
    dispicture : Dispicture[]
   };
 }
-function Dispicture({ image }: Dispicture) {
-  const imgUrl = getStrapiMedia(image.data.attributes.url);
 
-
-  return (
-<section >
-<div className="flex items-center justify-center p-6 mt-8 lg:mt-0  ">
-<Image
-            src={imgUrl || ""}
-            alt={
-             image.data.attributes.alternativeText || "none provided"
-            }
-            className="object-contain "
-            width={300}
-            height={300}
-          />
-        </div>
-</section>
-  );
-}
 
 export default function Display({ data }: DisplayProps) {
   console.log(data);
@@ -89,7 +70,7 @@ export default function Display({ data }: DisplayProps) {
         </Carousel>
     
         <div className=" flat display-box-padding display-custom-container flex flex-col justify-center h-screen mx-auto">
-    <div className="bg-blackish p-6 lg:flex">
+    <div className="bg-blackish bg-blackish-margin p-6 flex">
       <div className="flex flex-col justify-center text-center lg:text-left p-5 lg:max-w-md xl:max-w-lg">
         <HighlightedText
           text={data.title}

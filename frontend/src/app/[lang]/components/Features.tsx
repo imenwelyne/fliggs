@@ -62,7 +62,7 @@ export default function Features({ data }: FeaturesProps) {
       <div className="container mx-auto py-4 space-y-2">
         <h2 className="feature-title-padding feature-font-size text-black font-bold">{data.title}</h2>
       </div>
-      <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10">
+      <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10 features-margins">
         {data.feature.map((feature: Feature, index: number) => (
           <Feature key={index} {...feature} />
         ))}
