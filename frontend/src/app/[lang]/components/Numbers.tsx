@@ -36,8 +36,8 @@ function Number({ title, description,image,align }: Number) {
 
   return (
     <section className="text-gray-100 ">
-      <div className={`container flex flex-col lg:flex   justify-start p-6 mx-auto lg:justify-between`}>
-        <div className="lg:flex-col">
+      <div className={`container flex flex-col lg:flex   justify-start mx-auto lg:justify-between`}>
+        <div className="lg:flex-col Numbtext">
         <div className={`flex flex-col justify-start ${containerClass}`}>
           <div className={`flex-col justify-start numbers-text vertical-width  background-size-80 `} style={{ backgroundImage: `url(${imgUrl})`}}>
             <HighlightedText
@@ -49,7 +49,7 @@ function Number({ title, description,image,align }: Number) {
             <HighlightedText
               text={description}
               tag="p"
-              className="mt-6 mb-8 custom-font-barlow lg:text-lg sm:mb-12" 
+              className="numbtext mt-6 mb-8 custom-font-barlow  sm:mb-12" 
               color="text-violet-400"
             />
             </div>

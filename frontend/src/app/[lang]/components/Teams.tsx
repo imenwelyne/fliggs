@@ -3,7 +3,7 @@ import Link from "next/link";
 import HighlightedText from "./HighlightedText";
 import { getStrapiMedia } from "../utils/api-helpers";
 import { useState } from "react";
-
+import styles from '../styles/teams.module.css'
 
 
 interface Picture {
@@ -27,37 +27,37 @@ interface TeamsProps {
 interface Team {
   id: string;
   name: string;
-  index: number
+  key: number;
   position: string;
   align: string;
   image : Picture;
 }
 
-function Team({ name, position,align,image }: Team) {
+function Team({ name, position,align,image,key }: Team) {
   const imgUrl = getStrapiMedia(image.data.attributes.url);
   const [current,setCruent] = useState(0);
   const alignment = align === "right" ? "align-usp-right" : "";
 
 
   return (
-<section className="team-section bg-black">
-  <div className={`container  mx-auto lg:py-8 `}>  
+<section className="team-section bg-black mb-5 mt-5">
+  <div className={`mx-auto lg:py-8 ${styles.container}`}>  
     <div className="lg:flex-col"
-    //  style={{ float: index % 2 === 0 ? 'right' : 'none' }}
+     style={{ float: key % 2 === 0 ? 'right' : 'none' }}
      >
-      <div className={`flex-col flex justify-start items-center usp-text usp-text-width  `} style={{  backgroundImage: `url(${imgUrl})`}}>
-        <div className="yellow-box p-4">
+      <div className={`flex-col flex justify-start items-center usp-text usp-text-width`} style={{  backgroundImage: `url(${imgUrl})`}}>
+        <div className={`px-4 py-3 ${styles.yellowBox}`}>
           <HighlightedText
             text={name}
             tag="h1"
-            className="3xl custom-font-bold leading-none text-black"
+            className={`3xl custom-font-bold leading-none text-black ${styles.name}`}
           />
         </div>
-        <div className="gray-box p-4">
+        <div className={`px-4 py-3 ${styles.grayBox}`}>
           <HighlightedText
             text={position}
             tag="p"
-            className="lg:text-lg custom-font-barlow text-black"
+            className={`lg:text-lg custom-font-barlow text-black ${styles.position}`}
             color="text-violet-400"
           />
         </div>
@@ -74,12 +74,12 @@ export default function Teams({ data }: TeamsProps) {
 
     <section className="text-gray-100 m:py-12 lg:py-24 overflow-hidden" >
       <div className="container mx-auto py-4 ">
-        <h2 className="usp-title-size text-white font-bold">{data.title}</h2>
+        <h2 className={`text-white font-bold ${styles.uspTitleSize}`}>{data.title}</h2>
       </div>
-      <div className="team-container">
+      <div className={styles.teamContainer}>
         {data.team.map((team: Team, index: number) => (
-          <div className={`member-container ${index === 2 || index === 6 || index === 10 ? 'box' : ''} ${index % 2 === 0  ? 'aside' : ''}`}>
-            <Team key={index} {...team} />
+          <div className={`${styles.memberContainer} ${index === 2 || index === 6 || index === 10 ? styles.box : ''} ${index % 2 === 1  ? styles.aside : styles.asideRight}`}>
+            <Team  {...team} key={index}/>
           </div>
         ))}
       </div>

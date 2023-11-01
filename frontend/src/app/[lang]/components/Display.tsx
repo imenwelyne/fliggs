@@ -101,7 +101,7 @@ export default function Display({ data }: DisplayProps) {
     </div>
     <a href="#features-section" target="_self" >
 
-    <div className="read-more">
+    <div className="read-more mb-8">
          <HighlightedText
           text="READ MORE"
           tag="p"

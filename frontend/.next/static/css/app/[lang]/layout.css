@@ -687,6 +687,9 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -1709,11 +1712,7 @@ body {
       background-position: center;
       background-size: cover;
       }
-      .partners-bg-image{
-        background-image: url(/_next/static/media/partners-bg.3ab24a95.png);
-        background-position: center;
-        background-size: cover;
-        }
+      
         .engagements-bg-image{
           background-image: url(/_next/static/media/engagements-bg.5cc45d46.png);
           background-position: center;
@@ -1753,6 +1752,7 @@ body {
     }
     .custom-font-barlow {
       font-family: 'BarlowRegular'; 
+      font-size: 1.5rem;
     }
     .custom-font-barlow-semibold {
       font-family: 'BarlowSemiBold'; 
@@ -1775,9 +1775,7 @@ body {
      }
      
     
-     .partner{
-      width: 250px;
-    }
+    
     .content {
       top: 23%;
       left: 0;
@@ -1820,21 +1818,8 @@ body {
   .form_group_reg_contact{
     width: 50%;
   }
-  .custom-container {
-    width: 90vw;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin:auto;
-  }
-  @media only screen and (min-width: 1024px)  {
-
-  .display-custom-container {
-    width: 1000px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin: auto;
-}
-}
+  
+ 
  
   @media only screen and (max-width: 1024px)  {
     .display-custom-container {
@@ -1913,13 +1898,16 @@ body {
 } 
 
 .numbers-text {
-
-  padding: 90px 50px;
+  width: 60%;
+  /* padding: 90px 50px; */
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: auto; */
+  background-size: contain; 
 } 
-
+.numbtext{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
 .usp-text-feature {
 
   padding: 50px 50px;
@@ -1959,12 +1947,7 @@ font-size: 2.25rem;
     text-align: start;
   }
 
-  .usp-title-size{
-    font-size: 2.6rem;
-  }
-  .partner-link-size{
-    font-size: 2rem;
-  }
+  
   .feature-title-size{
     font-size: 2.6rem;
   }
@@ -2048,30 +2031,30 @@ padding-top: 120px;
   background-color: #333; /* You can adjust the color code to your preference */
 }
 .bg-gray {
-  background-color: #141414; /* You can adjust the color code to your preference */
+  padding: 100px;
+  background-color: #232323; /* You can adjust the color code to your preference */
 }
 .big-hero-height{
   height: 700px;
+  display: flex;
 }
 
 /* Initially hide both boxes */
 .yellow-box, .gray-box {
-  display: none;
+  visibility: hidden;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  width: 200px;
 }
 
 /* Apply hover styles to the container element */
 .container:hover .yellow-box {
-  display: flex;
+  visibility: visible;
   background-color: #FAFF00;
   color: rgb(0, 0, 0);
 }
 
 .container:hover .gray-box {
-  display: flex;
+  visibility: visible;
   background-color: #D9D9D9;
   color: white;
 }
@@ -2143,16 +2126,17 @@ padding-top: 120px;
   
   }
 
-   .partner-height{
-    max-height: 300px;
-   }
+   
    .engagements-height{
     max-height: 150px;
    }
 
- .display-box-padding{
-
- }
+   .custom-container {
+    width: 90vw;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin:auto;
+  }
    .read-more-text{
     color: #FAFF00;
     text-align: center;
@@ -2171,7 +2155,7 @@ padding-top: 120px;
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
    }
    .read-more-mobile{
 
@@ -2188,31 +2172,24 @@ padding-top: 120px;
     background-position: center;
     background-size: contain;
 } */
-.member-container{
-  width: 40%;
-  display: flex;
-
-}
 .box{
   width: 40%;
   display: flex;
   margin-left: 320px;
 
 }
-.team-container{
-  overflow: hidden;
-  flex-wrap: wrap;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  /* margin-left: 100px; */
-}
-.team-section{
-  width: 100%;
-}
    .arrow{
    width: 50px;
     
+  }
+  @media only screen and (min-width: 1024px)  {
+
+    .display-custom-container {
+      width: 1000px;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin: auto;
+  }
   }
   @media screen and (max-width: 1020px) {
     .display-component{
@@ -2223,27 +2200,6 @@ padding-top: 120px;
 
   .read-more-mobile{
     margin-bottom: 200px;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .member-container{
-    width: 35%;
-  
-  }
-  .box{
-    width: 35%;
-  }
-}
-@media screen and (max-width: 1066px) {
-  .member-container{
-    width: 100%;
-  }
-  .box{
-    width: 100%;
-    margin-left: 0;
-  }
-  .aside{
-    float: right;
   }
 }
 .align-items-left{
@@ -2275,6 +2231,7 @@ padding-top: 120px;
     margin-bottom: 50px;
      
    }
+   
   
 }
 @media only screen and (max-width: 768px)   {
@@ -2284,11 +2241,6 @@ padding-top: 120px;
     .h-screen{
       height: 70vh;
     }
-    .usp-text {
-
-      padding: 225px 200px;
-      /* background-size: auto; */
-  }
 }
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;

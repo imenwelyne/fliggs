@@ -1,0 +1,95 @@
+/* Initially hide both boxes */
+.yellowBox, .grayBox {
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.name  .position{
+display: flex;
+justify-content: center;
+}
+/* Apply hover styles to the container element */
+.container:hover .yellowBox {
+  visibility: visible;
+  background-color: #FAFF00;
+  color: rgb(0, 0, 0);
+}
+
+.container:hover .grayBox {
+  visibility: visible;
+  background-color: #D9D9D9;
+  color: white;
+}
+
+  .uspTitleSize{
+    font-size: 2.6rem;
+  }
+  .memberContainer{
+    width: 40%;
+    display: flex;
+  
+  }
+  .box{
+    width: 40%;
+    display: flex;
+    margin-left: 320px;
+  
+  }
+  .teamContainer{
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px; */
+  }
+  .uspText {
+
+    padding: 170px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: auto; */
+}
+  @media screen and (max-width: 1600px) {
+    .memberContainer{
+      width: 35%;
+    
+    }
+    .box{
+      width: 35%;
+    }
+  }
+  @media screen and (max-width: 1066px) {
+    .memberContainer{
+      width: 70%;
+    }
+    .box{
+      width: 70%;
+      margin-left: 0;
+    }
+    .aside{
+      float: right;
+      display: flex;
+      justify-content: end;
+      margin-left: 210px;
+    }
+    .asideRight{
+      margin-right: 210px;
+    }
+  }
+  @media only screen and (min-width: 1024px)  {
+    .uspTextWidth{
+      width: 55%;
+    }
+    .newsTitleWidth{
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width: 1024px)  {
+    .uspTitleSize{
+      margin-left: 5%;
+    }
+  }

@@ -47,7 +47,7 @@ const populate = {
       },
       partner: {
         populate: {
-          fields: ["image"],
+          fields: ["image","link"],
           image: {
             fields: ["url", "alternativeText", "caption", "width", "height"],
           },

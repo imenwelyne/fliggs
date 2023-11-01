@@ -742,58 +742,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/[lang]/components/arrow-down.png": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/arrow.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -813,6 +761,32 @@
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
           "app/[lang]/page:static/chunks/app/[lang]/page.js"
@@ -960,6 +934,136 @@
       "value": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/Footer.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/arrow-down.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/arrow.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "default",
         "chunks": [
           "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
@@ -1122,110 +1226,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/Footer.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/[lang]/error.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/[lang]/error.tsx",
@@ -1255,11 +1255,11 @@
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\[...slug]\\page": [
-      "static/css/app/[lang]/[...slug]/page.css"
-    ],
     "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\layout": [
       "static/css/app/[lang]/layout.css"
+    ],
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\[...slug]\\page": [
+      "static/css/app/[lang]/[...slug]/page.css"
     ],
     "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\page": [
       "static/css/app/[lang]/page.css"
@@ -2962,61 +2962,19 @@
       ],
       "async": false
     },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css#": {
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/[lang]/[...slug]/page.css",
-        "static/css/app/[lang]/page.css"
+        "static/css/app/[lang]/layout.css"
       ]
     },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#default": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\globals.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg#": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg#default": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
+        "static/css/app/[lang]/layout.css"
+      ]
     },
     "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
@@ -3060,6 +3018,54 @@
     },
     "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
         "app/[lang]/page:static/chunks/app/[lang]/page.js"
@@ -3354,6 +3360,150 @@
       ],
       "async": false
     },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\styles\\partner.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\styles\\teams.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#default": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg#": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\arrow.svg#default": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
       "name": "*",
@@ -3495,140 +3645,6 @@
       "name": "default",
       "chunks": [
         "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/layout.css"
-      ]
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/layout.css"
-      ]
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Amal\\Desktop\\fliggs-web3\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
       ],
       "async": false
     },
