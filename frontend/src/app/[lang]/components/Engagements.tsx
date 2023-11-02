@@ -39,7 +39,7 @@ function Engagement({ image,url,label }: Engagement) {
 
   return (
 <section >
-<div className="flex items-center justify-center p-6 mt-8 lg:mt-0  ">
+<div className="flex items-center justify-center lg:p-16 p-2 mt-8 lg:mt-0  ">
 <a href={`${url}`}   target="_blank" title={label}>
 
 <Image
@@ -61,9 +61,12 @@ export default function Engagements({ data }: EngagementsProps) {
   return (
 <section className="engagements-bg-image  text-gray-100">
     <div className={`flex flex-col container custom-container flex items-center mx-auto `} 
-          style={{ paddingLeft: '10px !important' }}>
-      <div className="container mx-auto py-4 px-12 space-y-2">
-        <h2 className="partner-link-size padding-engagement text-white font-bold">{data.title}</h2>
+          style={{
+            paddingLeft: '10px',
+            alignItems: 'start',
+          }}>
+      <div className="container mx-auto py-4 px-4 space-y-2">
+        <h2 className="engagement-title-size padding-engagement text-white custom-font-bold">{data.title}</h2>
       </div>
       <div className="engagements-height flex justify-start flex-row">
 

@@ -19,6 +19,11 @@
       "required": true
 
     },
+    "url": {
+      "type": "text"
+   
+
+    },
     "color": {
       "type": "enumeration",
       "enum": [

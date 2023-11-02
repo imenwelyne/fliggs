@@ -22,6 +22,7 @@ export default function FormSubmit({
           <InlineWidget styles={{
   height: '400px'
 }} pageSettings={{
+  hideGdprBanner: true, // Hide GDPR banner
   backgroundColor: '000000',
   hideEventTypeDetails: true,
   hideLandingPageDetails: true,

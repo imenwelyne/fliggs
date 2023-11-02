@@ -60,9 +60,9 @@ export default function Features({ data }: FeaturesProps) {
 
     <section style={{ backgroundImage: `url(${imgUrl})`}} className={`display-content-component text-gray-100 m:py-12 py-24`} >
       <div className="container mx-auto py-4 space-y-2">
-        <h2 className="feature-title-padding feature-font-size text-black font-bold">{data.title}</h2>
+        <h2 className="feature-title-padding feature-font-size text-black custom-font-bold">{data.title}</h2>
       </div>
-      <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10">
+      <div className="container bg-blackish mx-auto my-6 justify-center lg:p-10 features-margins">
         {data.feature.map((feature: Feature, index: number) => (
           <Feature key={index} {...feature} />
         ))}

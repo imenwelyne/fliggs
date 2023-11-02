@@ -14,13 +14,7 @@
       "required": true
 
     },
-    "align": {
-      "type": "enumeration",
-      "enum": [
-        "left",
-        "right"
-      ]
-    },
+
     "image": {
       "type": "media",
       "multiple": false,

@@ -38,14 +38,14 @@ export default function RightIntro({ data }: RightIntroProps) {
   const imgUrl = getStrapiMedia(data.picture.data.attributes.url);
 
   return (
-<section className="bg-blackish  intro-position">
+<section id="right-intro-section" className="bg-blackish  intro-position">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
   
-        <div className="flex flex-col justify-center p-6 text-center rounded-lg lg:max-w-md xl:max-w-lg lg:text-left">
+        <div className="flex flex-col justify-center p-6  rounded-lg large-bg-text-width  lg:text-left">
           <HighlightedText
             text={data.title}
             tag="h1"
-            className="text-4xl font-bold leading-none sm:text-4xl mb-8"
+            className="text-4xl custom-font-bold leading-none sm:text-4xl mb-8"
             color="text-violet-400"
           />
  <HighlightedText

@@ -16,7 +16,7 @@ export default function BigHero({ data }: BigHeroProps) {
 const test = true;
   return (
 <section className="big-hero-height bg-gradient-to-bl from-slate-400 via-neutral-900 to-black ">
-<div className={`container flex items-center p-12 mx-auto lg:py-24 `}>
+<div className={`container flex lg:items-center p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
       <div className=" mb-6 flex flex-col justify-start">

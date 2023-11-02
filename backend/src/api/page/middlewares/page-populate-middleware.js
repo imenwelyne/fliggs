@@ -31,7 +31,7 @@ const populate = {
       },
       new: {
         populate: {
-          fields: ["title", "description", "date", "color", "image"],
+          fields: ["title", "description", "date","url", "color", "image"],
           image: {
             fields: ["url", "alternativeText", "caption", "width", "height"],
           },
@@ -39,7 +39,7 @@ const populate = {
       },
       team: {
         populate: {
-          fields: ["name", "position", "align","image"],
+          fields: ["name", "position", "image"],
           image: {
             fields: ["url", "alternativeText", "caption", "width", "height"],
           },

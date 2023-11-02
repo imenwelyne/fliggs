@@ -28,7 +28,8 @@ const test = true;
           className="big-hero-text custom-font-bold leading-none text-white"
         />
       </div>
-   
+      <a href="#numbers-section" target="_self" >
+
     <div className="read-more">
          <HighlightedText
          //hard text
@@ -38,6 +39,7 @@ const test = true;
         />
           <Image src={arrow} alt="" width={50}></Image>
           </div> 
+          </a>
           <div className="read-more-mobile">
      
           </div> 

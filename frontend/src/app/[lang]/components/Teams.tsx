@@ -29,14 +29,12 @@ interface Team {
   name: string;
   key: number;
   position: string;
-  align: string;
   image : Picture;
 }
 
-function Team({ name, position,align,image,key }: Team) {
+function Team({ name, position,image,key }: Team) {
   const imgUrl = getStrapiMedia(image.data.attributes.url);
   const [current,setCruent] = useState(0);
-  const alignment = align === "right" ? "align-usp-right" : "";
 
 
   return (
@@ -74,7 +72,7 @@ export default function Teams({ data }: TeamsProps) {
 
     <section className="text-gray-100 m:py-12 lg:py-24 overflow-hidden" >
       <div className="container mx-auto py-4 ">
-        <h2 className={`text-white font-bold ${styles.uspTitleSize}`}>{data.title}</h2>
+        <h2 className={`text-white custom-font-bold ${styles.uspTitleSize}`}>{data.title}</h2>
       </div>
       <div className={styles.teamContainer}>
         {data.team.map((team: Team, index: number) => (

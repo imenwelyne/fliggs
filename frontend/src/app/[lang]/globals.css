@@ -391,44 +391,70 @@ body {
       width: 80%;
     }
   }
-
+  .numbers-text {
+    width: 60%;
+    /* padding: 90px 50px; */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+  } 
+  .numbers-text-right { 
+    width: 60%;
+    /* padding: 90px 50px; */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; 
+  } 
   @media (max-width: 1024px) {
     .background-size-80 {
       background-size: 80%;
     }
     .feature-font-size{
-      font-size: 1.5rem;
+      font-size: 4rem;
+      width: 70%;
     }
     .news-date-size{
       font-size: 1.7rem;
     }
+    .numbers-text {
+      width: 100%;
+      /* padding: 90px 50px; */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; 
+    } 
+    .numbers-text-right { 
+      width: 100%;
+      /* padding: 90px 50px; */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; 
+    } 
   }
   @media (min-width: 1024px) {
  
     .news-date-size{
       font-size: 8rem;
     }
+    .feature-font-size{
+      font-size: 5.5rem;
+    }
+    .large-bg-text-width{
+      width: 45rem;
+    }
   }
 
-  .feature-font-size{
-    font-size: 5rem;
-  }
+
 
   .usp-text {
 
-    padding: 170px 200px;
+    padding: 170px 185px;
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: auto; */
 } 
 
-.numbers-text {
-  width: 60%;
-  /* padding: 90px 50px; */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; 
-} 
+
 .numbtext{
   font-size: 1.5rem;
   font-weight: 400;
@@ -453,6 +479,9 @@ body {
   width: 70%;
       
      }
+     .large-bg-text{
+      font-size: 5rem;
+         }
 @media (max-width: 1024px) {
   .space-height{
     height: 50px;
@@ -462,6 +491,10 @@ body {
 font-size: 2.25rem;
     width: 100%;
    }
+
+   .large-bg-text{
+    font-size: 2.7rem;
+       }
   .hero-text{
 
    font-size: 3.75rem; 
@@ -472,18 +505,29 @@ font-size: 2.25rem;
     text-align: start;
   }
 
-  
-  .feature-title-size{
+  .usp-title-size{
     font-size: 2.6rem;
+  }
+  .partner-link-size{
+    font-size: 2rem;
+  }
+  .engagement-title-size{
+    font-size: 1.3rem;
+
+  }
+  .feature-title-size{
+    font-size: 2.3rem;
   }
 
 
 }
 
 .padding-engagement{
-padding-top: 120px;  
+padding-top: 80px;  
 }
-
+.bg-blackish-margin {
+  margin-top: 10vh;
+}
 @media (min-width: 1024px) {
   .space-height{
     height: 180px;
@@ -508,11 +552,18 @@ padding-top: 120px;
    .partner-link-size{
     font-size: 3.5rem;
   }
+  .engagement-title-size{
+    font-size: 2.0rem;
+  }
   .usp-title-size{
     font-size: 5rem;
   }
   .feature-title-size{
     font-size: 5rem;
+  }
+
+  .bg-blackish-margin{
+    margin-top: 50vh;
   }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px)  {
@@ -532,7 +583,7 @@ padding-top: 120px;
   
 }
 .image-slider{
-  height: 110vh;
+  height: 130vh;
   position: relative;
 }
 .slider-container{
@@ -556,7 +607,6 @@ padding-top: 120px;
   background-color: #333; /* You can adjust the color code to your preference */
 }
 .bg-gray {
-  padding: 100px;
   background-color: #232323; /* You can adjust the color code to your preference */
 }
 .big-hero-height{
@@ -643,7 +693,7 @@ padding-top: 120px;
 }
 }
 
-@media only screen and (max-width: 670px)   {
+@media only screen and (max-width: 670px)    {
 
   .feature-title-padding{
     padding-left: 20px;
@@ -726,20 +776,29 @@ padding-top: 120px;
   .read-more-mobile{
     margin-bottom: 200px;
   }
+
+  .features-margins{
+    width: 90%;
+    margin-bottom: 20vw;
+    margin-top: 25vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }
+
 .align-items-left{
   align-items: end;
   text-align: end;
 }
 @media only screen and (max-width: 1748px)   {
-  .image-slider{
+  /* .image-slider{
     height: 85vh;
-  }
+  } */
 }
 @media only screen and (max-width: 1325px)   {
-  .image-slider{
+  /* .image-slider{
     height: 70vh;
-  }
+  } */
   .flat{
     top: 10%;
   }
@@ -759,11 +818,26 @@ padding-top: 120px;
    
   
 }
-@media only screen and (max-width: 768px)   {
+@media only screen and (max-width: 1024px)   {
   .read-more{
     display: none;   
     }
     .h-screen{
       height: 70vh;
     }
+}
+
+@media only screen and (max-height: 790px) and (max-width: 450px)  {
+  .bg-blackish-margin{
+    margin-top: 15vh;
+  }
+}
+
+.features-margins{
+  margin-bottom: 20vw;
+  margin-top: 25vw;
+}
+@media only screen and (max-width: 660px)   {
+.engagements-bg-image {
+background-image: none;}
 }

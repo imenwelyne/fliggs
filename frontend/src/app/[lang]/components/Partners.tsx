@@ -36,8 +36,8 @@ function Partner({ image,link }: Partner) {
 
 
   return (
-<section className={`mt-8 ${styles.partner}`}>
-<div className="flex items-center justify-center px-6 mt-8 lg:mt-0">
+<section className={`${styles.partner}`}>
+<div className="flex items-center justify-center px-4 mt-4 lg:mt-0">
 <a href={link} target="_blank">
 <Image
             src={imgUrl || ""}
@@ -58,12 +58,12 @@ function Partner({ image,link }: Partner) {
 export default function Partners({ data }: PartnersProps) {
   return (
 <section className={`text-gray-100 ${styles.partnersBgImage}`} style={{ backgroundColor: "#141414" }}>
-    <div className={`flex flex-col container custom-container flex items-center mx-auto lg:py-24`} 
+    <div className={`flex flex-col container flex items-center mx-auto lg:py-24`} 
           style={{ paddingLeft: '10px !important' }}>
       <div className="container mx-auto py-4 space-y-2">
-        <h2 className={`text-white font-bold ${styles.uspTitleSize}`} >{data.title}</h2>
+        <h2 className={`text-white custom-font-bold ${styles.uspTitleSize}`} >{data.title}</h2>
       </div>
-      <div className={`flex flex-row mt-8 ${styles.partnerHeight}`}  >
+      <div className={`flex flex-row py-4 ${styles.partnerHeight}`}  >
 
         {data.partner.map((partner: Partner, index: number) => (
           <Partner key={index} {...partner} />
