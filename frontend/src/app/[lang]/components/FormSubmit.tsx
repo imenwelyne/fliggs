@@ -67,7 +67,8 @@ export default function FormSubmit({
 
   return (
     <div className="form_group_reg flex flex-row items-center lg:self-center lg:justify-center flex-shrink-0 shadow-md lg:justify-end">
-    <div className="flex flex-col space-y-2 w-full"> 
+    <div className="flex flex-col space-y-2 w-full">
+      <form> 
       {successMessage ? (
         <p className="text-green-700 bg-green-300 px-4 py-2 rounded-lg">
           {successMessage}
@@ -107,14 +108,17 @@ export default function FormSubmit({
           </button>
         </> 
       )}
-    </div>
-  
-    {errorMessage && (
+          {errorMessage && (
       <p className="text-red-500 bg-red-200 px-4 py-2 rounded-lg my-2">
         {errorMessage}
       </p>
     )}
+      </form>
+    </div>
+  
+
   </div>
  
   );
+  
 }

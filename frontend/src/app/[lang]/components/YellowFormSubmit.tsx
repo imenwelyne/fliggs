@@ -108,13 +108,14 @@ export default function YellowFormSubmit({
           </button>
         </>
       )}
-    </div>
-  
-    {errorMessage && (
+          {errorMessage && (
       <p className="text-red-500 bg-red-200 px-4 py-2 rounded-lg my-2">
         {errorMessage}
       </p>
     )}
+    </div>
+  
+
   </div>
  
   );
