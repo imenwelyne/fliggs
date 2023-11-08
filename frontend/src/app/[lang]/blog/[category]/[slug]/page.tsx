@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: metadata.metaTitle,
         description: metadata.metaDescription,
+        robots: metadata.metaRobots,
     };
 }
 

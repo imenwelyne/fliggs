@@ -85,7 +85,7 @@ const populate = {
     },
   },
   seo: {
-    fields: ["metaTitle", "metaDescription"],
+    fields: ["metaTitle", "metaDescription","metaRobots"],
     populate: { shareImage: true },
   }
 };
