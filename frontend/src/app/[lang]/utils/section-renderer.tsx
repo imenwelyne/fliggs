@@ -9,6 +9,8 @@ import LargeBg from "../components/LargeBg";
 import Intro from "../components/Intro";
 import RightIntro from "../components/RightIntro";
 
+
+
 import Display from "../components/Display";
 
 import Space from "../components/Space";
@@ -26,6 +28,8 @@ import Numbers from "../components/Numbers";
 
 
 import Partners from "../components/Partners";
+import Infos from "../components/Infos";
+
 
 import Engagements from "../components/Engagements";
 
@@ -65,6 +69,9 @@ export function sectionRenderer(section: any, index: number) {
     
         case "sections.display":
           return <Display key={index} data={section} />;
+
+            case "sections.infos":
+              return <Infos key={index} data={section} />;
         case "sections.title-hero":
           return <TitleHero key={index} data={section} />;
       case "sections.vertical":

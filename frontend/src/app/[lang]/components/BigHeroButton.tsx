@@ -9,6 +9,8 @@ interface BigHeroButtonProps {
   data: {
     id: string;
     title: string;
+    description: string;
+
 
 
   };
@@ -27,6 +29,12 @@ const test = true;
           tag="h1"
           className="big-hero-text custom-font-bold leading-none text-white"
         />
+          <HighlightedText
+              text={data.description}
+              tag="p"
+              className="lg:text-lg custom-font-barlow py-4 " 
+              color="text-violet-400"
+            />
       </div>
       <a href="#numbers-section" target="_self" >
 
@@ -37,6 +45,7 @@ const test = true;
           tag="p"
           className="read-more-text custom-font-book leading-none text-white mb-8"
         />
+        
           <Image src={arrow} alt="" width={50}></Image>
           </div> 
           </a>

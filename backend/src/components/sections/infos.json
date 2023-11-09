@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_infos",
+  "info": {
+    "displayName": "Infos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }, "description": {
+      "type": "string"
+    },
+    "urlTitle": {
+      "type": "string"
+    }, "url": {
+      "type": "string"
+    },
+    "info": {
+      "displayName": "Info",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.info"
+    }
+  }
+}

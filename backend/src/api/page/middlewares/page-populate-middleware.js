@@ -29,6 +29,22 @@ const populate = {
           },
         },
       },
+      stat: {
+        populate: {
+          fields: ["title","align","image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
+      info: {
+        populate: {
+          fields: ["title","image","align"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
       new: {
         populate: {
           fields: ["title", "description", "date","url", "color", "image"],

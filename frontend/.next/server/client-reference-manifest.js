@@ -742,54 +742,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/[lang]/components/arrow-down.png": {
+    "(app-client)/./src/app/[lang]/error.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
         "name": "*",
         "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
         "name": "",
         "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "id": "(sc_client)/./src/app/[lang]/error.tsx",
         "name": "default",
         "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/arrow.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+          "app/[lang]/error:static/chunks/app/[lang]/error.js"
         ],
         "async": false
       }
@@ -813,6 +787,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
           "app/[lang]/page:static/chunks/app/[lang]/page.js"
@@ -960,6 +960,136 @@ self.__RSC_MANIFEST={
       "value": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "value",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/Footer.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/arrow-down.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow-down.png",
+        "name": "default",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/[lang]/components/arrow.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "*",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "",
+        "chunks": [
+          "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/[lang]/components/arrow.svg",
+        "name": "default",
         "chunks": [
           "app/[lang]/page:static/chunks/app/[lang]/page.js"
         ],
@@ -1121,145 +1251,15 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/page:static/chunks/app/[lang]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/CookieBox.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/CookieBox.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/Footer.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/Footer.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/components/Navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/components/Navbar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/[lang]/error.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "*",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/[lang]/error.tsx",
-        "name": "default",
-        "chunks": [
-          "app/[lang]/error:static/chunks/app/[lang]/error.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\[...slug]\\page": [
-      "static/css/app/[lang]/[...slug]/page.css"
-    ],
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\layout": [
       "static/css/app/[lang]/layout.css"
+    ],
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\[...slug]\\page": [
+      "static/css/app/[lang]/[...slug]/page.css"
     ],
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\page": [
       "static/css/app/[lang]/page.css"
@@ -2962,77 +2962,43 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/[...slug]/page.css",
-        "static/css/app/[lang]/page.css"
-      ]
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\styles\\partner.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/[...slug]/page.css",
-        "static/css/app/[lang]/page.css"
-      ]
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\styles\\teams.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/[...slug]/page.css",
-        "static/css/app/[lang]/page.css"
-      ]
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
       "name": "*",
       "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
       "name": "",
       "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#default": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/error.tsx",
       "name": "default",
       "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+        "app/[lang]/error:static/chunks/app/[lang]/error.js"
       ],
       "async": false
     },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg#": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg#default": {
-      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
+        "static/css/app/[lang]/layout.css"
+      ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/layout.css"
+      ]
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
@@ -3076,6 +3042,54 @@ self.__RSC_MANIFEST={
     },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
         "app/[lang]/page:static/chunks/app/[lang]/page.js"
@@ -3370,6 +3384,150 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#default": {
+      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\styles\\partner.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\styles\\teams.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/[lang]/[...slug]/page.css",
+        "static/css/app/[lang]/page.css"
+      ]
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow-down.png#default": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow-down.png",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "*",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg#": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\arrow.svg#default": {
+      "id": "(app-client)/./src/app/[lang]/components/arrow.svg",
+      "name": "default",
+      "chunks": [
+        "app/[lang]/page:static/chunks/app/[lang]/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\ContactFormSubmit.tsx": {
       "id": "(app-client)/./src/app/[lang]/components/ContactFormSubmit.tsx",
       "name": "*",
@@ -3511,164 +3669,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\react-slideshow-image\\dist\\styles.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/layout.css"
-      ]
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/[lang]/layout.css"
-      ]
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/page:static/chunks/app/[lang]/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\CookieBox.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/CookieBox.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Footer.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/Footer.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\components\\Navbar.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/components/Navbar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/layout:static/chunks/app/[lang]/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "*",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\dev\\OneDrive\\Bureau\\Hass\\nextjs-corporate-starter\\frontend\\src\\app\\[lang]\\error.tsx#default": {
-      "id": "(app-client)/./src/app/[lang]/error.tsx",
-      "name": "default",
-      "chunks": [
-        "app/[lang]/error:static/chunks/app/[lang]/error.js"
       ],
       "async": false
     }
