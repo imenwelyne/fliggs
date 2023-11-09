@@ -62,10 +62,11 @@ function Info({title, image,align}: Info) {
 
 export default function Infos({ data }: InfosProps) {
   return (
-<section className={`text-gray-100 bg-yellow lg:p-24 p-12`} >
-<div className="mb-5 flex flex-col space-y-4 text-left">
+<section className={` text-gray-100 bg-yellow lg:p-24 p-12`} >
+<div className="flex flex-col container mx-auto ">
+<div className=" mb-5 flex flex-col space-y-4 text-left">
         <h1 className="text-4xl text-black custom-font-bold leading-none">{data.title}</h1>
-        <p className="lg:text-lg text-black  custom-font-barlow">{data.description}</p>
+        <p className="text-black  custom-font-barlow">{data.description}</p>
       </div>
       
 
@@ -74,10 +75,10 @@ export default function Infos({ data }: InfosProps) {
         ))}
         <div className="mb-5 flex flex-col space-y-4 text-left">
         <a href={data.url} target="_blank">
-        <p className="lg:text-lg text-black  custom-font-barlow">{data.urlTitle}</p>
+        <p className="text-black  custom-font-barlow">{data.urlTitle}</p>
         </a>
       </div>
-
+</div>
 </section>
 
 

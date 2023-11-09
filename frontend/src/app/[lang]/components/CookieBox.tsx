@@ -36,7 +36,7 @@ const CookieBox = () => {
         Accept
       </button>
       <button className="bg-gray-400 py-2 px-8 rounded text-white" onClick={() => refuseCookie()}>
-        Refuser
+        Refuse
       </button>
     </div>
   </div>

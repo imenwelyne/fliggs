@@ -11,7 +11,7 @@ export default function Logo({
 }) {
   return (
     <Link
-      href="/"
+      href="/home"
       aria-label="Back to homepage"
       className="flex items-center p-2"
     >

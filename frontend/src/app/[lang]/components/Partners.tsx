@@ -60,10 +60,10 @@ export default function Partners({ data }: PartnersProps) {
 <section className={`text-gray-100 ${styles.partnersBgImage}`} style={{ backgroundColor: "#141414" }}>
     <div className={`flex flex-col container flex items-center mx-auto lg:py-24`} 
           style={{ paddingLeft: '10px !important' }}>
-      <div className="container mx-auto py-4 space-y-2">
+      <div className="container mx-auto py-6 space-y-2">
         <h2 className={`text-white custom-font-bold ${styles.uspTitleSize}`} >{data.title}</h2>
       </div>
-      <div className={`flex flex-row py-4 ${styles.partnerHeight}`}  >
+      <div className={`flex flex-row py-8 ${styles.partnerHeight}`}  >
 
         {data.partner.map((partner: Partner, index: number) => (
           <Partner key={index} {...partner} />

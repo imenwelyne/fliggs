@@ -39,7 +39,7 @@ function Engagement({ image,url,label }: Engagement) {
 
   return (
 <section >
-<div className="flex items-center justify-center lg:p-16 p-2 mt-8 lg:mt-0  ">
+<div className="flex items-center justify-center lg:p-16 p-4 mt-8 lg:mt-0  ">
 <a href={`${url}`}   target="_blank" title={label}>
 
 <Image

@@ -169,6 +169,11 @@ body {
   .bg-blackish-gray::placeholder {
     color: rgb(204, 204, 204); 
   }
+  @media (min-width: 992px) {
+    .responsive-widget {
+      width: 600px; /* This will only apply on 'lg' screens and up */
+    }
+  }
 
   @media screen and (min-width: 1024px){
   .lower-text-container { 
@@ -222,14 +227,26 @@ body {
       .image-right-intro{
         
         position: absolute;
-        height: 32rem;
-        right: 15px;
+        height: 30rem;
+        right: 9vw;
         top: -67px;
     
     }
  
       
     }
+    @media only screen and (min-width: 2300px)  {
+      .image-right-intro{
+        
+        position: absolute;
+        height: 30rem;
+        right: 10vw;
+        top: -67px;
+    
+    }
+    }
+
+
 .intro-position{
   position: relative;
 }
@@ -283,7 +300,7 @@ body {
     }
     .custom-font-barlow {
       font-family: 'BarlowRegular'; 
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     .custom-font-barlow-semibold {
       font-family: 'BarlowSemiBold'; 
@@ -532,7 +549,7 @@ font-size: 2.25rem;
   }
 
   .display-title{
-    font-size: 3rem; 
+    font-size: 2.5rem; 
     text-align: start;
   }
 
@@ -590,7 +607,7 @@ padding-top: 80px;
     font-size: 5rem;
   }
   .feature-title-size{
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .bg-blackish-margin{
@@ -599,7 +616,7 @@ padding-top: 80px;
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px)  {
   .feature-title-size{
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 .display-component{
@@ -791,8 +808,14 @@ padding-top: 80px;
    width: 50px;
     
   }
-  @media only screen and (min-width: 1024px)  {
 
+  .video-border{
+    border-radius: 41px;
+  }
+  @media only screen and (min-width: 1024px)  {
+    .features-margins{
+      max-width: 80vw;
+    }
     .display-custom-container {
       width: 1000px;
       padding-left: 0 !important;

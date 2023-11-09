@@ -42,7 +42,7 @@ export default function Usp({ data }: UspProps) {
         <HighlightedText
               text={data.description}
               tag="p"
-              className="lg:text-lg custom-font-barlow " 
+              className="custom-font-barlow " 
               color="text-violet-400"
             />
       </div>

@@ -18,8 +18,9 @@ export default function FormSubmit({
     <div className="flex flex-col space-y-2 w-full"> 
  
         <>
-          <div className="flex flex-col"> 
-          <InlineWidget styles={{
+          <div className="flex flex-col responsive-widget"> 
+          <InlineWidget 
+          styles={{
   height: '400px'
 }} pageSettings={{
   hideGdprBanner: true, // Hide GDPR banner

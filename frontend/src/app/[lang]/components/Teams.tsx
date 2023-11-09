@@ -55,7 +55,7 @@ function Team({ name, position,image,key }: Team) {
           <HighlightedText
             text={position}
             tag="p"
-            className={`lg:text-lg custom-font-barlow text-black ${styles.position}`}
+            className={`custom-font-barlow text-black ${styles.position}`}
             color="text-violet-400"
           />
         </div>

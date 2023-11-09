@@ -28,7 +28,7 @@ function NavLinkRegister({ url, text }: NavLink) {
     <li className="flex">
       <Link
         href={url}
-        className={`w-full px-5 custom-font-book font-spacing py-1 uppercase  button-bg-yellow text-gray-900  ${
+        className={`w-full px-12 custom-font-book font-spacing py-1 uppercase  button-bg-yellow text-gray-900  ${
           path === url && "text-violet-400 border-violet-400"
         }}`}
       >
@@ -38,13 +38,14 @@ function NavLinkRegister({ url, text }: NavLink) {
   );
 }
 
-function NavLink({ url, text }: NavLink) {
+function NavLink({ url, text, newTab }: NavLink) {
   const path = usePathname();
 
   return (
     <li className="flex">
       <Link
         href={url}
+        target={newTab ? "_blank" : "_self"}
         className={`flex items-center custom-font-book font-spacing mx-4 -mb-1 border-b-2 border-transparent ${
           path === url && "text-violet-400  border-violet-400"
         }}`}
@@ -117,7 +118,7 @@ export default function Navbar({
         <div className="items-center flex-shrink-0 hidden  lg:flex">
           <ul className="items-stretch nav-bar-mobile-padding hidden space-x-3 lg:flex">
           {links.map((item: NavLink) => (
-  item.text === "REGISTER" ? (
+  item.text === "JOIN" ? (
     <NavLinkRegister key={item.id} {...item} />
   ) : (
     <NavLink key={item.id} {...item} />

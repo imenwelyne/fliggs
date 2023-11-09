@@ -26,7 +26,7 @@ export default function Vertical({
             <HighlightedText
               text={description}
               tag="p"
-              className="mt-6 mb-8 custom-font-barlow lg:text-lg sm:mb-12" // Added "mt-6" for top margin
+              className="mt-6 mb-8 custom-font-barlow sm:mb-12" // Added "mt-6" for top margin
               color="text-violet-400"
             />
           </div>

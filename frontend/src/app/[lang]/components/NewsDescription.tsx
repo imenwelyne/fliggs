@@ -28,7 +28,7 @@ export default function NewsDescription({ data }: NewsDescriptionProps) {
 <HighlightedText
               text={data.description}
               tag="p"
-              className="mb-4 custom-font-barlow  lg:text-lg" // Added "mt-6" for top margin
+              className="mb-4 custom-font-barlow  " // Added "mt-6" for top margin
               color="text-violet-400"
             />
       </div>

@@ -29,7 +29,7 @@ interface Picture {
 }
 function Feature({ title, description,align }: Feature) {
 
-  const alignment = align === "left" ? "" : "align-usp-right";
+  const alignment = align === "left" ? "" : "align-usp-right align-items-left";
 
   return (
     <div className={`container mx-auto `}>  
@@ -44,7 +44,7 @@ function Feature({ title, description,align }: Feature) {
       <HighlightedText
             text={description}
             tag="p"
-            className="lg:text-lg custom-font-barlow " 
+            className="custom-font-barlow " 
             color="text-violet-400"
           />
     </div>

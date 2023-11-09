@@ -32,7 +32,7 @@ export default function NewsElement({ data }: NewsElementProps) {
 <HighlightedText
               text={data.description}
               tag="p"
-              className="lg:text-lg custom-font-barlow " // Added "mt-6" for top margin
+              className="custom-font-barlow " // Added "mt-6" for top margin
               color="text-violet-400"
             />
       </div>

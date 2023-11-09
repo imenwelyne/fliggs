@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+
 import HighlightedText from "./HighlightedText";
 import { getStrapiMedia } from "../utils/api-helpers";
 import { renderButtonStyle } from "../utils/render-button-style";
@@ -51,11 +52,15 @@ export default function RightIntro({ data }: RightIntroProps) {
  <HighlightedText
               text={data.description}
               tag="p"
-              className="lg:text-lg custom-font-barlow " 
+              className="custom-font-barlow " 
               color="text-violet-400"
             />
-            <div className="flex items-center justify-center ">
-          <Image
+            <div className="flex items-center justify-center object-contain   image-right-intro ">
+
+            <video autoPlay loop muted className="video-border" style={{ height: '500px' }}>
+        <source src={imgUrl || ""} />
+      </video>
+          {/* <Video
             src={imgUrl || ""}
             alt={
               data.picture.data.attributes.alternativeText || "none provided"
@@ -63,7 +68,7 @@ export default function RightIntro({ data }: RightIntroProps) {
             className="object-contain   image-right-intro "
             width={600}
             height={600}
-          />
+          /> */}
         </div>
           {/* <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             {data.buttons.map((button: Button, index: number) => (

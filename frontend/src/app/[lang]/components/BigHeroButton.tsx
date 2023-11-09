@@ -32,7 +32,7 @@ const test = true;
           <HighlightedText
               text={data.description}
               tag="p"
-              className="lg:text-lg custom-font-barlow py-4 " 
+              className="custom-font-barlow py-4 " 
               color="text-violet-400"
             />
       </div>
