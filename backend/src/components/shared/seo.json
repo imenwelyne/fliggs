@@ -12,6 +12,10 @@
       "type": "string",
       "required": true
     },
+    "metaRobots": {
+      "type": "string",
+      "required": true
+    },
     "metaDescription": {
       "type": "text",
       "required": true

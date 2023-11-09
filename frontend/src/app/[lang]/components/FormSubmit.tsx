@@ -77,19 +77,37 @@ export default function FormSubmit({
         <>
           <div className="flex flex-col"> 
             <input
+              type="hidden"
+              value="prospect"
+              name = "customer_type"
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
+            />
+            <input
+              type="hidden"
+              value="new"
+              name = "registration_status"
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
+            />
+            <input
+              type="hidden"
+              value="web-form"
+              name="source_type"
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
+            />
+            <input
               type="email"
               placeholder={errorMessage || placeholderEmail}
               onChange={(e) => setEmail(e.target.value)}
               value={email}
               className="w-full p-3 bg-blackish-gray text-white  mb-3"   
               />
-          <input
-  type="text"
-  placeholder={placeholderFirstName}
-  onChange={(e) => setFirstName(e.target.value)}
-  value={firstName}
-  className="w-full p-3 bg-blackish-gray text-white  mb-3"   
-/>
+            <input
+              type="text"
+              placeholder={placeholderFirstName}
+              onChange={(e) => setFirstName(e.target.value)}
+              value={firstName}
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
+            />
             <input
               type="text"
               placeholder={placeholderLastName}
