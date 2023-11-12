@@ -6,9 +6,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from "react";
 import { MdEmail } from 'react-icons/md';
-
-
-{/* comments are in case navbar transitions to a dialog menu for mobile(if the menu gets too big for mobile screens)*/}
+import { useRouter } from 'next/router';
 
 
 interface NavLink {
@@ -17,6 +15,8 @@ interface NavLink {
   newTab: boolean;
   text: string;
 }
+
+
 
 interface MobileNavLink extends NavLink {
   closeMenu: () => void;
@@ -77,6 +77,7 @@ function NavLink({ url, text, newTab }: NavLink) {
 
 function MobileNavLink({ url, text, closeMenu }: MobileNavLink ) {
   const path = usePathname();
+  
   const handleClick = () => {
     closeMenu();
   }
@@ -108,6 +109,15 @@ export default function Navbar({
   const closeMenu = () => {
     setMobileMenuOpen(false)
   }
+  const path = usePathname();
+
+const isInvestorx = path.includes('investorsx');
+const investorXNavItem: NavLink = {
+  id: 20,
+  url: '#investor-form-section',
+  newTab: true,
+  text: 'BOOK A MEETING'
+};
   return (
     <div className="p-4 bg-black text-gray-100">
       <div className="container flex justify-between h-16 mx-auto px-0 sm:px-6">
@@ -117,17 +127,23 @@ export default function Navbar({
         {/* add hidden to the 2 divs under this comment */}
         <div className="items-center flex-shrink-0 hidden  lg:flex">
           <ul className="items-stretch nav-bar-mobile-padding hidden space-x-3 lg:flex">
-          {links.map((item: NavLink) => (
-  item.text === "JOIN" ? (
-    <NavLinkRegister key={item.id} {...item} />
-  ) : (
-    <NavLink key={item.id} {...item} />
-  )
-)
-)
 
 
-}
+{isInvestorx ? (
+              // Render only NavLinkRegister if 'investorx' is in the path
+             
+                <NavLinkRegister key={investorXNavItem.id} {...investorXNavItem} />
+           
+            ) : (
+              // Otherwise, render all links
+              links.map((item) => (
+                item.text === "JOIN" ? (
+                  <NavLinkRegister key={item.id} {...item} />
+                ) : (
+                  <NavLink key={item.id} {...item} />
+                )
+              ))
+            )}
 
 
           </ul>

@@ -61,7 +61,7 @@ export default function Display({ data }: DisplayProps) {
           return (
             <div key={index} className="image-slider">
               
-              {imageUrl && <Image className="w-full h-100 object-cover rounded-lg" height={1000} width={600} alt="alt text" src={imageUrl} />}
+              {imageUrl && <Image className="w-full h-100 object-cover rounded-lg" height={1000} width={600} alt={item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
              
               </div>
             

@@ -17,6 +17,13 @@
     }
   },
   "attributes": {
+    "independant": {
+      "type": "enumeration",
+      "enum": [
+        "false",
+        "true"
+      ]
+    },
     "shortName": {
       "type": "string",
       "pluginOptions": {

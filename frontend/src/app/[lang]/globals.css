@@ -210,6 +210,9 @@ body {
     .image-right-intro{
         
       display: none;
+      visibility: hidden;
+      width: 0;
+      height: 0;
      }
       
     }

@@ -38,6 +38,7 @@ export interface ContentSection {
 }
 
 export interface Attribute {
+	independant: string;
 	shortName: string;
 	slug: string;
 	createdAt: string;
