@@ -45,6 +45,8 @@ interface DisplayProps {
   data: {
     id: string;
     title: string;
+    smallTitle: string;
+
    dispicture : Dispicture[]
   };
 }
@@ -61,7 +63,7 @@ export default function Display({ data }: DisplayProps) {
           return (
             <div key={index} className="image-slider">
               
-              {imageUrl && <Image className="w-full h-100 object-cover rounded-lg" height={1000} width={600} alt={item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
+              {imageUrl && <Image  className="w-full display-image-size h-100 object-cover rounded-lg" height={1000} width={600} alt= {item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
              
               </div>
             
@@ -72,10 +74,23 @@ export default function Display({ data }: DisplayProps) {
         <div className=" flat display-box-padding display-custom-container flex flex-col justify-center h-screen mx-auto">
     <div className="bg-blackish bg-blackish-margin p-6 flex">
       <div className="flex flex-col justify-center text-center lg:text-left p-5 lg:max-w-md xl:max-w-lg">
+      <HighlightedText
+          text={data.smallTitle}
+          tag="h1" 
+          className="custom-font-bold text-2xl leading-none display-small-title text-white mb-8"
+        />
+          <li className="flex">
+      <Link
+        href="#registration-section"
+        className={` px-4 custom-font-book font-spacing py-2 uppercase  button-bg-yellow text-black }`}
+      >
+        JOIN THE WAITLIST
+      </Link>
+    </li>
         <HighlightedText
           text={data.title}
           tag="h1" 
-          className="custom-font-bold heroTitle leading-none display-title text-white mb-8"
+          className="custom-font-bold heroTitle leading-none display-title text-white  py-4"
         />
       </div>
 
