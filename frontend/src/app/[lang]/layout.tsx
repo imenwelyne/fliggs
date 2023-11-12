@@ -82,6 +82,7 @@ export default async function RootLayout({
     <html lang={params.lang}>
    <head>
         <meta name="google-site-verification" content="Q1fpssA3SmnAz41myfH-ctxNMHK3JCtLQF6mCOpQu4E" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <Script id="google-tag-manager" strategy="afterInteractive">
             {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
