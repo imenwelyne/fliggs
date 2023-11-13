@@ -202,24 +202,7 @@ body {
       }
       
     }
-    @media screen and (max-width: 1024px){
-      .image-intro{
-        
-     display: none;
-    }
-    .image-right-intro{
-      display: none !important;
-      visibility: hidden !important;
-      width: 0;
-      height: 0;
-     }
-    .image-right-intro video{
-      display: none !important;
-      visibility: hidden !important;
-      width: 0;
-      height: 0;
-    }
-    }
+    
     @media screen and (min-width: 1024px){
       .height-small-hero{ 
         height: 400px;
@@ -238,9 +221,7 @@ body {
         right: 9vw;
         top: -67px;
     
-    }
- 
-      
+      }
     }
     @media only screen and (min-width: 2300px)  {
       .image-right-intro{
@@ -932,6 +913,55 @@ padding-top: 80px;
   margin-top: 25vw;
 }
 @media only screen and (max-width: 660px)   {
-.engagements-bg-image {
-background-image: none;}
+  .engagements-bg-image {
+    background-image: none;
+  }
+}
+
+@media screen and (max-device-width: 1024px){
+  .image-intro{
+    display: none;
+  }
+  
+.image-right-intro{
+    
+  display: none !important;
+  visibility: hidden !important;
+  width: 0;
+  height: 0;
+ }
+
+ .image-right-intro video{
+    
+  display: none !important;
+  visibility: hidden !important;
+  width: 0;
+  height: 0;
+ }
+  
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  @media screen and (max-device-width: 1024px){
+    .image-intro{
+      
+   display: none;
+  }
+  .image-right-intro{
+      
+    display: none !important;
+    visibility: hidden !important;
+    width: 0;
+    height: 0;
+   }
+
+   .image-right-intro video{
+      
+    display: none !important;
+    visibility: hidden !important;
+    width: 0;
+    height: 0;
+   }
+    
+  }
 }
