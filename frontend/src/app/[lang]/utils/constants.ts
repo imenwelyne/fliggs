@@ -1,4 +1,4 @@
 export const FALLBACK_SEO = {
-    title: "Strapi Starter Next Blog",
-    description: "Strapi Starter Next Blog",
+    title: "Fliggs",
+    description: "fliggs mobile, Telco, Web3, mobile, wireless, header image, identity, network",
 }

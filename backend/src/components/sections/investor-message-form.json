@@ -1,0 +1,40 @@
+{
+    "collectionName": "components_sections_investor_message_forms",
+    "info": {
+      "name": "Investor message form",
+      "displayName": "Investor Message form",
+      "icon": "at",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "emailPlaceholder": {
+        "type": "string",
+        "required": true
+      },
+      "submitButton": {
+        "type": "component",
+        "repeatable": false,
+        "component": "links.button"
+      },
+      "location": {
+        "type": "string"
+      },
+      "description": {
+        "type": "text"
+      },
+      "firstNamePlaceholder": {
+        "type": "string"
+      },
+      "lastNamePlaceholder": {
+        "type": "string"
+      },
+      "messagePlaceholder": {
+        "type": "string"
+      }
+    }
+  }
+  

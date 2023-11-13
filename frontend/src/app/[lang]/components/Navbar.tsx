@@ -112,11 +112,24 @@ export default function Navbar({
   const path = usePathname();
 
 const isInvestorx = path.includes('investorsx');
+const isInvestor = path.includes('invest');
 const investorXNavItem: NavLink = {
   id: 20,
-  url: '#investor-form-section',
-  newTab: true,
+  url: '/investorsx/#investor-section',
+  newTab: false,
   text: 'BOOK A MEETING'
+};
+const investorNavItem: NavLink = {
+  id: 20,
+  url: '/investors/#registration-investor-section',
+  newTab: false,
+  text: 'CONTACT'
+};
+const homeNavItem: NavLink = {
+  id: 20,
+  url: '#registration-section',
+  newTab: false,
+  text: 'JOIN'
 };
   return (
     <div className="p-4 bg-black text-gray-100">
@@ -129,21 +142,28 @@ const investorXNavItem: NavLink = {
           <ul className="items-stretch nav-bar-mobile-padding hidden space-x-3 lg:flex">
 
 
-{isInvestorx ? (
-              // Render only NavLinkRegister if 'investorx' is in the path
-             
-                <NavLinkRegister key={investorXNavItem.id} {...investorXNavItem} />
-           
-            ) : (
-              // Otherwise, render all links
-              links.map((item) => (
-                item.text === "JOIN" ? (
-                  <NavLinkRegister key={item.id} {...item} />
-                ) : (
-                  <NavLink key={item.id} {...item} />
-                )
-              ))
-            )}
+          {
+  isInvestorx ? (
+    // Render only NavLinkRegister if 'investorx' is in the path
+    <NavLinkRegister key={investorXNavItem.id} {...investorXNavItem} />
+  ) : (
+    <>
+      {/* Otherwise, render all links */}
+      {links.map((item) => (
+        <NavLink key={item.id} {...item} />
+      ))}
+      {isInvestor ? (
+        // Render this if isInvestor is true
+        <NavLinkRegister key={investorNavItem.id} {...investorNavItem} />
+      ) : (
+        // Render this if isInvestor is false
+        <NavLinkRegister key={homeNavItem.id} {...homeNavItem} />
+
+      )}
+    </>
+  )
+}
+
 
 
           </ul>
@@ -177,12 +197,28 @@ const investorXNavItem: NavLink = {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-200/10">
                 <div className="space-y-2 py-6">
-                {links.map((item) => (
-                    <MobileNavLink
-                      key={item.id}
-                      closeMenu={closeMenu}
-                      {...item} />
-                  ))}
+                
+                
+                {
+  isInvestorx ? (
+    // If 'isInvestorx' is true, render a specific link or a modified list
+    <MobileNavLink
+      key={investorXNavItem.id}
+      closeMenu={closeMenu}
+      {...investorXNavItem}
+    />
+  ) : (
+    // If 'isInvestorx' is false, render all links as usual
+    links.map((item) => (
+      <MobileNavLink
+        key={item.id}
+        closeMenu={closeMenu}
+        {...item}
+      />
+    ))
+  )
+}
+
                 </div>
               </div>
             </div>

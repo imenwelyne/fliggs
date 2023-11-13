@@ -208,13 +208,17 @@ body {
      display: none;
     }
     .image-right-intro{
-        
-      display: none;
-      visibility: hidden;
+      display: none !important;
+      visibility: hidden !important;
       width: 0;
       height: 0;
      }
-      
+    .image-right-intro video{
+      display: none !important;
+      visibility: hidden !important;
+      width: 0;
+      height: 0;
+    }
     }
     @media screen and (min-width: 1024px){
       .height-small-hero{ 
@@ -870,6 +874,15 @@ padding-top: 80px;
 .align-items-left{
   align-items: end;
   text-align: end;
+}
+.notfound{
+  font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25vh;
+    text-align: center;
 }
 @media only screen and (max-width: 1748px)   {
   /* .image-slider{

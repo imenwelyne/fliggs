@@ -22,6 +22,8 @@ import InvestorForm from "../components/InvestorForm";
 
 
 import Features from "../components/Features";
+import InvestorMessageForm from "../components/InvestorMessageForm";
+
 import Teams from "../components/Teams";
 import News from "../components/News";
 import Numbers from "../components/Numbers";
@@ -110,6 +112,8 @@ export function sectionRenderer(section: any, index: number) {
       return <YellowForm key={index} data={section} />;
       case "sections.investor-form":
         return <InvestorForm key={index} data={section} />;
+        case "sections.investor-message-form":
+          return <InvestorMessageForm key={index} data={section} />;
       case "sections.news-element":
         return <NewsElement key={index} data={section} />;
         case "sections.space":
@@ -120,6 +124,3 @@ export function sectionRenderer(section: any, index: number) {
       return null;
   }
 }
-
-
-

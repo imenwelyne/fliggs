@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investor_form_submissions",
+  "info": {
+    "singularName": "investor-form-submission",
+    "pluralName": "investor-form-submissions",
+    "displayName": "Investor form submission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

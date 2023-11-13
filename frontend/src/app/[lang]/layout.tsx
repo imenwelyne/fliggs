@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import {FALLBACK_SEO} from "@/app/[lang]/utils/constants";
 import CookieBox from "./components/CookieBox";
 import Script from "next/script";
+import NotFoundPage from "./not-found";
 
 const GTM_ID = process.env.ID_GTM
 const ID_ANALYTICS = process.env.ID_ANALYTICS
@@ -66,7 +67,7 @@ export default async function RootLayout({
 }) {
   const global = await getGlobal(params.lang);
   // TODO: CREATE A CUSTOM ERROR PAGE
-  if (!global.data) return null;
+  if (!global.data) return NotFoundPage();
   
   const { notificationBanner, navbar, footer } = global.data.attributes;
 
