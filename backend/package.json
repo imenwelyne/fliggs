@@ -7,7 +7,6 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "sitemap": "strapi-sitemap",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -17,8 +16,7 @@
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/strapi": "4.12.5",
     "better-sqlite3": "8.4.0",
-    "strapi-plugin-cookie-manager": "^1.2.2",
-    "strapi-plugin-sitemap": "^3.0.6"
+    "strapi-plugin-cookie-manager": "^1.2.2"
   },
   "author": {
     "name": "A Strapi developer"
