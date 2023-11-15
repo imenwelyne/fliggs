@@ -57,7 +57,7 @@ export default function RightIntro({ data }: RightIntroProps) {
             />
             <div className="flex items-center justify-center object-contain   image-right-intro ">
 
-            <video autoPlay loop muted className="video-border" style={{ height: '500px' }}>
+            <video autoPlay loop muted playsInline className="video-border" style={{ height: '500px' }}>
         <source src={imgUrl || ""} />
       </video>
           {/* <Video

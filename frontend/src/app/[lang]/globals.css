@@ -918,50 +918,10 @@ padding-top: 80px;
   }
 }
 
-@media screen and (max-device-width: 1024px){
-  .image-intro{
-    display: none;
-  }
-  
-.image-right-intro{
-    
-  display: none !important;
-  visibility: hidden !important;
-  width: 0;
-  height: 0;
- }
-
- .image-right-intro video{
-    
-  display: none !important;
-  visibility: hidden !important;
-  width: 0;
-  height: 0;
- }
-  
-}
-
-@supports (-webkit-overflow-scrolling: touch) {
-  @media screen and (max-device-width: 1024px){
-    .image-intro{
-      
-   display: none;
-  }
-  .image-right-intro{
-      
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+  .image-right-intro, .image-right-intro video {
     display: none !important;
     visibility: hidden !important;
-    width: 0;
-    height: 0;
-   }
-
-   .image-right-intro video{
-      
-    display: none !important;
-    visibility: hidden !important;
-    width: 0;
-    height: 0;
-   }
-    
   }
 }

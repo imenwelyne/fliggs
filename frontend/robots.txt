@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://api.fliggs.com/api/sitemap/index.xml
