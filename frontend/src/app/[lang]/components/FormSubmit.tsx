@@ -95,7 +95,14 @@ export default function FormSubmit({
               className="w-full p-3 bg-blackish-gray text-white  mb-3"   
             />
             <input
+              type="hidden"
+              value="https://fliggs.com/en"
+              name="source_url"
+              className="w-full p-3 bg-blackish-gray text-white  mb-3"   
+            />
+            <input
               type="email"
+              name="email"
               placeholder={errorMessage || placeholderEmail}
               onChange={(e) => setEmail(e.target.value)}
               value={email}
@@ -103,6 +110,7 @@ export default function FormSubmit({
               />
             <input
               type="text"
+              name="first_name"
               placeholder={placeholderFirstName}
               onChange={(e) => setFirstName(e.target.value)}
               value={firstName}
@@ -110,6 +118,7 @@ export default function FormSubmit({
             />
             <input
               type="text"
+              name="last_name"
               placeholder={placeholderLastName}
               onChange={(e) => setLastName(e.target.value)}
               value={lastName}
