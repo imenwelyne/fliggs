@@ -8,6 +8,7 @@ import { renderButtonStyle } from "../utils/render-button-style";
 import arrow from './arrow.svg'
 import { Carousel } from 'react-responsive-carousel';
 import { Fade } from "react-slideshow-image";
+import { useEffect, useState } from "react";
 interface Image {
   id: number;
   attributes: {
@@ -55,24 +56,32 @@ interface DisplayProps {
 
 
 export default function Display({ data }: DisplayProps) {
-  console.log("data");
-  console.log(data);
+  const [isInvest, setInvest] = useState(false)
+  useEffect(() => {
+    const currentUrl = window.location.href;
+    if (currentUrl.includes('investors')) {
+      setInvest(true);
+    }
+  }, []);
+
   return (
-    <section className="slider-container">
-      
-          <Carousel autoPlay={true} infiniteLoop={true} interval={3000} showThumbs={false} showArrows={false} showStatus={false}>
-        {data.dispicture.map((item,index) => {
-          const imageUrl = getStrapiMedia(item.image.data.attributes.url);
-          return (
-            <div key={index} className="image-slider">
-              
-              {imageUrl && <Image  className="w-full display-image-size h-100 object-cover rounded-lg" height={1000} width={600} alt= {item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
+    <section className={`slider-container ${isInvest ? 'gradient-bg' : ''}`}>
+      <div className={`${isInvest ? 'dnone' : ''}`}>
+       <Carousel autoPlay={true} infiniteLoop={true} interval={3000} showThumbs={false} showArrows={false} showStatus={false}>
+       {data.dispicture.map((item,index) => {
+         const imageUrl = getStrapiMedia(item.image.data.attributes.url);
+         return (
+           <div key={index} className="image-slider ">
              
-              </div>
+             {imageUrl &&  <Image  className="w-full display-image-size h-100 object-cover rounded-lg" height={1000} width={600} alt= {item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
+             
             
-          );
-        })}
-        </Carousel>
+             </div>
+           
+         );
+       })}
+       </Carousel>
+       </div>
     
         <div className=" flat display-box-padding display-custom-container flex flex-col justify-center h-screen mx-auto">
     <div className={` ${data.activeBackground == "true" ? 'bg-blackish' : ''} bg-blackish-margin p-6 flex`}>

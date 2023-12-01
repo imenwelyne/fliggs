@@ -723,6 +723,11 @@ padding-top: 80px;
     background-position: center;
     background-size: cover;
 }
+.gradient-bg{
+  background-image: url("../../../public/investorMobBg.jpg");
+  background-position: center;
+  background-size: cover;
+}
 /* Initially hide both boxes */
 .yellow-box, .gray-box {
   visibility: hidden;
@@ -779,7 +784,12 @@ padding-top: 80px;
 }
 
 
-@media only screen and (max-width: 1024px)   {
+@media only screen and (max-width: 768px)   {
+.dnone{
+  visibility: hidden;
+}
+}
+  @media only screen and (max-width: 1024px)   {
 
 .custom-news-card{
   padding: 20px;
