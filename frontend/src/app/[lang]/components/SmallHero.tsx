@@ -48,6 +48,7 @@ export default function SmallHero({ data }: SmallHeroProps) {
           text={data.title}
           tag="h1"
           className="text-4xl custom-font-bold leading-none text-white"
+          color="#FAFF00"
         />
       </div>
     </div>

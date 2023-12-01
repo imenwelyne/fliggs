@@ -40,12 +40,13 @@ function Feature({ title, description,align }: Feature) {
         text={title}
         tag="h1"
         className="feature-title-size py-4 custom-font-bold leading-none text-white"
+        color="#FAEB00"
       />
       <HighlightedText
             text={description}
             tag="p"
             className="custom-font-barlow " 
-            color="text-violet-400"
+            color="#FAEB00"
           />
     </div>
   </div>

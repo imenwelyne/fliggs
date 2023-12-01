@@ -54,7 +54,7 @@ export default function Intro({ data }: IntroProps) {
             text={data.title}
             tag="h1"
             className="text-5xl font-bold leading-none sm:text-6xl mb-8"
-            color="text-violet-400"
+            color="#FAFF00"
           />
 
         

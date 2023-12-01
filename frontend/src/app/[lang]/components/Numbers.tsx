@@ -1,8 +1,10 @@
 import Link from "next/link";
 import HighlightedText from "./HighlightedText";
 import { getStrapiMedia } from "../utils/api-helpers";
+import { ReactNode } from "react";
 interface NumbersProps {
   data: {
+    title: string;
  
     number: Number[];
 
@@ -17,7 +19,6 @@ interface Number {
   image: Picture;
   align: string;
 
-
 }
 interface Picture {
   data: {
@@ -30,8 +31,8 @@ interface Picture {
   };
 }
 function Number({ title, description,image,align }: Number) {
+    
   const imgUrl = getStrapiMedia(image.data.attributes.url);
-
   const containerClass = align === "left" ? "" : "lg:flex-row-reverse align-items-left";
  const bgAlignment = align === "left" ? "numbers-text" : "numbers-text-right";
   return (
@@ -44,13 +45,13 @@ function Number({ title, description,image,align }: Number) {
               text={title}
               tag="h1"
               className="text-4xl custom-font-bold leading-none"
-              color="text-violet-400"
+              color="#FAFF00"
             />
             <HighlightedText
               text={description}
               tag="p"
               className="numbtext mt-6 mb-8 custom-font-barlow  sm:mb-12" 
-              color="text-violet-400"
+              color="#FAFF00"
             />
             </div>
           </div>
@@ -61,10 +62,19 @@ function Number({ title, description,image,align }: Number) {
 }
 
 export default function Numbers({ data }: NumbersProps) {
+console.log('aaa',data.number);
 
   return (
 
     <section id="numbers-section"  className={`bg-gray lg:p-24 p-12`} >
+      {(data.title) && 
+      <HighlightedText
+      text={data.title}
+      tag="p"
+      className="feature-title-size py-4 custom-font-bold leading-none text-white mb-16 numTitle"
+      color="#FAFF00"
+    />
+      }
         {data.number.map((number: Number, index: number) => (
           <Number key={index} {...number} />
         ))}

@@ -43,16 +43,19 @@ interface Dispicture {
 
 interface DisplayProps {
   data: {
+    textButton: string;
     id: string;
     title: string;
     smallTitle: string;
-
-   dispicture : Dispicture[]
+    linkText: string;
+    activeBackground:any;
+    dispicture : Dispicture[]
   };
 }
 
 
 export default function Display({ data }: DisplayProps) {
+  console.log("data");
   console.log(data);
   return (
     <section className="slider-container">
@@ -72,40 +75,50 @@ export default function Display({ data }: DisplayProps) {
         </Carousel>
     
         <div className=" flat display-box-padding display-custom-container flex flex-col justify-center h-screen mx-auto">
-    <div className="bg-blackish bg-blackish-margin p-6 flex">
+    <div className={` ${data.activeBackground == "true" ? 'bg-blackish' : ''} bg-blackish-margin p-6 flex`}>
       <div className="flex flex-col justify-center text-center lg:text-left p-5 lg:max-w-md xl:max-w-lg">
-      <HighlightedText
+       { (data.smallTitle) && <HighlightedText
           text={data.smallTitle}
           tag="h1" 
           className="custom-font-bold text-2xl leading-none display-small-title text-white mb-8"
-        />
-          <li className="flex">
-      <Link
-        href="#registration-section"
-        className={` px-4 custom-font-book font-spacing py-2 uppercase  button-bg-yellow text-black }`}
-      >
-        JOIN THE WAITLIST
-      </Link>
-    </li>
+          color="#FAFF00"
+        />}
+       
+        {(data.linkText) && 
+        <li className="flex">
+        <Link
+          href="#registration-section"
+          className={` px-4 custom-font-book font-spacing py-2 uppercase  button-bg-yellow text-black }`}
+        >
+          {data.linkText}
+        </Link>
+      </li>
+        }
+          
         <HighlightedText
           text={data.title}
           tag="h1" 
-          className="custom-font-bold heroTitle leading-none display-title text-white  py-4"
+          className="custom-font-bold heroTitle leading-none display-title text-white py-4"
+          color="#FAFF00"
         />
       </div>
 
     </div>
+    {(data.textButton) && 
     <a href="#right-intro-section" target="_self" >
 
     <div className="read-more mb-8">
          <HighlightedText
-          text="READ MORE"
+          text={data.textButton}
           tag="p"
+          color="#FAFF00"
           className="read-more-text custom-font-book leading-none text-white mb-8"
         />
           <Image className="arrow" src={arrow} alt="" ></Image>
           </div> 
           </a>
+    }
+    
           <div className="read-more-mobile">
      
           </div> 

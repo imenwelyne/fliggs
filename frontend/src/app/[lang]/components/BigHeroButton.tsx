@@ -19,7 +19,7 @@ interface BigHeroButtonProps {
 export default function BigHeroButton({ data }: BigHeroButtonProps) {
 const test = true;
   return (
-<section className="big-hero-height bg-gradient-to-bl from-slate-400 via-neutral-900 to-black ">
+<section className="big-hero-height ">
 <div className={`container flex items-center p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
@@ -28,13 +28,14 @@ const test = true;
           text={data.title}
           tag="h1"
           className="big-hero-text custom-font-bold leading-none text-white"
+          color="#FAFF00"
         />
-          <HighlightedText
+          {/* <HighlightedText
               text={data.description}
               tag="p"
               className="custom-font-barlow py-4 " 
               color="text-violet-400"
-            />
+            /> */}
       </div>
       <a href="#numbers-section" target="_self" >
 
@@ -44,6 +45,7 @@ const test = true;
           text="WHY INVEST"
           tag="p"
           className="read-more-text custom-font-book leading-none text-white mb-8"
+          color="#FAFF00"
         />
         
           <Image src={arrow} alt="" width={50}></Image>
@@ -58,7 +60,3 @@ const test = true;
 </section>
   );
 }
-
-
-
-

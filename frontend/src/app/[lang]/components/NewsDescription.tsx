@@ -29,7 +29,7 @@ export default function NewsDescription({ data }: NewsDescriptionProps) {
               text={data.description}
               tag="p"
               className="mb-4 custom-font-barlow  " // Added "mt-6" for top margin
-              color="text-violet-400"
+              color="#FAFF00"
             />
       </div>
     </div>

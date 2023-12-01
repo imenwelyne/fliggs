@@ -19,6 +19,22 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.dispicture"
+    },
+    "activeBackground": {
+      "type": "enumeration",
+      "enum": [
+        "false",
+        "true"
+      ]
+    },
+    "linkText": {
+      "type": "string",
+      "required": false
+    },
+    "textButton": {
+      "type": "string",
+      "required": false
     }
+
   }
 }

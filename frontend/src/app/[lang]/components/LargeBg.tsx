@@ -26,7 +26,7 @@ export default function LargeBg({ data }: LargeBgProps) {
           text={data.title}
           tag="h1"
           className="large-bg-text custom-font-bold leading-none text-black"
-          color="text-violet-400"
+          color="#FAFF00"
         />
       </div>
     </div>
@@ -34,8 +34,5 @@ export default function LargeBg({ data }: LargeBgProps) {
 </section>
 
 
-
-
-  
   );
 }

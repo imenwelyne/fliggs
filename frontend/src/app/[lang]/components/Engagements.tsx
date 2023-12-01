@@ -39,7 +39,7 @@ function Engagement({ image,url,label }: Engagement) {
 
   return (
 <section >
-<div className="flex items-center justify-center lg:p-16 p-4 mt-8 lg:mt-0  ">
+<div className="flex items-center justify-center social-icons mt-8 lg:mt-0  ">
 <a href={`${url}`}   target="_blank" title={label}>
 
 <Image
@@ -47,7 +47,7 @@ function Engagement({ image,url,label }: Engagement) {
             alt={
              image.data.attributes.alternativeText || "none provided"
             }
-            className="object-contain"
+            className="object-contain icon"
             width={70}
             height={70}
           />
@@ -65,10 +65,10 @@ export default function Engagements({ data }: EngagementsProps) {
             paddingLeft: '10px',
             alignItems: 'start',
           }}>
-      <div className="container mx-auto py-4 px-4 space-y-2">
+      <div className="container mx-auto py-4 space-y-2">
         <h2 className="engagement-title-size padding-engagement text-white custom-font-bold">{data.title}</h2>
       </div>
-      <div className="engagements-height flex justify-start flex-row">
+      <div className="engagements-height flex justify-start flex-row mt-2">
 
         {data.engagement.map((engagement: Engagement, index: number) => (
           <Engagement key={index} {...engagement} />

@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import { getStrapiURL } from "../utils/api-helpers";
+import { CUSTOMER_IO_KEY } from "../utils/constants";
+
 
 export default function FormSubmit({
   placeholderEmail,
@@ -23,8 +25,43 @@ export default function FormSubmit({
   const [errorMessage, setErrorMessage] = useState("");
 
   const token = process.env.NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN;
+  // const cutomerIoToken = process.env.NEXT_PUBLIC_STRAPI_FORM_SUBMISSION_TOKEN;
+
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+
+  async function submitToExternalAPI() {
+    try {
+      const response = await fetch('https://track.customer.io/api/v1/forms/01hfemgzydpxpqz8bw9hp8d8ws/submit', {
+        method: 'POST',
+        headers: {
+          'Authorization': CUSTOMER_IO_KEY,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          data: {
+            email: email,
+            first_name: firstName,
+            last_name: lastName,
+            customer_type : 'prospect',
+            registration_status : 'new',
+            source_url: 'www.fliggs.com',
+            source_type : 'web-form'
+          }
+        }),
+      });
+  
+      if (!response.ok) {
+        throw new Error('External API submission failed');
+      }
+  
+      return await response.json();
+    } catch (error) {
+      console.error('Error submitting to external API:', error);
+    }
+  }
+
 
   async function handleSubmit() {
     if (email === "") {
@@ -63,6 +100,7 @@ export default function FormSubmit({
     setErrorMessage("");
     setSuccessMessage("Form successfully submitted!");
     setEmail("");
+    await submitToExternalAPI();
   }
 
   return (
@@ -96,7 +134,7 @@ export default function FormSubmit({
             />
             <input
               type="hidden"
-              value="https://fliggs.com/en"
+              value="https://fliggs.com"
               name="source_url"
               className="w-full p-3 bg-blackish-gray text-white  mb-3"   
             />

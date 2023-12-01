@@ -55,7 +55,8 @@ const test = true;
             <HighlightedText
               text={data.title}
               tag="h1"
-              className={`text-${data.videoOnMobile === "true" ? '2xl' : '5xl'} custom-font-bold leading-none sm:text-6xl mb-8`}              color="text-violet-400"
+              className={`text-${data.videoOnMobile === "true" ? '2xl' : '5xl'} custom-font-bold leading-none sm:text-6xl mb-8`}              
+              color="#FAFF00"
             />
             {/* Add any additional text content here */}
           </div>

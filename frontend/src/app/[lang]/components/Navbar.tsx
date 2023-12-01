@@ -129,10 +129,10 @@ const homeNavItem: NavLink = {
   id: 20,
   url: '#registration-section',
   newTab: false,
-  text: 'JOIN'
+  text: 'EARLY BIRD'
 };
   return (
-    <div className="p-4 bg-black text-gray-100">
+    <div className="p-0 md:p-4 lg:p-4 bg-black text-gray-100 fixed top-0 sticky-nav">
       <div className="container flex justify-between h-16 mx-auto px-0 sm:px-6">
         <Logo src={logoUrl}>
           {logoText && <h2 className="text-2xl font-bold">{logoText}</h2>}

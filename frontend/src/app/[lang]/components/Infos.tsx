@@ -49,7 +49,7 @@ function Info({title, image,align}: Info) {
               text={title}
               tag="h1"
               className="text-4xl custom-font-bold text-black  leading-none"
-              color="text-violet-400"
+              color="#FAFF00"
             />
        
             </div>

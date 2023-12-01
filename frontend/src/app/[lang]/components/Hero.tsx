@@ -43,7 +43,7 @@ export default function Hero({ data }: HeroProps) {
             text={data.title}
             tag="h1"
             className=" font-bold leading-none hero-text  mb-8"
-            color="text-violet-400"
+            color="#FAFF00"
           />
 
 {/*         

@@ -13,7 +13,7 @@
       "required": true
     },
     "description1": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "title2": {
@@ -21,7 +21,7 @@
       "required": true
     },
     "description2": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "align1": {

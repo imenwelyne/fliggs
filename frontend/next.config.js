@@ -6,7 +6,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'http',
-        hostname: 'strapi',
+        hostname: 'localhost',
         port: '1337',
         pathname: '/uploads/**',
       },
@@ -21,7 +21,7 @@ const nextConfig = {
       {
         source: '/fonts/:path*',
         destination: '/_next/static/fonts/:path*',
-      },
+      }
     ];
   },
 };

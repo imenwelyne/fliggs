@@ -49,16 +49,11 @@ export default function Large({ data }: LargeProps) {
           text={data.title}
           tag="h1"
           className="text-4xl custom-font-bold leading-none text-black"
-          color="text-violet-400"
+          color="#FAFF00"
         />
       </div>
     </div>
   </div>
 </section>
-
-
-
-
-  
   );
 }

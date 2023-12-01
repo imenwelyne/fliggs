@@ -49,6 +49,7 @@ function Team({ name, position,image,key }: Team) {
             text={name}
             tag="h1"
             className={`3xl custom-font-bold leading-none text-black ${styles.name}`}
+            color="#FAFF00"
           />
         </div>
         <div className={`px-4 py-3 ${styles.grayBox}`}>
@@ -56,7 +57,7 @@ function Team({ name, position,image,key }: Team) {
             text={position}
             tag="p"
             className={`custom-font-barlow text-black ${styles.position}`}
-            color="text-violet-400"
+            color="#FAFF00"
           />
         </div>
       </div>

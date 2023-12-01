@@ -48,7 +48,8 @@ function New({ title, description,date,color,image,url }: New) {
 <HighlightedText
       text={date}
       tag="h1"
-      className={`news-date-size custom-font-bold leading-none news-theme-title-${color} p-4 `}   />
+      className={`news-date-size custom-font-bold leading-none news-theme-title-${color} p-4 `} 
+      color="#FAFF00"  />
       <div className="flex justify-start news-card-container  news-title-width ">
       <div className="flex-row items-center justify-center mt-8 lg:mt-0  ">
   
@@ -71,11 +72,13 @@ function New({ title, description,date,color,image,url }: New) {
       text={title}
       tag="h1"
       className={`text-2xl custom-font-bold leading-none ${titleColor}`}
+      color="#FAFF00"
     />
   </div>
   <HighlightedText
       text={description}
       tag="p"
+      color="#FAFF00"
       className={`custom-font-barlow leading-none ${descriptionColor}`}
     />
      <div className="container mx-auto py-4 space-y-2">
@@ -99,15 +102,16 @@ function New({ title, description,date,color,image,url }: New) {
 export default function News({ data }: NewsProps) {
   return (
 
-    <section className="bg-gradient-to-r from-neutral-900 via-stone-700 to-neutral-500 text-gray-100 m:py-12 lg:py-24 p-1">
+    <section className="news-bg text-gray-100 m:py-12 lg:py-24 p-1">
     <div className={`big-hero-height container flex p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
-      <div className=" mb-6 flex flex-col justify-start">
+      <div className=" mb-6 flex flex-col justify-start mt-8">
         <HighlightedText
           text={data.title}
           tag="h1"
-          className="big-hero-text custom-font-bold leading-none text-white"
+          color="#FAFF00"
+          className="big-hero-text custom-font-bold leading-none text-white mt-16"
         />
       </div>
     </div>

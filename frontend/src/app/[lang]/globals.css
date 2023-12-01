@@ -58,7 +58,9 @@ body {
   @apply mb-4;
 }
 .heroTitle{
-  font-size: 30px
+  font-size: 30px;
+  line-height: 40px
+  
 }
 /* Emphasis */
 .rich-text strong {
@@ -472,7 +474,11 @@ body {
   }
   }
 
- 
+  .feature-title-padding{
+    padding: 0 35% 0 5%;
+    line-height: 80px;
+    
+  }
   @media (min-width: 1024px) {
  
     .news-date-size{
@@ -482,10 +488,32 @@ body {
       font-size: 5.5rem;
     }
     .large-bg-text-width{
-      width: 45rem;
+      width: 50rem;
     }
   }
 
+  .social-icons{
+    margin-right: 100px;
+  }
+  .icon{
+    width: 70px;
+  }
+  @media (max-width: 800px) {
+    .social-icons{
+      margin-right: 50px;
+    }
+    .icon{
+      width: 40px;
+    }
+  }
+@media (max-width: 660px) {
+  .social-icons{
+    margin-right: 35px;
+  }
+  .icon{
+    width: 40px;
+  }
+}
 
 
   .usp-text {
@@ -563,6 +591,7 @@ font-size: 2.25rem;
   }
   .feature-title-size{
     font-size: 2.3rem;
+    line-height: 45px;
   }
 
 
@@ -614,6 +643,7 @@ padding-top: 80px;
   }
   .feature-title-size{
     font-size: 4rem;
+    line-height: 68px
   }
 
   .bg-blackish-margin{
@@ -621,9 +651,13 @@ padding-top: 80px;
   }
 }
 
-@media only screen and (max-width: 1279px) and (min-width: 1024px)  {
+@media only screen and (min-width: 1024px) and (max-width: 1279px)   {
   .feature-title-size{
-    font-size: 3rem;
+    line-height: 50px;
+    font-size: 2.5rem;
+  }
+  .feature-title-padding{
+    padding: 0 0% 0 5%;
   }
 }
 .display-component{
@@ -647,17 +681,18 @@ padding-top: 80px;
 
 
 }
+
 .control-dots{
   display: none;
 }
 .flat{
   position: absolute;
-  top: 20%;
+  top: 10%;
 }
 .display-content-component{
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  
+  /* padding-left: 15%; */
 }
 
 .bg-blackish {
@@ -672,8 +707,22 @@ padding-top: 80px;
 .big-hero-height{
   height: 700px;
   display: flex;
+  
 }
-
+.hero-bg{
+  background-image: url("../../../public/Group.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sticky-nav{
+  width: 100%;
+  z-index: 99999;
+}
+.news-bg{
+  background-image: url("../../../public/pixelbackground-news.png");
+    background-position: center;
+    background-size: cover;
+}
 /* Initially hide both boxes */
 .yellow-box, .gray-box {
   visibility: hidden;
@@ -734,7 +783,7 @@ padding-top: 80px;
 
 .custom-news-card{
   padding: 20px;
-  width: 90%;
+  width: 70%;
 }
 
 .news-card-container{
@@ -753,13 +802,43 @@ padding-top: 80px;
 }
 }
 
-@media only screen and (max-width: 670px)    {
+@media only screen and (min-width: 1025px) and (max-width: 1770px)   {
+  .custom-news-card{
+    padding: 20px;
+    width: 80%;
+  }
+}
+  @media only screen and (max-width: 1180px)    {
+    .news-date-size{
+      font-size: 1.5rem;
+    }
+  }
+    @media only screen and (max-width: 1023px) and (min-width:771px)   {
+      .feature-title-padding{
+        padding: 0 10% 0 2% ;
+        font-size: 3rem;
+        line-height: 50px;
+      }
+
+    }
+      @media only screen and (max-width: 770px)    {
 
   .feature-title-padding{
-    padding-left: 20px;
+    padding: 0 0 0 40px;
+    font-size: 2.5rem;
+    line-height: 40px;
   }
   
   }
+  @media only screen and (max-width: 534px)    {
+
+    .feature-title-padding{
+      padding: 0 5% 0 30px;
+      font-size: 1.8rem;
+      line-height: 30px;
+    }
+    
+    }
 
    
    .engagements-height{
@@ -824,6 +903,7 @@ padding-top: 80px;
   @media only screen and (min-width: 1024px)  {
     .features-margins{
       max-width: 80vw;
+      margin-top: 15vh;
     }
     .display-custom-container {
       width: 1000px;
@@ -846,7 +926,7 @@ padding-top: 80px;
   .features-margins{
     width: 90%;
     margin-bottom: 20vw;
-    margin-top: 25vw;
+    margin-top: 10vw;
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -910,7 +990,7 @@ padding-top: 80px;
 
 .features-margins{
   margin-bottom: 20vw;
-  margin-top: 25vw;
+  margin-top: 15vw;
 }
 @media only screen and (max-width: 660px)   {
   .engagements-bg-image {
@@ -923,5 +1003,10 @@ padding-top: 80px;
   .image-right-intro, .image-right-intro video {
     display: none !important;
     visibility: hidden !important;
+  }
+}
+@media only screen and (min-width: 1725px)   {
+  .numTitle{
+    margin-left: 9vw;
   }
 }

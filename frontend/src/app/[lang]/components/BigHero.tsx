@@ -15,7 +15,7 @@ interface BigHeroProps {
 export default function BigHero({ data }: BigHeroProps) {
 const test = true;
   return (
-<section className="big-hero-height bg-gradient-to-bl from-slate-400 via-neutral-900 to-black ">
+<section className="big-hero-height hero-bg ">
 <div className={`container flex lg:items-center p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
@@ -24,6 +24,7 @@ const test = true;
           text={data.title}
           tag="h1"
           className="big-hero-text custom-font-bold leading-none text-white"
+          color="#FAFF00"
         />
       </div>
     </div>
@@ -31,7 +32,3 @@ const test = true;
 </section>
   );
 }
-
-
-
-

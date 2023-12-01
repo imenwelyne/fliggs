@@ -10,7 +10,7 @@
   "attributes": {
 
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
 

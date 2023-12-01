@@ -26,6 +26,7 @@ export default function TitleHero({ data }: TitleHeroProps) {
           text={data.title}
           tag="h1"
           className="text-4xl custom-font-bold leading-none text-white"
+          color="#FAFF00"
         />
 
         

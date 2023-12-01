@@ -38,12 +38,13 @@ export default function Usp({ data }: UspProps) {
           text={data.title}
           tag="h1"
           className="usp-title-size custom-font-bold leading-none text-white"
+          color="#FAFF00"
         />
         <HighlightedText
               text={data.description}
               tag="p"
               className="custom-font-barlow " 
-              color="text-violet-400"
+              color="#FAFF00"
             />
       </div>
     </div>

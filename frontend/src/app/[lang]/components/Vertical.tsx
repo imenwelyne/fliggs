@@ -21,13 +21,13 @@ export default function Vertical({
               text={title}
               tag="h1"
               className="text-4xl custom-font-bold leading-none"
-              color="text-violet-400"
+              color="#FAFF00"
             />
             <HighlightedText
               text={description}
               tag="p"
               className="mt-6 mb-8 custom-font-barlow sm:mb-12" // Added "mt-6" for top margin
-              color="text-violet-400"
+              color="#FAFF00"
             />
           </div>
         </div>

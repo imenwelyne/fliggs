@@ -47,13 +47,13 @@ export default function RightIntro({ data }: RightIntroProps) {
             text={data.title}
             tag="h1"
             className="text-4xl custom-font-bold leading-none sm:text-4xl mb-8"
-            color="text-violet-400"
+            color="#FAFF00"
           />
  <HighlightedText
               text={data.description}
               tag="p"
               className="custom-font-barlow " 
-              color="text-violet-400"
+              color="#FAFF00"
             />
             <div className="flex items-center justify-center object-contain   image-right-intro ">
 
