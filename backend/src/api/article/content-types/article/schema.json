@@ -1,0 +1,98 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Articles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.postsec"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    },
+    "Sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.aricle",
+        "sections.big-hero-button",
+        "sections.big-hero",
+        "sections.bottom-actions",
+        "sections.contact",
+        "sections.display",
+        "sections.engagements",
+        "sections.feature-columns-group",
+        "sections.feature-rows-group",
+        "sections.features",
+        "sections.heading",
+        "sections.hero-video",
+        "sections.hero",
+        "sections.infos",
+        "sections.intro",
+        "sections.investor-form",
+        "sections.investor-message-form",
+        "sections.large-bg",
+        "sections.large-video",
+        "sections.large",
+        "sections.lead-form-yellow",
+        "sections.lead-form",
+        "sections.news-description",
+        "sections.news-element",
+        "sections.news",
+        "sections.numbers",
+        "sections.partners",
+        "sections.pricing",
+        "sections.rich-text",
+        "sections.right-intro",
+        "sections.small-hero",
+        "sections.space",
+        "sections.teams",
+        "sections.testimonials-group",
+        "sections.title-hero",
+        "sections.usp",
+        "sections.vertical-no-bg",
+        "sections.vertical"
+      ]
+    }
+  }
+}

@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import { getStrapiURL } from "../utils/api-helpers";
-import { CUSTOMER_IO_KEY } from "../utils/constants";
+import { CUSTOMER_IO_KEY, CUSTOMER_IO_SEND_EMAIL_KEY } from "../utils/constants";
+import axios from "axios";
 
 
 export default function FormSubmit({
@@ -63,6 +64,68 @@ export default function FormSubmit({
   }
 
 
+  async function fetchCioId() {
+    try {
+      const response = await axios.get(`http://api.customer.io/v1/customers?email=${email}`, {
+        headers: {
+          'Authorization': 'Bearer d6a615e679c4b2dc0cbfe1d177b4c7ea',
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Headers' : 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+        },
+        withCredentials: false,
+      });
+      if (response){
+        const cio_id = response.data.results[0].cio_id;
+        return cio_id;
+      }
+    } catch (error) {
+      console.error('Error fetching CIO ID:', error);
+      return null;
+    }
+  }
+  
+
+
+  async function sendEmail(cioId?: string) {
+    try {
+      const response = await fetch('https://api.customer.io/v1/send/email', {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer d6a615e679c4b2dc0cbfe1d177b4c7ea',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+         
+            transactional_message_id: '4',
+            identifiers: {
+          
+              cio_id: cioId
+            },
+            to: email
+      
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('External API failed');
+      }
+
+      if (response.ok) {
+       console.log("API Fetched correctly.");
+      }
+
+
+      return  await response.json();
+    } catch (error) {
+      console.error('Error submitting to external API:', error);
+    }
+  }
+
+  
+ 
+  
+
   async function handleSubmit() {
     if (email === "") {
       setErrorMessage("Email cannot be blank.");
@@ -100,7 +163,19 @@ export default function FormSubmit({
     setErrorMessage("");
     setSuccessMessage("Form successfully submitted!");
     setEmail("");
-    await submitToExternalAPI();
+
+   await submitToExternalAPI();
+   
+   
+   const cioId = await fetchCioId();
+   
+  if (cioId) {
+    await sendEmail(cioId);
+  }else {
+    await sendEmail('9e8809003132');
+  }
+
+
   }
 
   return (

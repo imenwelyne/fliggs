@@ -1,28 +1,25 @@
 {
   "collectionName": "components_elements_news",
   "info": {
-    "displayName": "News Item"
+    "displayName": "News Item",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
       "required": true
-    }, 
+    },
     "description": {
       "type": "text",
       "required": true
-
     },
     "date": {
       "type": "text",
       "required": true
-
     },
     "url": {
       "type": "text"
-   
-
     },
     "color": {
       "type": "enumeration",
@@ -30,7 +27,6 @@
         "Dark",
         "Light",
         "Yellow"
-
       ]
     },
     "image": {
@@ -39,8 +35,17 @@
       "required": true,
       "allowedTypes": [
         "images"
-   
       ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Article",
+        "External Link"
+      ]
+    },
+    "article_id": {
+      "type": "string"
     }
   }
 }

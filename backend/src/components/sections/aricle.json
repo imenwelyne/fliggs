@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_aricles",
+  "info": {
+    "displayName": "Aricle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.postsec"
+    }
+  }
+}
