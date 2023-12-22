@@ -25,7 +25,7 @@ interface NewsProps {
 }
 
 interface New {
-  id: string;
+  article_id: string;
   title: string;
   description: string;
   date: string;
@@ -35,21 +35,20 @@ interface New {
   image : Picture;
 }
 
-function New({ id,title, description,date,color,image,url,type }: New) {
+function New({ article_id,title, description,date,color,image,url,type }: New) {
   const imgUrl = getStrapiMedia(image.data.attributes.url);
   const descriptionColor = color === 'Dark' ? 'text-white' : 'text-black';
   const boxBackgroundColor = color === 'Yellow' ? 'news-box-background-black' : 'news-box-background-yellow';
   const titleColor = color === 'Yellow' ? 'text-white' : 'text-black';
 
 
-  console.log('hooo',id,title, description,date,color,image,url,type);
+  console.log('hooo',article_id,title, description,date,color,image,url,type);
   
   return (
-
   
 <div className={`p-10 custom-news-card news-theme-${color} container  mx-auto lg:py-8 mb-12`}>  
 {(type == 'Article') && 
-<Link href={`/blog/${id}`}>
+<Link href={`/blog/${article_id}`}>
 <HighlightedText
       text={date}
       tag="h1"

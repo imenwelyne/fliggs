@@ -80,7 +80,7 @@ export default async function RootLayout({
   );
 
   return (
-    <html lang={params.lang}>
+    <html lang="en">
    <head>
         <meta name="google-site-verification" content="Q1fpssA3SmnAz41myfH-ctxNMHK3JCtLQF6mCOpQu4E" />
         <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>

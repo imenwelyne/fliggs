@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_elements_components",
+    "info": {
+      "displayName": "component",
+      "icon": "cube"
+    },
+    "options": {},
+    "attributes": {
+      "name": {
+        "type": "text"
+      },
+      "image": {
+        "allowedTypes": [
+          "images"
+        ],
+        "type": "media",
+        "multiple": true
+      }
+    }
+  }
+  

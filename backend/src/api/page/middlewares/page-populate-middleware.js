@@ -85,6 +85,14 @@ const populate = {
           },
         },
       },
+      component: {
+        populate: {
+          fields: ["name","image"],
+          image: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
+      },
       testimonials: {
         populate: {
           picture: {

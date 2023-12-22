@@ -25,8 +25,7 @@ export default function Profile() {
     setLoading(true);
     try {
       const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
-      const locale = 'fr';
-      const path = `/articles?locale=${locale}`;
+      const path = `/articles`;
       const urlParamsObject = {
         sort: { createdAt: "desc" },
         populate: {
@@ -80,8 +79,7 @@ export default function Profile() {
   
   return (
     <div>
-          {currentArt && 
-          <Article data={currentArt}></Article>}
+          {currentArt && <Article data={currentArt}></Article>}
     </div>
   );
 }

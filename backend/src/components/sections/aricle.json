@@ -12,17 +12,11 @@
     "subtitle": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "date": {
-      "type": "string"
-    },
     "place": {
       "type": "string"
     },
     "contact": {
-      "type": "string"
+      "type": "text"
     },
     "picture": {
       "type": "media",
@@ -35,10 +29,13 @@
         "audios"
       ]
     },
-    "Content": {
+    "content": {
       "type": "component",
       "repeatable": true,
       "component": "elements.postsec"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

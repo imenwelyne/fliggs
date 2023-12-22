@@ -1,11 +1,12 @@
 {
   "collectionName": "components_elements_postsecs",
   "info": {
-    "displayName": "postsec"
+    "displayName": "postsec",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "content": {

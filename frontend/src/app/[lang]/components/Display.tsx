@@ -73,7 +73,7 @@ export default function Display({ data }: DisplayProps) {
          return (
            <div key={index} className="image-slider ">
              
-             {imageUrl &&  <Image  className="w-full display-image-size h-100 object-cover rounded-lg" height={1000} width={600} alt= {item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
+             {imageUrl &&  <img  className="w-full display-image-size h-100 object-cover rounded-lg" alt= {item.image.data.attributes.alternativeText || "none provided"} src={imageUrl} />}
              
             
              </div>
@@ -107,7 +107,7 @@ export default function Display({ data }: DisplayProps) {
         <HighlightedText
           text={data.title}
           tag="h1" 
-          className="custom-font-bold heroTitle leading-none display-title text-white py-4"
+          className={`${isInvest ? 'custom-font-bold heroTitleInvest leading-none display-title text-white py-4' : 'custom-font-bold heroTitle leading-none display-title text-white py-4'}`}
           color="#FAFF00"
         />
       </div>

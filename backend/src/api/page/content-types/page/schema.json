@@ -29,6 +29,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       }
     },
@@ -38,38 +41,23 @@
         "sections.hero-video",
         "sections.big-hero",
         "sections.big-hero-button",
-
-
         "sections.vertical",
         "sections.vertical-no-bg",
-
-
         "sections.small-hero",
         "sections.news-element",
         "sections.news-description",
         "sections.display",
-
-
-
         "sections.title-hero",
-
         "sections.bottom-actions",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
-
         "sections.testimonials-group",
         "sections.large",
         "sections.large-bg",
-
         "sections.intro",
-
-
         "sections.right-intro",
-
         "sections.usp",
         "sections.space",
-
-
         "sections.hero",
         "sections.large-video",
         "sections.rich-text",
@@ -77,27 +65,24 @@
         "sections.lead-form",
         "sections.investor-form",
         "sections.investor-message-form",
-
         "sections.contact",
-
         "sections.lead-form-yellow",
-
         "sections.features",
         "sections.numbers",
-
         "sections.teams",
         "sections.news",
-
         "sections.partners",
         "sections.infos",
-
         "sections.engagements",
-
+        "sections.grid",
         "sections.heading"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       }
     },
@@ -114,6 +99,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -122,6 +110,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -132,9 +123,25 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "component": "shared.seo"
+    },
+    "components": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "elements.component"
     }
   }
 }

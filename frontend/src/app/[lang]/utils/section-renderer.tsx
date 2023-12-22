@@ -34,7 +34,7 @@ import Infos from "../components/Infos";
 
 
 import Engagements from "../components/Engagements";
-
+import Grid from "../components/Grid";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
 import Form from "../components/Form";
@@ -90,6 +90,8 @@ export function sectionRenderer(section: any, index: number) {
         return <Large key={index} data={section} />;
     case "sections.features":
       return <Features key={index} data={section} />;
+      case "sections.grid":
+      return <Grid key={index} data={section} />;
       case "sections.teams":
         return <Teams key={index} data={section} />;
         case "sections.news":
