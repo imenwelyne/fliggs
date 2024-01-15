@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_slices_coverages",
+    "info": {
+      "displayName": "coverage",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "text": {
+        "type": "text"
+      }
+    }
+}
+  

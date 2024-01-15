@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_sections_maps",
+    "info": {
+      "displayName": "map",
+      "icon": "pinMap",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "location": {
+        "type": "string"
+      }
+    }
+}  

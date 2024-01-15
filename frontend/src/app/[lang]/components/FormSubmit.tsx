@@ -66,7 +66,7 @@ export default function FormSubmit({
 
   async function fetchCioId() {
     try {
-      const response = await axios.get(`http://api.customer.io/v1/customers?email=${email}`, {
+      const response = await axios.get(`https://api.customer.io/v1/customers?email=${email}`, {
         headers: {
           'Authorization': 'Bearer d6a615e679c4b2dc0cbfe1d177b4c7ea',
           'Content-Type': 'application/json',

@@ -145,7 +145,8 @@
         "sections.title-hero",
         "sections.usp",
         "sections.vertical-no-bg",
-        "sections.vertical"
+        "sections.vertical",
+        "sections.map"
       ],
       "pluginOptions": {
         "translate": {

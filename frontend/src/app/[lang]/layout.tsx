@@ -12,10 +12,14 @@ import CookieBox from "./components/CookieBox";
 import Script from "next/script";
 import NotFoundPage from "./not-found";
 
+const tMobToken = process.env.NEXT_PUBLIC_T_MOBILE_API_TOKEN;
+console.log('tmobt',tMobToken);
+
 const GTM_ID = process.env.ID_GTM
 const ID_ANALYTICS = process.env.ID_ANALYTICS
 async function getGlobal(lang: string): Promise<any> {
   const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
+
 
   if (!token) throw new Error("The Strapi API Token environment variable is not set.");
 
@@ -65,7 +69,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { lang: string };
 }) {
-  const global = await getGlobal('en');
+  const global = await getGlobal("en");
   // TODO: CREATE A CUSTOM ERROR PAGE
   if (!global.data) return NotFoundPage();
   
@@ -83,6 +87,9 @@ export default async function RootLayout({
     <html lang="en">
    <head>
         <meta name="google-site-verification" content="Q1fpssA3SmnAz41myfH-ctxNMHK3JCtLQF6mCOpQu4E" />
+        <link rel="stylesheet" href="https://contentkit.t-mobile.com/prd/web-content-kit.css" />
+        <link rel="stylesheet" href="//cdn.styleguide.t-mobile.com/sdk/v2/styles/precompiled-themes/ext-theme.css" />
+        <link rel="stylesheet" href="https://cdn.styleguide.t-mobile.com/sdk/v2/styles/precompiled-themes/ext-theme.css" />
         <Script src="https://code.jquery.com/jquery-3.6.0.min.js"></Script>
         <Script id="google-tag-manager" strategy="afterInteractive">
             {`
@@ -118,6 +125,21 @@ export default async function RootLayout({
                 gtag('config', '${ID_ANALYTICS}');
                 `}
               </Script>
+              <Script> 
+              {`
+          window.tmobkit = {
+            cdnURL: 'https://contentkit.t-mobile.com/prd',
+            apiURL: 'https://es.t-mobile.com',
+            map: {
+              access_token: '${tMobToken}',
+              preloadMapgl: true,
+              analyticsHandler: function (kitEvent) {
+                console.log(kitEvent);
+              }
+            }
+          };
+        `}
+              </Script>
       </head>
       <body>
         <Navbar
@@ -125,7 +147,7 @@ export default async function RootLayout({
           logoUrl={navbarLogoUrl}
           logoText={navbar.navbarLogo.logoText}
         />
-
+         
         <main className="bg-black text-gray-100 min-h-screen">
           {children}
         </main>
@@ -162,6 +184,8 @@ export default async function RootLayout({
           })();
         `}
       </Script>
+      <Script src="https://contentkit.t-mobile.com/prd/web-content-kit.js"></Script>
+      
       </body>
     </html>
   );

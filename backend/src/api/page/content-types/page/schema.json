@@ -75,7 +75,9 @@
         "sections.infos",
         "sections.engagements",
         "sections.grid",
-        "sections.heading"
+        "sections.map",
+        "sections.heading",
+        "elements.coverage"
       ],
       "pluginOptions": {
         "i18n": {

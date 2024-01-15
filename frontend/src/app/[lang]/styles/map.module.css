@@ -1,0 +1,22 @@
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.form{
+    width: 40%;
+    margin: 70px 0;
+}
+.label{
+    font-size: 1.5vw;
+    margin-bottom: 15px; 
+}
+.title{
+    font-size: 3.5vw;
+    font-weight: 700;
+    line-height: 100%; /* 55.2px */
+    letter-spacing: -1px;
+}
