@@ -19,7 +19,7 @@ const JustifiedContent = ({ content }: JustifiedParagraphProps) => {
     <div className={styles.justifiedParagraph}>
       {groupedSentences.map((group, index) => (
         <div key={index}>
-          <p>{group}</p>
+          <p className='custom-font-barlow'>{group}</p>
           {index < groupedSentences.length - 1 && <br />}
         </div>
       ))}

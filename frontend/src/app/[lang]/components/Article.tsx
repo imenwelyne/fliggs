@@ -64,10 +64,10 @@ export default function Article({ data }: Article) {
 console.log('content',typeof(data.attributes.content));
   return (
 <section className="bg-black">
-  {data.attributes && 
-  <div className={`${styles.articleCont} mx-auto mt-24`}>
-  <h1 className={`font-bold leading-none ${styles.articleTitle}`}>{data.attributes.title}</h1>
-  <p className={styles.articleSubTtitle}>- {data.attributes.subtitle}</p>
+  {data.attributes &&   
+  <div className={`${styles.articleCont} mx-auto mt-24`}> 
+  <h1 className={`custom-font-bold leading-none ${styles.articleTitle}`}>{data.attributes.title}</h1>
+  <p className={`custom-font-barlow-semibold ${styles.articleSubTtitle}`}>- {data.attributes.subtitle}</p>
   {data.attributes.images.data.map((item:any)=>{
    const imageUrl = getStrapiMedia(`${item.attributes.url}`);
    return (
@@ -80,18 +80,18 @@ console.log('content',typeof(data.attributes.content));
       );
 
   })}
-  <p className={styles.bold}>{data.attributes.place} - {date}</p>
+  <p className={`custom-font-bold ${styles.bold}`}>{data.attributes.place} - {date}</p>
   {data.attributes.content &&
   data.attributes.content.map((item: any) => (
     <div key={item.id}>
-      {item.title && <h2 className={styles.bold}>{item.title}</h2>}
+      {item.title && <h2 className={`custom-font-bold ${styles.bold}`}>{item.title}</h2>}
       <JustifiedContent content={item.content}></JustifiedContent>
     </div>
   ))}
   {data.attributes.contact &&
   <div>
-    <h2 className={styles.bold}>Contact Media</h2>
-    <p className={styles.justifiedParagraph}>{addMailTo(data.attributes.contact)}</p>
+    <h2 className={`custom-font-bold ${styles.bold}`}>Contact Media</h2>
+    <p className={`custom-font-barlow ${styles.justifiedParagraph}`}>{addMailTo(data.attributes.contact)}</p>
   </div>
   }
 </div>}

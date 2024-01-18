@@ -34,7 +34,10 @@
     "textButton": {
       "type": "string",
       "required": false
+    },
+    "textButtonHref": {
+      "type": "string",
+      "required": false
     }
-
   }
 }

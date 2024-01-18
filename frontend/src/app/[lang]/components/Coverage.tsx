@@ -14,11 +14,16 @@ export default function Coverage({ data }: CoverageProps) {
 <section className="bg-black">
 <div className={`container flex flex-col justify-start p-6 mx-auto  lg:flex-row lg:justify-between lg:hero-title-width`}>
       <div className="lg:flex-col" style={{width: "650px", height:"400px", display:"flex", justifyContent:'center'}}>
-     
+       
+<HighlightedText
+              text={data.text}
+              tag="p"
+              className="mb-4 custom-font-barlow  " 
+              color="#FAFF00"
+            />
     </div>
   </div>
 </section>
 
-  
   );
 }

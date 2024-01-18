@@ -62,7 +62,7 @@ function Info({title, image,align}: Info) {
 
 export default function Infos({ data }: InfosProps) {
   return (
-<section className={` text-gray-100 bg-yellow lg:p-24 p-12`} >
+<section id="infos-section" className={` text-gray-100 bg-yellow lg:p-24 p-12`} >
 <div className="flex flex-col container mx-auto ">
 <div className=" mb-5 flex flex-col space-y-4 text-left">
         <h1 className="text-4xl text-black custom-font-bold leading-none">{data.title}</h1>

@@ -63,7 +63,7 @@ export default function Display({ data }: DisplayProps) {
       setInvest(true);
     }
   }, []);
-
+ 
   return (
     <section className={`slider-container ${isInvest ? 'gradient-bg' : ''}`}>
       <div className={`${isInvest ? 'dnone' : ''}`}>
@@ -114,7 +114,7 @@ export default function Display({ data }: DisplayProps) {
 
     </div>
     {(data.textButton) && 
-    <a href="#right-intro-section" target="_self" >
+    <a href={data.textButtonHref} target="_self" >
 
     <div className="read-more mb-8">
          <HighlightedText

@@ -77,7 +77,7 @@
         "sections.grid",
         "sections.map",
         "sections.heading",
-        "elements.coverage"
+        "sections.coverage"
       ],
       "pluginOptions": {
         "i18n": {

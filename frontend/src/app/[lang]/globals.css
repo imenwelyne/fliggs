@@ -531,7 +531,7 @@ body {
 }
 .usp-text-feature {
 
-  padding: 50px 50px;
+  padding: 15px 50px;
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: auto; */
@@ -709,6 +709,11 @@ padding-top: 80px;
   display: flex;
   
 }
+.news-height{
+  height: 510px;
+  display: flex;
+  
+}
 .hero-bg{
   background-image: url("../../../public/Group.jpg");
     background-position: center;
@@ -765,7 +770,7 @@ padding-top: 80px;
   background-color: #FAFF00;
 }
 .news-theme-title-Yellow{
-  color: #FAEB00;
+  color:rgb(0, 0, 0); 
 }
 
 
@@ -773,14 +778,14 @@ padding-top: 80px;
   background-color: #141414;
 }
 .news-theme-title-Dark{
-  color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); 
 }
 
 .news-theme-Light{
   background-color: #D9D9D9;
 }
 .news-theme-title-Light{
-  color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
 }
 
 

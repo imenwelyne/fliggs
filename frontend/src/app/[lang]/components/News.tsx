@@ -161,7 +161,7 @@ export default function News({ data }: NewsProps) {
 
     <section className="news-bg text-gray-100 m:py-12 lg:py-24 p-1">
       
-    <div className={`big-hero-height container flex p-12 mx-auto lg:py-24 `}>
+    <div className={`news-height container flex p-12 mx-auto lg:py-24 `}>
       <div className="lg:flex-col">
    
       <div className=" mb-6 flex flex-col justify-start mt-8">
